@@ -5,7 +5,7 @@
     "description": "",
     "id": "4pM5gc"
   },
-  "autoEndDialog": true,
+  "autoEndDialog": "=",
   "defaultResultProperty": "dialog.result",
   "triggers": [
     {
@@ -145,9 +145,57 @@
           "activity": "${SendActivity_DidNotUnderstand()}"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "8wO28Y",
+        "name": "Capabilities"
+      },
+      "intent": "Capabilities",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "xjg9Gc"
+          },
+          "activityProcessed": true,
+          "dialog": "CapabilitiesDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "PkSpK2",
+        "name": "EthicsPolicy"
+      },
+      "intent": "EthicsPolicy",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "PZlLmu"
+          },
+          "activityProcessed": true,
+          "dialog": "EthicsPolicyDialog"
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
   "id": "Sally",
-  "recognizer": "Sally.lu.qna"
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": [
+      {
+        "intent": "Capabilities",
+        "pattern": "(?i)(what|how).*(can|does).*(sally|she|you).*(do|help|assist|provide|offer).*"
+      },
+      {
+        "intent": "EthicsPolicy",
+        "pattern": "(?i)(tell|explain|what is|want to understand|show).*?(ethics policy|code of conduct)"
+      }
+    ]
+  }
 }

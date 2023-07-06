@@ -1,0 +1,39 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "ZF3KxO",
+    "name": "EthicsPolicyDialog",
+    "comment": "A dialog about Te Whatu Ora's code of conduct and ethics policy."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "pf6Ytp"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "XUWDNb"
+          },
+          "activity": "${SendActivity_XUWDNb()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "IBdDD9"
+          },
+          "activity": "${SendActivity_IBdDD9()}"
+        }
+      ]
+    }
+  ],
+  "generator": "EthicsPolicyDialog.lg",
+  "recognizer": "EthicsPolicyDialog.lu.qna",
+  "id": "EthicsPolicyDialog"
+}

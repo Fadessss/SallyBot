@@ -1,0 +1,15 @@
+[import](common.lg)
+
+# SendActivity_f29Krz()
+[Activity
+    Text = ${SendActivity_f29Krz_text()}
+]
+
+# SendActivity_f29Krz_text()
+- ```Sally is your virtual assistant, designed to help with various topics. Here's what she can do:
+
+1. Answer general HR queries: If you have questions about how to apply for leave, benefits, or other HR\-related topics, Sally can provide the information you need.
+2. Locate rooms: Whether you're new to the building or just need directions, Sally can help you find where you need to go.
+3. Provide health and safety information: Have a question about health and safety procedures? Sally has the answers.
+
+Just ask her a question and she'll do her best to assist you!```

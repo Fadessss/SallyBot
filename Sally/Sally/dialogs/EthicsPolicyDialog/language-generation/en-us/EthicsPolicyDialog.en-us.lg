@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_XUWDNb()
+[Activity
+    Text = ${SendActivity_XUWDNb_text()}
+]
+
+# SendActivity_XUWDNb_text()
+- Te Whatu Ora is committed to maintaining a respectful and ethical work environment. We value integrity, honesty, and respect for all individuals. We strictly prohibit any forms of harassment, discrimination, and unethical behavior. For the full details, please refer to Te Whatu Ora's code of conduct and ethics policy document. You can access it on our organization's intranet under the HR section.
+# SendActivity_IBdDD9()
+[Activity
+    Text = ${SendActivity_IBdDD9_text()}
+]
+
+# SendActivity_IBdDD9_text()
+- We strongly encourage all employees to read the full policy document to fully understand our commitment to maintaining a respectful and ethical work environment.

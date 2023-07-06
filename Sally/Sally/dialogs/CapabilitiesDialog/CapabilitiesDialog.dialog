@@ -1,0 +1,35 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "hFtz9Z",
+    "name": "CapabilitiesDialog",
+    "comment": "A dialog that shows Sally's capabilities "
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "jyo9vB"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "f29Krz"
+          },
+          "activity": "${SendActivity_f29Krz()}"
+        }
+      ]
+    }
+  ],
+  "generator": "CapabilitiesDialog.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "CapabilitiesDialog"
+}
