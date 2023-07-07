@@ -1,0 +1,14 @@
+[import](common.lg)
+
+# SendActivity_CyDBMf()
+[Activity
+    Text = ${SendActivity_CyDBMf_text()}
+]
+
+# SendActivity_CyDBMf_text()
+- ```Depending on your role, Te Whatu Ora offersthe opportunity for a remote / hybrid working space.
+
+Please go to this link to read more about what roles are potentially eligible for remote work.
+[INSERT LINK HERE]
+
+Please refer to your manager for more details.```

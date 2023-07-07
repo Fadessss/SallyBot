@@ -1,0 +1,33 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "60Yex8",
+    "name": "ProfessionalDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "zX73kG"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "J21E6Q",
+            "comment": ""
+          },
+          "activity": "${SendActivity_J21E6Q()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProfessionalDialog.lg",
+  "recognizer": "ProfessionalDialog.lu.qna",
+  "id": "ProfessionalDialog"
+}

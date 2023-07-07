@@ -1,0 +1,33 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "OOGkLY",
+    "name": "RemoteWorkDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "rf3RZ3",
+        "comment": ""
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "CyDBMf"
+          },
+          "activity": "${SendActivity_CyDBMf()}"
+        }
+      ]
+    }
+  ],
+  "generator": "RemoteWork.lg",
+  "recognizer": "RemoteWork.lu.qna",
+  "id": "RemoteWork"
+}

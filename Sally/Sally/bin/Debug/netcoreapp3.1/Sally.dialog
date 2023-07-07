@@ -161,6 +161,12 @@
           },
           "activityProcessed": true,
           "dialog": "CapabilitiesDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "hLG1y5"
+          }
         }
       ]
     },
@@ -181,6 +187,49 @@
           "dialog": "EthicsPolicyDialog"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "P4Rjq2",
+        "name": "ProfessionalDevelopment",
+        "comment": ""
+      },
+      "intent": "ProfessionalDevelopment",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "u8bVni"
+          },
+          "activityProcessed": true,
+          "dialog": "ProfessionalDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "argePq"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "6EwJ0b",
+        "name": "RemoteWork"
+      },
+      "intent": "RemoteWork",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "AH3Zb1"
+          },
+          "activityProcessed": true,
+          "dialog": "RemoteWork"
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -195,6 +244,14 @@
       {
         "intent": "EthicsPolicy",
         "pattern": "(?i)(tell|explain|what is|want to understand|show).*?(ethics policy|code of conduct)"
+      },
+      {
+        "intent": "ProfessionalDevelopment",
+        "pattern": "(?i)(how|explain|what is|show).*?(can I|me).*?(further|more).*?(training opportunities|career development|professional development)"
+      },
+      {
+        "intent": "RemoteWork",
+        "pattern": "(?i)(what).*?(remote work).*?(opportunities).*?(are available)"
       }
     ]
   }

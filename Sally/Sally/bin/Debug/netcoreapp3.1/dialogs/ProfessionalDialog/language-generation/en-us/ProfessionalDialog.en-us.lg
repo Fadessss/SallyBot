@@ -1,0 +1,13 @@
+[import](common.lg)
+
+# SendActivity_J21E6Q()
+[Activity
+    Text = ${SendActivity_J21E6Q_text()}
+]
+
+# SendActivity_J21E6Q_text()
+- ```Te Whatu Ora offers numerous opportunities for career growth. 
+
+Please refer to [INSERT LINK HERE] for more information.
+
+Otherwise refer to your reporting manager for potential opportunities coming up. ```
