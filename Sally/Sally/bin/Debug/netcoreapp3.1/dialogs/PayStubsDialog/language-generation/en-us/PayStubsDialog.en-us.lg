@@ -1,0 +1,16 @@
+[import](common.lg)
+
+# SendActivity_wGhfVv()
+[Activity
+    Text = ${SendActivity_wGhfVv_text()}
+]
+
+# SendActivity_wGhfVv_text()
+- ```If you wish to view your payslips from offsite, use the following link:
+https://cmdhb.mykiosk.org.nz/
+
+If you are onsite use the link on Paanui```
+- ```Payslips can be found at this link if you are offsite:
+https://cmdhb.mykiosk.org.nz/
+
+If you are onsite please use the link located on Paanui```

@@ -1,0 +1,12 @@
+[import](common.lg)
+
+# SendActivity_5lyPD3()
+[Activity
+    Text = ${SendActivity_5lyPD3_text()}
+]
+
+# SendActivity_5lyPD3_text()
+- ```If you wish to apply for leave from your home internet or smartphone use the following link to do so:
+https://onestaffcmh.hanz.health.nz/signin.do
+
+When you are work, use the link found on Paanui.```

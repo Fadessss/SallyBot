@@ -230,6 +230,42 @@
           "dialog": "RemoteWork"
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "mWIN4n",
+        "name": "PayStubs"
+      },
+      "intent": "PayStubs",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "NRd5mf"
+          },
+          "activityProcessed": true,
+          "dialog": "PayStubsDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "1x3ZGr",
+        "name": "RequestLeave"
+      },
+      "intent": "RequestLeave",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "4VXn3I"
+          },
+          "activityProcessed": true,
+          "dialog": "RequestLeaveDialog"
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -252,6 +288,14 @@
       {
         "intent": "RemoteWork",
         "pattern": "(?i)(what).*?(remote work).*?(opportunities).*?(are available)"
+      },
+      {
+        "intent": "PayStubs",
+        "pattern": "(?i)(how|explain|what is|show|access).*?(can I|me|my).*?(access|view|update|find|review).*?(pay|pay stub|pay slip|salary)"
+      },
+      {
+        "intent": "RequestLeave",
+        "pattern": "(?i)(how|explain|what is|show).*?(can I|me).*?(take|request).*?(leave|time off|vacation|holiday)"
       }
     ]
   }
