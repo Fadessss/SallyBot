@@ -19,16 +19,9 @@
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "XUWDNb"
+            "id": "yNYANa"
           },
-          "activity": "${SendActivity_XUWDNb()}"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "IBdDD9"
-          },
-          "activity": "${SendActivity_IBdDD9()}"
+          "activity": "${SendActivity_yNYANa()}"
         }
       ]
     }

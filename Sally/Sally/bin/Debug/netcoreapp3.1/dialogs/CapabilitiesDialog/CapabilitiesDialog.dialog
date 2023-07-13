@@ -19,9 +19,9 @@
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "f29Krz"
+            "id": "tSpEzM"
           },
-          "activity": "${SendActivity_f29Krz()}"
+          "activity": "${SendActivity_tSpEzM()}"
         }
       ]
     }

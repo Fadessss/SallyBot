@@ -1,16 +1,46 @@
 [import](common.lg)
 
-# SendActivity_XUWDNb()
+# SendActivity_yNYANa()
 [Activity
-    Text = ${SendActivity_XUWDNb_text()}
+    Attachments = ${json(SendActivity_yNYANa_attachment_77jXj3())}
 ]
 
-# SendActivity_XUWDNb_text()
-- Te Whatu Ora is committed to maintaining a respectful and ethical work environment. We value integrity, honesty, and respect for all individuals. We strictly prohibit any forms of harassment, discrimination, and unethical behavior. For the full details, please refer to Te Whatu Ora's code of conduct and ethics policy document. You can access it on our organization's intranet under the HR section.
-# SendActivity_IBdDD9()
-[Activity
-    Text = ${SendActivity_IBdDD9_text()}
-]
-
-# SendActivity_IBdDD9_text()
-- We strongly encourage all employees to read the full policy document to fully understand our commitment to maintaining a respectful and ethical work environment.
+# SendActivity_yNYANa_attachment_77jXj3()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Te Whatu Ora's Work Environment",
+      "weight": "bolder",
+      "isSubtle": false
+    },
+    {
+      "type": "TextBlock",
+      "text": "Te Whatu Ora is committed to maintaining a respectful and ethical work environment. We value integrity, honesty, and respect for all individuals. We strictly prohibit any forms of harassment, discrimination, and unethical behavior.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "For the full details, please refer to Te Whatu Ora's code of conduct and ethics policy document. You can access it on our organization's intranet under the HR section.",
+      "wrap": true,
+      "spacing": "medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "We strongly encourage all employees to read the full policy document to fully understand our commitment to maintaining a respectful and ethical work environment.",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Code of Conduct Policy",
+      "url": "https://placeholder-url.com/code-of-conduct"
+    }
+  ]
+}```
