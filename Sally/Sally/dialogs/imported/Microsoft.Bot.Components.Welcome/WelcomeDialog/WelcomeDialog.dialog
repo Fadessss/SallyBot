@@ -19,37 +19,11 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.IfCondition",
+          "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "sF0fYv"
+            "id": "PmcZYm"
           },
-          "condition": "exists(user.greeted)",
-          "actions": [
-            {
-              "$kind": "Microsoft.SendActivity",
-              "$designer": {
-                "id": "PsAJ3p"
-              },
-              "activity": "${SendActivity_WelcomeReturningUser()}"
-            }
-          ],
-          "elseActions": [
-            {
-              "$kind": "Microsoft.SendActivity",
-              "$designer": {
-                "id": "f3uG2y"
-              },
-              "activity": "${SendActivity_WelcomeNewUser()}"
-            },
-            {
-              "$kind": "Microsoft.SetProperty",
-              "$designer": {
-                "id": "ucFnwQ"
-              },
-              "property": "user.greeted",
-              "value": "true"
-            }
-          ]
+          "activity": "${SendActivity_PmcZYm()}"
         }
       ]
     }

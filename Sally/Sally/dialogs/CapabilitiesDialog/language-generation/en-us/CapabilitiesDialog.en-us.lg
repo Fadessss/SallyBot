@@ -60,9 +60,7 @@
     {
       "type": "Action.Submit",
       "title": "Professional Development",
-      "data": {
-        "dialog": "ProfessionalDialog"
-      }
+      "data": "What training opportunites are available"
     },
     {
       "type": "Action.Submit",
@@ -85,4 +83,5 @@
     }
   ]
 }```
+
 

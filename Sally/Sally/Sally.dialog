@@ -295,7 +295,7 @@
       },
       {
         "intent": "ProfessionalDevelopment",
-        "pattern": "(?i)(how|explain|what is|show).*?(can I|me).*?(further|more).*?(training opportunities|career development|professional development)"
+        "pattern": "What training opportunites are available"
       },
       {
         "intent": "RemoteWork",
