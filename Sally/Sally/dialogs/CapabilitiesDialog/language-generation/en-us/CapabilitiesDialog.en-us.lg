@@ -76,9 +76,15 @@
       "type": "Action.OpenUrl",
       "title": "More Information",
       "url": "https://example.com/more-information"
-    }
+    },
+        {
+            "type": "Action.Submit",
+            "title": "Return to Main Menu",
+            "data": "Return to Main Menu"
+        }
   ]
 }```
+
 
 
 

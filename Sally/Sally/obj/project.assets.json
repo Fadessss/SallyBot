@@ -10171,20 +10171,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\callu\\.nuget\\packages\\": {}
+    "C:\\Users\\Fades\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\Sally.csproj",
+      "projectUniqueName": "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
       "projectName": "Sally",
-      "projectPath": "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\Sally.csproj",
-      "packagesPath": "C:\\Users\\callu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\obj\\",
+      "projectPath": "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
+      "packagesPath": "C:\\Users\\Fades\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\NuGet.Config",
-        "C:\\Users\\callu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\NuGet.Config",
+        "C:\\Users\\Fades\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -10245,6 +10245,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.29, 3.1.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10253,7 +10271,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },

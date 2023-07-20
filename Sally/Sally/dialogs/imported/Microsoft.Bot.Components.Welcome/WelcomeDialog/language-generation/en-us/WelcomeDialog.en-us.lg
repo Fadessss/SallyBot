@@ -6,42 +6,55 @@
 ]
 
 # SendActivity_PmcZYm_attachment_Dqq9Dk()
-> To learn more Adaptive Cards format, read the documentation at
-> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
 - ```{
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.2",
   "type": "AdaptiveCard",
   "body": [
     {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
       "type": "TextBlock",
       "text": "Hi there! I'm Sally, how can I help you today?",
-      "weight": "bolder",
       "isSubtle": false
     }
   ],
   "actions": [
     {
-      "type": "Action.OpenUrl",
-      "title": "Human Resources",
-      "url": "https://placeholder-url.com/code-of-conduct"
-    },
-    {
-      "type": "Action.OpenUrl",
-      "title": "Location Assistance",
-      "url": "https://placeholder-url.com/code-of-conduct"
-    },
-    {
-      "type": "Action.OpenUrl",
-      "title": "Health and Safety",
-      "url": "https://placeholder-url.com/code-of-conduct"
-    },
-    {
-  "type": "Action.Submit",
-  "title": "What is Sally?",
-  "data": "what can sally do"
-  
-    }
+            "type": "Action.Submit",
+            "title": "Human Resources",
+            "data": "Human Resources"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Find Location",
+            "data": "Find Location"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Health and Safety",
+            "data": "Health and Safety"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Who is Sally?",
+            "data": "Who is Sally?"
+        }
   ]
 }
 ```
+

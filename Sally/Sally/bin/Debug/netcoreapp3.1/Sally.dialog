@@ -279,6 +279,102 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "xCb8Ej",
+        "name": "HumanResources"
+      },
+      "intent": "HumanResources",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "FIp83t"
+          },
+          "activityProcessed": true,
+          "dialog": "HumanResourcesDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "jth6Uq"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Iy2tTs",
+        "name": "FindLocation"
+      },
+      "intent": "FindLocation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Z2jlY6"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "law1g4"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "cCvBOf",
+        "name": "HealthAndSafety"
+      },
+      "intent": "HealthAndSafety",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "ceCGFL"
+          },
+          "activityProcessed": true,
+          "dialog": "HealthAndSafetyDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "YpKUUo"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "WHjb2b",
+        "name": "MainMenu"
+      },
+      "intent": "MainMenu",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "TLfJS5"
+          },
+          "activityProcessed": true,
+          "dialog": "MainMenuDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "zD6Ca4"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -288,7 +384,7 @@
     "intents": [
       {
         "intent": "Capabilities",
-        "pattern": "(?i)(what|how).*(can|does).*(sally|she|you).*(do|help|assist|provide|offer).*"
+        "pattern": "(?i)(Who|who).*(Is|is).*(Sally|sally).*"
       },
       {
         "intent": "EthicsPolicy",
@@ -309,6 +405,22 @@
       {
         "intent": "RequestLeave",
         "pattern": "(?i)(how|explain|what is|show).*?(can I|me).*?(take|request).*?(leave|time off|vacation|holiday)"
+      },
+      {
+        "intent": "HumanResources",
+        "pattern": "(?i)(Human|human).(Resources|resources).*"
+      },
+      {
+        "intent": "FindLocation",
+        "pattern": "(?i)(Find|find).*(Location|location),*"
+      },
+      {
+        "intent": "HealthAndSafety",
+        "pattern": "(?i)(Health|health).*(And|and).*(Safety|safety).*"
+      },
+      {
+        "intent": "MainMenu",
+        "pattern": "(?i)(Return|return).*(To|to).*(Main|main).*(Menu|menu).*"
       }
     ]
   }
