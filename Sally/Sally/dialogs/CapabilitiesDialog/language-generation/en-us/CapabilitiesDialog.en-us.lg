@@ -11,6 +11,22 @@
   "version": "1.2",
   "type": "AdaptiveCard",
   "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
     {
       "type": "TextBlock",
       "text": "Sally - Professional HR Chatbot",
@@ -60,17 +76,17 @@
     {
       "type": "Action.Submit",
       "title": "Professional Development",
-      "data": "What training opportunites are available"
+      "data": "Professional Development"
     },
     {
       "type": "Action.Submit",
       "title": "Remote Work",
-      "data": "What remote work opportunites are available"
+      "data": "Remote Work"
     },
     {
       "type": "Action.Submit",
       "title": "Pay Stubs",
-      "data": "How can I view my pay stubs"
+      "data": "Pay Stubs"
     },
     {
       "type": "Action.OpenUrl",

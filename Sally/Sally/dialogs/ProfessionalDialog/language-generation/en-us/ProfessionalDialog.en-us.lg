@@ -11,24 +11,37 @@
   "version": "1.2",
   "type": "AdaptiveCard",
   "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
     {
       "type": "TextBlock",
       "text": "Te Whatu Ora offers numerous opportunities for career growth.",
-      "weight": "bolder",
       "isSubtle": false,
       "wrap": true
     },
         {
       "type": "TextBlock",
       "text": "Please refer to [INSERT LINK HERE] for more information.",
-      "weight": "bolder",
       "isSubtle": false,
       "wrap": true
     },
         {
       "type": "TextBlock",
       "text": "Otherwise refer to your reporting manager for potential opportunities coming up.",
-      "weight": "bolder",
       "isSubtle": false,
       "wrap": true
     }
@@ -37,7 +50,8 @@
     {
     "type": "Action.Submit",
     "title": "Return",
-    "data": "Return"
+    "data": "Human Resources"
     }
   ]
 }```
+

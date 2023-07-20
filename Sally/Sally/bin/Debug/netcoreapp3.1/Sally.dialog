@@ -388,23 +388,23 @@
       },
       {
         "intent": "EthicsPolicy",
-        "pattern": "(?i)(tell|explain|what is|want to understand|show).*?(ethics policy|code of conduct)"
+        "pattern": "(?i)(Ethics|ethics).*(And|and).*(Conduct|conduct).*"
       },
       {
         "intent": "ProfessionalDevelopment",
-        "pattern": "What training opportunites are available"
+        "pattern": "(?i)(Professional|professional).*(Development|development).*"
       },
       {
         "intent": "RemoteWork",
-        "pattern": "what remote work opportunities are available"
+        "pattern": "(?i)(Remote|remote).*(Work|work).*"
       },
       {
         "intent": "PayStubs",
-        "pattern": "(?i)(how|explain|what is|show|access).*?(can I|me|my).*?(access|view|update|find|review).*?(pay|pay stub|pay slip|salary)"
+        "pattern": "(?i)(Pay|pay).*(Stubs|stubs).*"
       },
       {
         "intent": "RequestLeave",
-        "pattern": "(?i)(how|explain|what is|show).*?(can I|me).*?(take|request).*?(leave|time off|vacation|holiday)"
+        "pattern": "(?i)(Request|request).*(Leave|leave).*"
       },
       {
         "intent": "HumanResources",
