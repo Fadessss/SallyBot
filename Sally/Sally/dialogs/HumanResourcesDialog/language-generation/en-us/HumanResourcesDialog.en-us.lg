@@ -41,8 +41,8 @@
         },
         {
             "type": "Action.Submit",
-            "title": "Pay Information",
-            "data": "Pay Information"
+            "title": "Pay Stubs",
+            "data": "Pay Stubs"
         },
         {
             "type": "Action.Submit",
