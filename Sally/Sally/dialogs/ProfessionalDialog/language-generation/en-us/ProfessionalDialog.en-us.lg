@@ -2,12 +2,42 @@
 
 # SendActivity_J21E6Q()
 [Activity
-    Text = ${SendActivity_J21E6Q_text()}
+    Attachments = ${json(SendActivity_J21E6Q_attachment_czKkvQ())}
 ]
 
-# SendActivity_J21E6Q_text()
-- ```Te Whatu Ora offers numerous opportunities for career growth. 
-
-Please refer to [INSERT LINK HERE] for more information.
-
-Otherwise refer to your reporting manager for potential opportunities coming up. ```
+# SendActivity_J21E6Q_attachment_czKkvQ()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Te Whatu Ora offers numerous opportunities for career growth.",
+      "weight": "bolder",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Please refer to [INSERT LINK HERE] for more information.",
+      "weight": "bolder",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Otherwise refer to your reporting manager for potential opportunities coming up.",
+      "weight": "bolder",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Return"
+    }
+  ]
+}```

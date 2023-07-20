@@ -20,7 +20,7 @@
           "$kind": "Microsoft.SendActivity",
           "$designer": {
             "id": "J21E6Q",
-            "comment": ""
+            "comment": "Need to add more information.\n\nAlso set up the return dialog to work properly"
           },
           "activity": "${SendActivity_J21E6Q()}"
         }

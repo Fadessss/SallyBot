@@ -217,7 +217,8 @@
       "$kind": "Microsoft.OnIntent",
       "$designer": {
         "id": "6EwJ0b",
-        "name": "RemoteWork"
+        "name": "RemoteWork",
+        "comment": ""
       },
       "intent": "RemoteWork",
       "actions": [
@@ -299,7 +300,7 @@
       },
       {
         "intent": "RemoteWork",
-        "pattern": "(?i)(what).*?(remote work).*?(opportunities).*?(are available)"
+        "pattern": "what remote work opportunities are available"
       },
       {
         "intent": "PayStubs",
