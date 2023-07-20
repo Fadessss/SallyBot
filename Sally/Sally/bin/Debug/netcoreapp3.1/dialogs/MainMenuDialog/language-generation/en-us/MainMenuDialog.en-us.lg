@@ -29,6 +29,7 @@
         },
     {
       "type": "TextBlock",
+      "wrap": true,
       "text": "How can I help you today?",
       "isSubtle": false
     }
@@ -57,3 +58,4 @@
   ]
 }
 ```
+

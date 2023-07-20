@@ -375,6 +375,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "WqHqxC",
+        "name": "Benefits"
+      },
+      "intent": "Benefits",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "zXxMSM"
+          },
+          "activityProcessed": true,
+          "dialog": "BenefitsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "zcfVj0"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -421,6 +445,10 @@
       {
         "intent": "MainMenu",
         "pattern": "(?i)(Return|return).*(To|to).*(Main|main).*(Menu|menu).*"
+      },
+      {
+        "intent": "Benefits",
+        "pattern": "(?i)(Benefits|benefits).*"
       }
     ]
   }

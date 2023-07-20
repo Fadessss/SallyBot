@@ -29,7 +29,8 @@
         },
     {
       "type": "TextBlock",
-      "text": "What would you like help with?",
+      "wrap": true,
+      "text": "Which location do you need help finding?",
       "isSubtle": false
     }
   ],
@@ -57,3 +58,4 @@
   ]
 }
 ```
+

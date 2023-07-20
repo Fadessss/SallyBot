@@ -29,6 +29,7 @@
         },
     {
       "type": "TextBlock",
+      "wrap": true,
       "text": "Hi there! I'm Sally, how can I help you today?",
       "isSubtle": false
     }
@@ -57,4 +58,5 @@
   ]
 }
 ```
+
 

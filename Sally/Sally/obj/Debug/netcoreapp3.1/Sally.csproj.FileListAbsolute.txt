@@ -997,3 +997,12 @@ C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dia
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\MainMenuDialog.en-us.lu
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\MainMenuDialog\knowledge-base\en-us\MainMenuDialog.en-us.qna
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\MainMenuDialog.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\BenefitsDialog.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\recognizers\BenefitsDialog.en-us.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\recognizers\BenefitsDialog.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\recognizers\BenefitsDialog.lu.qna.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\language-generation\en-us\BenefitsDialog.en-us.lg
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\language-understanding\en-us\BenefitsDialog.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\BenefitsDialog.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\knowledge-base\en-us\BenefitsDialog.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\BenefitsDialog.en-us.qna

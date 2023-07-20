@@ -29,7 +29,8 @@
         },
     {
       "type": "TextBlock",
-      "text": "What would you like help with?",
+      "wrap": true,
+      "text": "Which Human Resources topic can I assist you with?",
       "isSubtle": false
     }
   ],
@@ -82,3 +83,4 @@
   ]
 }
 ```
+
