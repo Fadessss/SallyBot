@@ -65,16 +65,12 @@
     {
       "type": "Action.Submit",
       "title": "Remote Work",
-      "data": {
-        "dialog": "RemoteWorkDialog"
-      }
+      "data": "What remote work opportunites are available"
     },
     {
       "type": "Action.Submit",
       "title": "Pay Stubs",
-      "data": {
-        "dialog": "PayStubsDialog"
-      }
+      "data": "How can I view my pay stubs"
     },
     {
       "type": "Action.OpenUrl",
@@ -83,5 +79,6 @@
     }
   ]
 }```
+
 
 
