@@ -1,2 +1,5 @@
 # files generated during the lubuild process
 generated/
+
+# prevent appsettings.json get checked in
+Sally/Sally/settings/appsettings.json
