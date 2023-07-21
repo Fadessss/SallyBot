@@ -143,6 +143,14 @@
             "comment": "It is recommended to show a message to the user when the bot does not know how to handle an incoming activity and provide follow up options or a help message.\n"
           },
           "activity": "${SendActivity_DidNotUnderstand()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "W89gwb"
+          },
+          "activityProcessed": true,
+          "dialog": "WelcomeDialog"
         }
       ]
     },
