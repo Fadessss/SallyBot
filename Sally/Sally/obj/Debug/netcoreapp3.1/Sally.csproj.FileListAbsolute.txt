@@ -1006,3 +1006,12 @@ C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dia
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\BenefitsDialog.en-us.lu
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BenefitsDialog\knowledge-base\en-us\BenefitsDialog.en-us.qna
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\BenefitsDialog.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BullyingAndHarassmentDialog\BullyingAndHarassmentDialog.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BullyingAndHarassmentDialog\recognizers\BullyingAndHarassmentDialog.en-us.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BullyingAndHarassmentDialog\recognizers\BullyingAndHarassmentDialog.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BullyingAndHarassmentDialog\recognizers\BullyingAndHarassmentDialog.lu.qna.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BullyingAndHarassmentDialog\language-generation\en-us\BullyingAndHarassmentDialog.en-us.lg
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BullyingAndHarassmentDialog\language-understanding\en-us\BullyingAndHarassmentDialog.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\BullyingAndHarassmentDialog.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\BullyingAndHarassmentDialog\knowledge-base\en-us\BullyingAndHarassmentDialog.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\BullyingAndHarassmentDialog.en-us.qna

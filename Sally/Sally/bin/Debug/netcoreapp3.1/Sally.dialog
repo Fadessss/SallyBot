@@ -143,6 +143,14 @@
             "comment": "It is recommended to show a message to the user when the bot does not know how to handle an incoming activity and provide follow up options or a help message.\n"
           },
           "activity": "${SendActivity_DidNotUnderstand()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "W89gwb"
+          },
+          "activityProcessed": true,
+          "dialog": "WelcomeDialog"
         }
       ]
     },
@@ -399,6 +407,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "j0UNan",
+        "name": "BullyingAndHarassment"
+      },
+      "intent": "BullyingAndHarassment",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "9Kda54"
+          },
+          "activityProcessed": true,
+          "dialog": "BullyingAndHarassmentDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "uhscFS"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -449,6 +481,10 @@
       {
         "intent": "Benefits",
         "pattern": "(?i)(Benefits|benefits).*"
+      },
+      {
+        "intent": "BullyingAndHarassment",
+        "pattern": "(?i)(Bullying|bullying).*(And|and).*(Harassment|harassment).*"
       }
     ]
   }

@@ -407,6 +407,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "j0UNan",
+        "name": "BullyingAndHarassment"
+      },
+      "intent": "BullyingAndHarassment",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "9Kda54"
+          },
+          "activityProcessed": true,
+          "dialog": "BullyingAndHarassmentDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "uhscFS"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -457,6 +481,10 @@
       {
         "intent": "Benefits",
         "pattern": "(?i)(Benefits|benefits).*"
+      },
+      {
+        "intent": "BullyingAndHarassment",
+        "pattern": "(?i)(Bullying|bullying).*(And|and).*(Harassment|harassment).*"
       }
     ]
   }

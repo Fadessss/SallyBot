@@ -1,11 +1,11 @@
 [import](common.lg)
 
-# SendActivity_wGhfVv()
+# SendActivity_529T79()
 [Activity
-    Attachments = ${json(SendActivity_wGhfVv_attachment_hYZDpY())}
+    Attachments = ${json(SendActivity_529T79_attachment_yiuIEH())}
 ]
 
-# SendActivity_wGhfVv_attachment_hYZDpY()
+# SendActivity_529T79_attachment_yiuIEH()
 - ```{
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.2",
@@ -29,14 +29,13 @@
         },
     {
       "type": "TextBlock",
-      "text": "If you wish to view your payslips from offsite, use the following link:
-https://cmdhb.mykiosk.org.nz/",
+      "text": "Counties Manukau DHB takes bullying and harassment very seriously.",
       "isSubtle": false,
       "wrap": true
     },
         {
       "type": "TextBlock",
-      "text": "If you are onsite use the link on Paanui.",
+      "text": "For our bullying and harassment prevention policy, please refer to: https://www.countiesmanukau.health.nz/assets/Uploads/2ea4c3442e/Bullying-and-Harassment-Prevention-Policy1.pdf ",
       "isSubtle": false,
       "wrap": true
     }

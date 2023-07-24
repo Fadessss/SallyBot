@@ -68,27 +68,12 @@
     },
     {
       "type": "TextBlock",
-      "text": "If you have any other questions, feel free to ask!",
+      "text": "For more information, please refer to the link below!",
       "wrap": true,
       "spacing": "medium"
     }
   ],
  "actions": [
-    {
-      "type": "Action.Submit",
-      "title": "Professional Development",
-      "data": "Professional Development"
-    },
-    {
-      "type": "Action.Submit",
-      "title": "Remote Work",
-      "data": "Remote Work"
-    },
-    {
-      "type": "Action.Submit",
-      "title": "Pay Stubs",
-      "data": "Pay Stubs"
-    },
     {
       "type": "Action.OpenUrl",
       "title": "More Information",
@@ -101,6 +86,7 @@
         }
   ]
 }```
+
 
 
 
