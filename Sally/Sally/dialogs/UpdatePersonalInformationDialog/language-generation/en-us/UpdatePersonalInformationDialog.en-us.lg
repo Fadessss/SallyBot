@@ -1,0 +1,78 @@
+[import](common.lg)
+
+# SendActivity_wfIo4d()
+[Activity
+    Attachments = ${json(SendActivity_wfIo4d_attachment_UGQdTi())}
+]
+
+# SendActivity_wfIo4d_attachment_UGQdTi()
+
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "style": "Person",
+      "url": "https://i.imgur.com/JfFL2Cb.png",
+      "width": "58px",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "Sally",
+      "wrap": true,
+      "size": "Default",
+      "maxLines": 1,
+      "fontType": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Update Personal Information",
+      "weight": "Bolder",
+      "size": "Large",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "As an employee, you can update your personal information using one of the following methods:",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "• HR Portal:",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Visit the HR portal on the company intranet and log in using your credentials. Look for the 'My Profile' section, where you can update your contact details, address, emergency contacts, and other personal information.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "• Contact HR:",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "If you need assistance or have specific updates that require HR's intervention, feel free to reach out to the HR department directly. They will guide you through the process and help you with any questions you may have.",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "HR Portal Login",
+      "url": "https://www.example-intranet.com/hr-portal"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Contact HR",
+      "url": "mailto:hr@example.com"
+    }
+  ]
+}```
+
+

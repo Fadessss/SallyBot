@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "InhHzO",
+    "name": "UpdatePersonalInformationDialog",
+    "comment": "A dialog which informs the user on how to update their personal information in the system"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "xyEx9R"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "wfIo4d"
+          },
+          "activity": "${SendActivity_wfIo4d()}"
+        }
+      ]
+    }
+  ],
+  "generator": "UpdatePersonalInformationDialog.lg",
+  "recognizer": "UpdatePersonalInformationDialog.lu.qna",
+  "id": "UpdatePersonalInformationDialog"
+}

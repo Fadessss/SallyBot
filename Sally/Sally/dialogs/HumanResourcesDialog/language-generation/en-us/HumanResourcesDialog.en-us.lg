@@ -72,11 +72,17 @@
         },
         {
             "type": "Action.Submit",
+            "title": "Update Personal Information",
+            "data": "Update Personal Information"
+        },
+        {
+            "type": "Action.Submit",
             "title": "Return to Main Menu",
             "data": "Return to Main Menu"
         }
   ]
 }
 ```
+
 
 

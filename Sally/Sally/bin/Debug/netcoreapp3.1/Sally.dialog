@@ -431,6 +431,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "1poRZu",
+        "name": "UpdatePersonalInformation"
+      },
+      "intent": "UpdatePersonalInformation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "lXMvzZ"
+          },
+          "activityProcessed": true,
+          "dialog": "UpdatePersonalInformationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "LeyEef"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -485,6 +509,10 @@
       {
         "intent": "BullyingAndHarassment",
         "pattern": "(?i)(Bullying|bullying).*(And|and).*(Harassment|harassment).*"
+      },
+      {
+        "intent": "UpdatePersonalInformation",
+        "pattern": "\\b(?i)(update\\s+personal\\s+info(?:rmation)?)\\b"
       }
     ]
   }
