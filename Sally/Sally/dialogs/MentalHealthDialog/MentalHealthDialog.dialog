@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "VtO27Q",
+    "name": "MentalHealthDialog",
+    "comment": "A dialog about the avaliable mental health resources"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "sMwLNz"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Hjd3s4"
+          },
+          "activity": "${SendActivity_Hjd3s4()}"
+        }
+      ]
+    }
+  ],
+  "generator": "MentalHealthDialog.lg",
+  "recognizer": "MentalHealthDialog.lu.qna",
+  "id": "MentalHealthDialog"
+}

@@ -455,6 +455,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Yu9YKj",
+        "name": "MentalHealth"
+      },
+      "intent": "MentalHealth",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "o9Cj30"
+          },
+          "activityProcessed": true,
+          "dialog": "MentalHealthDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "gV3QBk"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -513,6 +537,10 @@
       {
         "intent": "UpdatePersonalInformation",
         "pattern": "\\b(?i)(update\\s+personal\\s+info(?:rmation)?)\\b"
+      },
+      {
+        "intent": "MentalHealth",
+        "pattern": "(?i)\\bmental\\shealth\\sresources\\b"
       }
     ]
   }

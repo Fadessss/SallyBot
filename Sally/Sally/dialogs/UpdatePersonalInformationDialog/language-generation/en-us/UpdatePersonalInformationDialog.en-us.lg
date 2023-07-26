@@ -154,6 +154,11 @@
       "type": "Action.OpenUrl",
       "title": "Contact HR",
       "url": "mailto:hr@example.com"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Return",
+      "data": "Human Resources"
     }
   ]
 }```
