@@ -1,0 +1,66 @@
+[import](common.lg)
+
+# SendActivity_KfZRp5()
+[Activity
+    Attachments = ${json(SendActivity_KfZRp5_attachment_0M2vc3())}
+    AttachmentLayout = list
+]
+
+# SendActivity_KfZRp5_attachment_0M2vc3()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "Certainly! Here is a list of Counties Manukau clinics and the locations, click on the name of the clinic to view the services it offers.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "- [**Middlemore Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/middlemore-hospital/) 
+       100A Hospital Road
+       \r- [**Franklin Memorial Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/franklin-memorial-hospital/)
+       72 Kitchener Road, Waiuku
+       \r- [**Pukekohe Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/pukekohe-hospital/)
+       1 Tuakau Road, Pukekohe
+       \r- [**Manukau Surgery Centre:**](https://www.countiesmanukau.health.nz/our-services/a-z/manukau-surgery-centre/) 
+       901 Great South Road, Manurewa
+       \r- [**Botany SuperClinic:**](https://www.countiesmanukau.health.nz/our-services/a-z/botany-superclinic/)
+       260 Botany Road, Botany, Howick",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Further information can be found [here.](https://www.countiesmanukau.health.nz/)",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Find Location"
+    }
+  ]
+}```

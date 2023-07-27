@@ -479,6 +479,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "HggH4I",
+        "name": "FindLocationClinics"
+      },
+      "intent": "FindLocationClinics",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "t7RTC6"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationClinicsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "Jv5ge4"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -541,6 +565,10 @@
       {
         "intent": "MentalHealth",
         "pattern": "(?i)\\bmental\\shealth\\sresources\\b"
+      },
+      {
+        "intent": "FindLocationClinics",
+        "pattern": "(?i)(Clinics|clinics)"
       }
     ]
   }

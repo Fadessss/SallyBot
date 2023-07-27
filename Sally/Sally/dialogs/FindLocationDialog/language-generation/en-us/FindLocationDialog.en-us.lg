@@ -37,8 +37,8 @@
   "actions": [
     {
             "type": "Action.Submit",
-            "title": "Location Placeholder 1",
-            "data": "Location Placeholder 1"
+            "title": "Clinics",
+            "data": "Clinics"
         },
         {
             "type": "Action.Submit",
@@ -58,4 +58,5 @@
   ]
 }
 ```
+
 
