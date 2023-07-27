@@ -37,8 +37,8 @@
   "actions": [
     {
             "type": "Action.Submit",
-            "title": "Health & Safety Placeholder 1",
-            "data": "Health & Safety Placeholder 1"
+            "title": "General Workplace Safety Guidelines",
+            "data": "General Workplace Safety"
         },
         {
             "type": "Action.Submit",
@@ -58,4 +58,5 @@
   ]
 }
 ```
+
 

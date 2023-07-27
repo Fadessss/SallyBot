@@ -37,15 +37,15 @@
         {
       "type": "TextBlock",
       "text": "- [**Middlemore Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/middlemore-hospital/) 
-       100A Hospital Road
+       \n100A Hospital Road\n
        \r- [**Franklin Memorial Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/franklin-memorial-hospital/)
-       72 Kitchener Road, Waiuku
+       \n72 Kitchener Road, Waiuku\n
        \r- [**Pukekohe Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/pukekohe-hospital/)
-       1 Tuakau Road, Pukekohe
+       \n1 Tuakau Road, Pukekohe\n
        \r- [**Manukau Surgery Centre:**](https://www.countiesmanukau.health.nz/our-services/a-z/manukau-surgery-centre/) 
-       901 Great South Road, Manurewa
+       \n901 Great South Road, Manurewa\n
        \r- [**Botany SuperClinic:**](https://www.countiesmanukau.health.nz/our-services/a-z/botany-superclinic/)
-       260 Botany Road, Botany, Howick",
+       \n260 Botany Road, Botany, Howick",\n\n
       "isSubtle": false,
       "wrap": true
     },

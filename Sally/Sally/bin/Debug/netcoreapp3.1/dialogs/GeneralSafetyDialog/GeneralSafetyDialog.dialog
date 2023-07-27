@@ -1,0 +1,33 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "tRAi8U",
+    "name": "GeneralSafetyDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "wrGO7z"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "demYJH",
+            "comment": "https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/"
+          },
+          "activity": "${SendActivity_demYJH()}"
+        }
+      ]
+    }
+  ],
+  "generator": "GeneralSafetyDialog.lg",
+  "recognizer": "GeneralSafetyDialog.lu.qna",
+  "id": "GeneralSafetyDialog"
+}

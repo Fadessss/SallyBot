@@ -503,6 +503,54 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Bqp920",
+        "name": "GeneralSafety"
+      },
+      "intent": "GeneralSafety",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "TXUHFb"
+          },
+          "activityProcessed": true,
+          "dialog": "GeneralSafetyDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "T2gLBh"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "dIS0J6",
+        "name": "FlexibleWork"
+      },
+      "intent": "FlexibleWork",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "DwHQ0E"
+          },
+          "activityProcessed": true,
+          "dialog": "FlexibleWorkDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "bCLDF4"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -569,6 +617,14 @@
       {
         "intent": "FindLocationClinics",
         "pattern": "(?i)(Clinics|clinics)"
+      },
+      {
+        "intent": "GeneralSafety",
+        "pattern": "(?i)(General|general).*(Workplace|workplace).*(Safety|safety).*"
+      },
+      {
+        "intent": "FlexibleWork",
+        "pattern": "(?i)(Flexible|flexible).*(Work|work).*(Schedule|schedule).*"
       }
     ]
   }

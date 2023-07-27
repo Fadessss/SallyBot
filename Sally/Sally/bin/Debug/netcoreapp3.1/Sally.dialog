@@ -503,6 +503,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Bqp920",
+        "name": "GeneralSafety"
+      },
+      "intent": "GeneralSafety",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "TXUHFb"
+          },
+          "activityProcessed": true,
+          "dialog": "GeneralSafetyDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "T2gLBh"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -569,6 +593,10 @@
       {
         "intent": "FindLocationClinics",
         "pattern": "(?i)(Clinics|clinics)"
+      },
+      {
+        "intent": "GeneralSafety",
+        "pattern": "(?i)(General|general).*(Workplace|workplace).*(Safety|safety).*"
       }
     ]
   }
