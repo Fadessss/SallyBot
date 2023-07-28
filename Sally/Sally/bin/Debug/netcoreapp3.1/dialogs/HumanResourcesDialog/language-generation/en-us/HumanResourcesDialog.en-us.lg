@@ -82,12 +82,18 @@
     },
     {
       "type": "Action.Submit",
+      "title": "Requesting Flexible Work",
+      "data": "Flexible Work Schedule"
+    },
+    {
+      "type": "Action.Submit",
       "title": "Return to Main Menu",
       "data": "Return to Main Menu"
     }
   ]
 }
 ```
+
 
 
 

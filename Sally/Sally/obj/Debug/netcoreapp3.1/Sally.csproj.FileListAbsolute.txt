@@ -1383,3 +1383,12 @@ C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Gene
 C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\GeneralSafetyDialog.en-us.lu
 C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\GeneralSafetyDialog\knowledge-base\en-us\GeneralSafetyDialog.en-us.qna
 C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\GeneralSafetyDialog.en-us.qna
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\FlexibleWorkDialog\FlexibleWorkDialog.dialog
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\FlexibleWorkDialog\recognizers\FlexibleWorkDialog.en-us.lu.dialog
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\FlexibleWorkDialog\recognizers\FlexibleWorkDialog.lu.dialog
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\FlexibleWorkDialog\recognizers\FlexibleWorkDialog.lu.qna.dialog
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\FlexibleWorkDialog\language-generation\en-us\FlexibleWorkDialog.en-us.lg
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\FlexibleWorkDialog\language-understanding\en-us\FlexibleWorkDialog.en-us.lu
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\FlexibleWorkDialog.en-us.lu
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\FlexibleWorkDialog\knowledge-base\en-us\FlexibleWorkDialog.en-us.qna
+C:\Users\coola\Desktop\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\FlexibleWorkDialog.en-us.qna
