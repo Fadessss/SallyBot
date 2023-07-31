@@ -1,0 +1,17 @@
+{
+  "profileName": "TestingSallyBot",
+  "jobId": "dc3e6312-8b16-44f1-a514-bc268c512f9b",
+  "projectId": "79188.56139856916",
+  "time": "2023-07-31T08:10:39.380Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: TestingSallyBot at australiasoutheast",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 762ee4ee-0c31-4bb6-8bbd-60096e18e417",
+    "> Create App Registration Success! ID: 762ee4ee-0c31-4bb6-8bbd-60096e18e417",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

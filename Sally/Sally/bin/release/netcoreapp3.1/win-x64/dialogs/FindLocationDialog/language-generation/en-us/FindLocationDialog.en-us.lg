@@ -1,0 +1,62 @@
+[import](common.lg)
+
+# SendActivity_5kgpix()
+[Activity
+    Attachments = ${json(SendActivity_5kgpix_attachment_p2khz6())}
+]
+
+# SendActivity_5kgpix_attachment_p2khz6()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "Which location do you need help finding?",
+      "isSubtle": false
+    }
+  ],
+  "actions": [
+    {
+            "type": "Action.Submit",
+            "title": "Clinics",
+            "data": "Clinics"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Location Placeholder 2",
+            "data": "Location Placeholder 2"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Location Placeholder 3",
+            "data": "Location Placeholder 3"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Return to Main Menu",
+            "data": "Return to Main Menu"
+        }
+  ]
+}
+```
+
+
