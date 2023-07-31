@@ -1,33 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coola\\Desktop\\SallyBot\\Sally\\Sally\\Sally.csproj": {}
+    "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coola\\Desktop\\SallyBot\\Sally\\Sally\\Sally.csproj": {
+    "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coola\\Desktop\\SallyBot\\Sally\\Sally\\Sally.csproj",
+        "projectUniqueName": "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj",
         "projectName": "Sally",
-        "projectPath": "C:\\Users\\coola\\Desktop\\SallyBot\\Sally\\Sally\\Sally.csproj",
-        "packagesPath": "C:\\Users\\coola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coola\\Desktop\\SallyBot\\Sally\\Sally\\obj\\",
+        "projectPath": "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj",
+        "packagesPath": "/Users/callum/.nuget/packages/",
+        "outputPath": "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\coola\\Desktop\\SallyBot\\Sally\\Sally\\NuGet.Config",
-          "C:\\Users\\coola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/NuGet.Config",
+          "/Users/callum/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -39,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -72,29 +69,10 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -103,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/3.1.426/RuntimeIdentifierGraph.json"
         }
       }
     }

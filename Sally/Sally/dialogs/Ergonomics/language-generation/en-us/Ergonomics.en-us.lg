@@ -1,0 +1,50 @@
+[import](common.lg)
+
+# SendActivity_pf8NHJ()
+[Activity
+    Attachments = ${json(SendActivity_pf8NHJ_attachment_FcVqex())}
+]
+
+# SendActivity_pf8NHJ_attachment_FcVqex()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "It is important to maintain good ergonomics, especially when working at a desk. I reccomend",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Otherwise, posters with details can be found in the common areas. [Need to amend]",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Health and Safety"
+    }
+  ]
+}```

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\coola\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\coola\\.nuget\\packages"
+      "/Users/callum/.dotnet/store/|arch|/|tfm|",
+      "/Users/callum/.nuget/packages"
     ]
   }
 }

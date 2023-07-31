@@ -1,0 +1,631 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "name": "Sally",
+    "description": "",
+    "id": "4pM5gc"
+  },
+  "autoEndDialog": "=",
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720",
+        "comment": "This trigger runs when a conversation update activity is sent to the bot. This indicates a user or bot being added or removed from a conversation."
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item",
+            "comment": "For each member added to the conversation."
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else",
+                "comment": "Checks that that member added ID does not match the bot ID. This prevents the greeting message from being sent when the bot is added to a conversation."
+              },
+              "condition": "=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "PlH6iz",
+                    "comment": "Launches the WelcomeDialog containing logic for greeting users."
+                  },
+                  "activityProcessed": true,
+                  "dialog": "WelcomeDialog"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "e1i6lY",
+        "name": "Cancel",
+        "comment": "Triggered when the Cancel intent is recognized in the user's utterance."
+      },
+      "intent": "Cancel",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "FDsuIq",
+            "comment": "Launches the CancelDialog."
+          },
+          "activityProcessed": true,
+          "dialog": "CancelDialog"
+        }
+      ],
+      "condition": "=turn.recognized.score > 0.9"
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "9wETGs",
+        "name": "Help",
+        "comment": "Triggered when the Help intent is recognized in the user's utterance."
+      },
+      "intent": "Help",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "B0NP8m",
+            "comment": "Launches the HelpDialog."
+          },
+          "activityProcessed": true,
+          "dialog": "HelpDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnError",
+      "$designer": {
+        "id": "aLQGr7",
+        "comment": "Triggered when an error event is thrown by the dialog stack. "
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TelemetryTrackEventAction",
+          "$designer": {
+            "id": "Aucn7t",
+            "comment": "Logs the error received in the Telelmetry Client (typically Application Insights for production instances)."
+          },
+          "eventName": "ErrorOccurred",
+          "properties": {
+            "Type": "=turn.dialogEvent.value.className",
+            "Exception": "=turn.dialogEvent.value"
+          }
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2outgQ",
+            "comment": "Shows error message to user."
+          },
+          "activity": "${SendActivity_ErrorOccured()}"
+        },
+        {
+          "$kind": "Microsoft.TraceActivity",
+          "$designer": {
+            "id": "NVFqr5",
+            "comment": "Emits a trace activity with the error value that is visible in local testing channels such as the Bot Framework Composer Web Chat window and the Bot Framework Emulator."
+          },
+          "name": "=turn.dialogEvent.value.className",
+          "valueType": "Exception",
+          "value": "=turn.dialogEvent.value",
+          "label": "ErrorOccurred"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnUnknownIntent",
+      "$designer": {
+        "id": "FOxcnx",
+        "comment": "This trigger fires when an incoming activity is not handled by any other trigger."
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "IQMEuO",
+            "comment": "It is recommended to show a message to the user when the bot does not know how to handle an incoming activity and provide follow up options or a help message.\n"
+          },
+          "activity": "${SendActivity_DidNotUnderstand()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "W89gwb"
+          },
+          "activityProcessed": true,
+          "dialog": "WelcomeDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "8wO28Y",
+        "name": "Capabilities"
+      },
+      "intent": "Capabilities",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "xjg9Gc"
+          },
+          "activityProcessed": true,
+          "dialog": "CapabilitiesDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "hLG1y5"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "PkSpK2",
+        "name": "EthicsPolicy"
+      },
+      "intent": "EthicsPolicy",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "PZlLmu"
+          },
+          "activityProcessed": true,
+          "dialog": "EthicsPolicyDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "P4Rjq2",
+        "name": "ProfessionalDevelopment",
+        "comment": ""
+      },
+      "intent": "ProfessionalDevelopment",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "u8bVni"
+          },
+          "activityProcessed": true,
+          "dialog": "ProfessionalDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "argePq"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "6EwJ0b",
+        "name": "RemoteWork",
+        "comment": ""
+      },
+      "intent": "RemoteWork",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "AH3Zb1"
+          },
+          "activityProcessed": true,
+          "dialog": "RemoteWork"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "mWIN4n",
+        "name": "PayStubs"
+      },
+      "intent": "PayStubs",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "NRd5mf"
+          },
+          "activityProcessed": true,
+          "dialog": "PayStubsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "rSB7DD"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "1x3ZGr",
+        "name": "RequestLeave"
+      },
+      "intent": "RequestLeave",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "4VXn3I"
+          },
+          "activityProcessed": true,
+          "dialog": "RequestLeaveDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "QvHzmI"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "xCb8Ej",
+        "name": "HumanResources"
+      },
+      "intent": "HumanResources",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "FIp83t"
+          },
+          "activityProcessed": true,
+          "dialog": "HumanResourcesDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "jth6Uq"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Iy2tTs",
+        "name": "FindLocation"
+      },
+      "intent": "FindLocation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Z2jlY6"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "law1g4"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "cCvBOf",
+        "name": "HealthAndSafety"
+      },
+      "intent": "HealthAndSafety",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "ceCGFL"
+          },
+          "activityProcessed": true,
+          "dialog": "HealthAndSafetyDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "YpKUUo"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "WHjb2b",
+        "name": "MainMenu"
+      },
+      "intent": "MainMenu",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "TLfJS5"
+          },
+          "activityProcessed": true,
+          "dialog": "MainMenuDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "zD6Ca4"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "WqHqxC",
+        "name": "Benefits"
+      },
+      "intent": "Benefits",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "zXxMSM"
+          },
+          "activityProcessed": true,
+          "dialog": "BenefitsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "zcfVj0"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "j0UNan",
+        "name": "BullyingAndHarassment"
+      },
+      "intent": "BullyingAndHarassment",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "9Kda54"
+          },
+          "activityProcessed": true,
+          "dialog": "BullyingAndHarassmentDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "uhscFS"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "1poRZu",
+        "name": "UpdatePersonalInformation"
+      },
+      "intent": "UpdatePersonalInformation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "lXMvzZ"
+          },
+          "activityProcessed": true,
+          "dialog": "UpdatePersonalInformationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "LeyEef"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Yu9YKj",
+        "name": "MentalHealth"
+      },
+      "intent": "MentalHealth",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "o9Cj30"
+          },
+          "activityProcessed": true,
+          "dialog": "MentalHealthDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "gV3QBk"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "HggH4I",
+        "name": "FindLocationClinics"
+      },
+      "intent": "FindLocationClinics",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "t7RTC6"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationClinicsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "Jv5ge4"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Bqp920",
+        "name": "GeneralSafety"
+      },
+      "intent": "GeneralSafety",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "TXUHFb"
+          },
+          "activityProcessed": true,
+          "dialog": "GeneralSafetyDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "T2gLBh"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "dIS0J6",
+        "name": "FlexibleWork"
+      },
+      "intent": "FlexibleWork",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "DwHQ0E"
+          },
+          "activityProcessed": true,
+          "dialog": "FlexibleWorkDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "bCLDF4"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "Sally.lg",
+  "id": "Sally",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": [
+      {
+        "intent": "Capabilities",
+        "pattern": "(?i)(Who|who).*(Is|is).*(Sally|sally).*"
+      },
+      {
+        "intent": "EthicsPolicy",
+        "pattern": "(?i)(Ethics|ethics).*(And|and).*(Conduct|conduct).*"
+      },
+      {
+        "intent": "ProfessionalDevelopment",
+        "pattern": "(?i)(Professional|professional).*(Development|development).*"
+      },
+      {
+        "intent": "RemoteWork",
+        "pattern": "(?i)(Remote|remote).*(Work|work).*"
+      },
+      {
+        "intent": "PayStubs",
+        "pattern": "(?i)(Pay|pay).*(Stubs|stubs).*"
+      },
+      {
+        "intent": "RequestLeave",
+        "pattern": "(?i)(Request|request).*(Leave|leave).*"
+      },
+      {
+        "intent": "HumanResources",
+        "pattern": "(?i)(Human|human).(Resources|resources).*"
+      },
+      {
+        "intent": "FindLocation",
+        "pattern": "(?i)(Find|find).*(Location|location),*"
+      },
+      {
+        "intent": "HealthAndSafety",
+        "pattern": "(?i)(Health|health).*(And|and).*(Safety|safety).*"
+      },
+      {
+        "intent": "MainMenu",
+        "pattern": "(?i)(Return|return).*(To|to).*(Main|main).*(Menu|menu).*"
+      },
+      {
+        "intent": "Benefits",
+        "pattern": "(?i)(Benefits|benefits).*"
+      },
+      {
+        "intent": "BullyingAndHarassment",
+        "pattern": "(?i)(Bullying|bullying).*(And|and).*(Harassment|harassment).*"
+      },
+      {
+        "intent": "UpdatePersonalInformation",
+        "pattern": "\\b(?i)(update\\s+personal\\s+info(?:rmation)?)\\b"
+      },
+      {
+        "intent": "MentalHealth",
+        "pattern": "(?i)\\bmental\\shealth\\sresources\\b"
+      },
+      {
+        "intent": "FindLocationClinics",
+        "pattern": "(?i)(Clinics|clinics)"
+      },
+      {
+        "intent": "GeneralSafety",
+        "pattern": "(?i)(General|general).*(Workplace|workplace).*(Safety|safety).*"
+      },
+      {
+        "intent": "FlexibleWork",
+        "pattern": "(?i)(Flexible|flexible).*(Work|work).*(Schedule|schedule).*"
+      }
+    ]
+  }
+}

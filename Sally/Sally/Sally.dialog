@@ -551,6 +551,32 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "6tdD1K",
+        "name": "FireDrillProdures"
+      },
+      "intent": "FireDrillProdures",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "keFijd"
+          },
+          "activityProcessed": true,
+          "dialog": "FireDialog"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "EmFky8",
+        "name": "Ergonomics"
+      },
+      "intent": "Ergonomics"
     }
   ],
   "generator": "Sally.lg",
@@ -625,6 +651,14 @@
       {
         "intent": "FlexibleWork",
         "pattern": "(?i)(Flexible|flexible).*(Work|work).*(Schedule|schedule).*"
+      },
+      {
+        "intent": "FireDrillProdures",
+        "pattern": "(?i)(Fire|fire).*(Drill|drill).*(Procedures|procedures).*"
+      },
+      {
+        "intent": "Ergonomics",
+        "pattern": "(?i)(Ergonomics|ergonomics)"
       }
     ]
   }

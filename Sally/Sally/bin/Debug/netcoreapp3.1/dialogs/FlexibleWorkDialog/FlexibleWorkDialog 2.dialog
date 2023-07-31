@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "4VCDAO",
+    "name": "FlexibleWorkDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "vOE8WI"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "j4362v"
+          },
+          "activity": "${SendActivity_j4362v()}"
+        }
+      ]
+    }
+  ],
+  "generator": "FlexibleWorkDialog.lg",
+  "recognizer": "FlexibleWorkDialog.lu.qna",
+  "id": "FlexibleWorkDialog"
+}
