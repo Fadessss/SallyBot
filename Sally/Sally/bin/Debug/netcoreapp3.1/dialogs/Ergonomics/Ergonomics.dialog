@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "dIxvrw",
+    "name": "ErgonomicsDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "j7iFj0"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "pf8NHJ"
+          },
+          "activity": "${SendActivity_pf8NHJ()}"
+        }
+      ]
+    }
+  ],
+  "generator": "Ergonomics.lg",
+  "recognizer": "Ergonomics.lu.qna",
+  "id": "Ergonomics"
+}

@@ -577,6 +577,30 @@
         "name": "Ergonomics"
       },
       "intent": "Ergonomics"
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "D0OBNc",
+        "name": "SafetyAdvisor"
+      },
+      "intent": "SafetyAdvisor",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Dt7VnH"
+          },
+          "activityProcessed": true,
+          "dialog": "SafetyAdvisorDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "qAoU2m"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -659,6 +683,10 @@
       {
         "intent": "Ergonomics",
         "pattern": "(?i)(Ergonomics|ergonomics)"
+      },
+      {
+        "intent": "SafetyAdvisor",
+        "pattern": "(?i)(Safety|safety).*(Advisor|advisor).*"
       }
     ]
   }

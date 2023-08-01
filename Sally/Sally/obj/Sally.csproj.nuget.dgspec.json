@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj": {}
+    "C:\\Users\\JiQun Huang\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj": {}
   },
   "projects": {
-    "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj": {
+    "C:\\Users\\JiQun Huang\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj",
+        "projectUniqueName": "C:\\Users\\JiQun Huang\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
         "projectName": "Sally",
-        "projectPath": "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/Sally.csproj",
-        "packagesPath": "/Users/callum/.nuget/packages/",
-        "outputPath": "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/obj/",
+        "projectPath": "C:\\Users\\JiQun Huang\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
+        "packagesPath": "C:\\Users\\JiQun Huang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JiQun Huang\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/callum/Documents/GitHub/SallyBot/Sally/Sally/NuGet.Config",
-          "/Users/callum/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JiQun Huang\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\NuGet.Config",
+          "C:\\Users\\JiQun Huang\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/3.1.426/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     }
