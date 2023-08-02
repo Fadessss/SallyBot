@@ -37,13 +37,18 @@
   "actions": [
     {
       "type": "Action.Submit",
+      "title": "Fire Drill Procedures",
+      "data": "Fire Drill Procedures"
+    }, 
+    {
+      "type": "Action.Submit",
       "title": "General Workplace Safety Guidelines",
       "data": "General Workplace Safety"
     },
     {
       "type": "Action.Submit",
-      "title": "Fire Drill Procedures",
-      "data": "Fire Drill Procedures"
+      "title": "Reporting Safety Incidents or Hazards",
+      "data": "Report Incident"
     },
     {
       "type": "Action.Submit",
@@ -59,6 +64,7 @@
 }
 
 ```
+
 
 
 

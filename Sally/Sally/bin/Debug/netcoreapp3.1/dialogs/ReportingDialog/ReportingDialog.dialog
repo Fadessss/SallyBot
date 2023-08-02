@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "q47r6r",
+    "name": "ReportingDialog",
+    "comment": "A dialog about how to report hazards or safety concerns. "
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "XxO4Hm"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "EIfFsf"
+          },
+          "activity": "${SendActivity_EIfFsf()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ReportingDialog.lg",
+  "recognizer": "ReportingDialog.lu.qna",
+  "id": "ReportingDialog"
+}

@@ -601,6 +601,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "5uxzax",
+        "name": "ReportingIncident"
+      },
+      "intent": "ReportingIncident",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "alGQob"
+          },
+          "activityProcessed": true,
+          "dialog": "ReportingDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "Cm94L2"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -687,6 +711,10 @@
       {
         "intent": "SafetyAdvisor",
         "pattern": "(?i)(Safety|safety).*(Advisor|advisor).*"
+      },
+      {
+        "intent": "ReportingIncident",
+        "pattern": "(?i)(Report|report).(Incident|incident).*"
       }
     ]
   }
