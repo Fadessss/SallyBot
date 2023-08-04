@@ -431,6 +431,230 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "K4CdRd",
+        "name": "FindLocationsClinic"
+      },
+      "intent": "FindLocationsClinic",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "ZZL2oE"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationsClinicDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "QOzQjB"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "gMYGV4",
+        "name": "GeneralSafety"
+      },
+      "intent": "GeneralSafety",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "11YbzG"
+          },
+          "activityProcessed": true,
+          "dialog": "GeneralSafetyDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "4tsyIs"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "zf1iQx",
+        "name": "FlexibleWork"
+      },
+      "intent": "FlexibleWork",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "yJDv5f"
+          },
+          "activityProcessed": true,
+          "dialog": "FlexibleWorkDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "BWzYQ5"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "WKl7AS",
+        "name": "UpdatePersonalInformation"
+      },
+      "intent": "UpdatePersonalInformation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "66mkll"
+          },
+          "activityProcessed": true,
+          "dialog": "UpdatePersonalInformationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "VMsIzU"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "xc19tB",
+        "name": "MentalHealth"
+      },
+      "intent": "MentalHealth",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "obdtTT"
+          },
+          "activityProcessed": true,
+          "dialog": "MentalHealthDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "iELxgN"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "Y4Nd9Z",
+        "name": "FireDrillProcedures"
+      },
+      "intent": "FireDrillProcedures",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "izrBCC"
+          },
+          "activityProcessed": true,
+          "dialog": "FireDrillProceduresDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "pOnnNf"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "LSygtF",
+        "name": "Ergonomics"
+      },
+      "intent": "Ergonomics",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "JIbdAT"
+          },
+          "activityProcessed": true,
+          "dialog": "ErgonomicsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "fZhXMj"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "6n6pZF",
+        "name": "SafetyAdvisor"
+      },
+      "intent": "SafetyAdvisor",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "tDC6fx"
+          },
+          "activityProcessed": true,
+          "dialog": "SafetyAdvisorDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "PuvDwF"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "LGefUU",
+        "name": "ReportIncident"
+      },
+      "intent": "ReportIncident",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "R1nvx2"
+          },
+          "activityProcessed": true,
+          "dialog": "ReportIncidentDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "jS4Rzj"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "ErOp5h",
+        "name": "MapLocation"
+      },
+      "intent": "MapLocation"
     }
   ],
   "generator": "Sally.lg",
@@ -485,6 +709,46 @@
       {
         "intent": "BullyingAndHarassment",
         "pattern": "(?i)(Bullying|bullying).*(And|and).*(Harassment|harassment).*"
+      },
+      {
+        "intent": "FindLocationsClinic",
+        "pattern": "(?i)(Clinics|clinics).*"
+      },
+      {
+        "intent": "GeneralSafety",
+        "pattern": "(?i)(General|general).*(Workplace|workplace).*(Safety|safety).*"
+      },
+      {
+        "intent": "FlexibleWork",
+        "pattern": "(?i)(Flexible|flexible).*(Work|work).*(Schedule|schedule).*"
+      },
+      {
+        "intent": "UpdatePersonalInformation",
+        "pattern": "(?i)(Update|update).*(Personal|personal).*(Information|information).*"
+      },
+      {
+        "intent": "MentalHealth",
+        "pattern": "(?i)(Mental|mental).*(Health|health).*(Resources|resources).*"
+      },
+      {
+        "intent": "FireDrillProcedures",
+        "pattern": "(?i)(Fire|fire).*(Drill|drill).*(Procedures|procedures).*"
+      },
+      {
+        "intent": "Ergonomics",
+        "pattern": "(?i)(Ergonomics|ergonomics).*(Information|information).*"
+      },
+      {
+        "intent": "SafetyAdvisor",
+        "pattern": "(?i)(Safety|safety).*(Advisor|advisor).*"
+      },
+      {
+        "intent": "ReportIncident",
+        "pattern": "(?i)(Report|report).*(Incident|incident).*"
+      },
+      {
+        "intent": "MapLocation",
+        "pattern": "(?i)(Middlemore|middlemore).*(Maps|maps).*"
       }
     ]
   }

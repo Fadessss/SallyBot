@@ -21,8 +21,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -47,6 +46,10 @@
             "Microsoft.Bot.Builder.AI.Luis": {
               "target": "Package",
               "version": "[4.18.1, )"
+            },
+            "Microsoft.Bot.Builder.AI.Orchestrator": {
+              "target": "Package",
+              "version": "[4.20.1, )"
             },
             "Microsoft.Bot.Builder.AI.QnA": {
               "target": "Package",

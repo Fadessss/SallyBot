@@ -1,0 +1,65 @@
+[import](common.lg)
+
+# SendActivity_0Y90bB()
+[Activity
+    Attachments = ${json(SendActivity_0Y90bB_attachment_imsm7C())}
+]
+
+# SendActivity_0Y90bB_attachment_imsm7C()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "Here is a list of the general requirements for workplaces by Worksafe.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "- [**Workplaces and workplace facilities:**](https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/workplace-and-facilities-requirements/) 
+       \nWorkplaces must be clean, healthy, safe, accessible and well maintained so work can be carried out without risks to worker health and safety.\n
+       \r- [**Providing information, instruction, training and supervision for workers:**](https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/providing-information-training-instruction-or-supervision-for-workers/)
+       \nPCBUs must provide workers and others with the information, training, instruction, or supervision they need to protect them from work health and safety risks.\n
+       \r- [**Personal protective equipment (PPE):**](https://www.worksafe.govt.nz/topic-and-industry/personal-protective-equipment-ppe/personal-protective-equipment-a-guide-for-businesses/)
+       \nPersonal protective equipment (PPE) provides protection for workers when all other control measures can’t adequately eliminate or minimise risks to a worker’s health and safety.\n
+       \r- [**First aid at work:**](https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/first-aid/) 
+       \nAll workers must be provided with first aid facilities, equipment and access to first aiders.\n
+       \r- [**Workplace emergency plans:**](https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/emergency-plans/)
+       \nAn emergency plan is a written procedure telling people in the workplace what to do in an emergency.\n\n",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Further information can be found [here.](https://www.worksafe.govt.nz/managing-health-and-safety/businesses/general-requirements-for-workplaces/)",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Health And Safety"
+    }
+  ]
+}```
