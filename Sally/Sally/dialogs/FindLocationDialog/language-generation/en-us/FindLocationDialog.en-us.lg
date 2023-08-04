@@ -37,13 +37,13 @@
   "actions": [
     {
             "type": "Action.Submit",
-            "title": "Location Placeholder 1",
-            "data": "Location Placeholder 1"
+            "title": "Clinics",
+            "data": "Clinics"
         },
         {
             "type": "Action.Submit",
-            "title": "Location Placeholder 2",
-            "data": "Location Placeholder 2"
+            "title": "Middlemore Map Location",
+            "data": "Middlemore Maps"
         },
         {
             "type": "Action.Submit",
@@ -58,4 +58,3 @@
   ]
 }
 ```
-

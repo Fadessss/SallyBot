@@ -12,21 +12,21 @@
   "type": "AdaptiveCard",
   "body": [
     {
-     "type": "Image",
-            "style": "Person",
-            "url": "https://i.imgur.com/JfFL2Cb.png",
-            "width": "58px",
-            "size": "Medium"
+      "type": "Image",
+      "style": "Person",
+      "url": "https://i.imgur.com/JfFL2Cb.png",
+      "width": "58px",
+      "size": "Medium"
     },
     {
-            "type": "TextBlock",
-            "weight": "Bolder",
-            "text": "     Sally",
-            "wrap": true,
-            "size": "Default",
-            "maxLines": 1,
-            "fontType": "Default"
-        },
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "  Sally",
+      "wrap": true,
+      "size": "Default",
+      "maxLines": 1,
+      "fontType": "Default"
+    },
     {
       "type": "TextBlock",
       "wrap": true,
@@ -36,26 +36,31 @@
   ],
   "actions": [
     {
-            "type": "Action.Submit",
-            "title": "Health & Safety Placeholder 1",
-            "data": "Health & Safety Placeholder 1"
-        },
-        {
-            "type": "Action.Submit",
-            "title": "Health & Safety Placeholder 2",
-            "data": "Health & Safety Placeholder 2"
-        },
-        {
-            "type": "Action.Submit",
-            "title": "Health & Safety Placeholder 3",
-            "data": "Health & Safety Placeholder 3"
-        },
-        {
-            "type": "Action.Submit",
-            "title": "Return to Main Menu",
-            "data": "Return to Main Menu"
-        }
+      "type": "Action.Submit",
+      "title": "Fire Drill Procedures",
+      "data": "Fire Drill Procedures"
+    }, 
+    {
+      "type": "Action.Submit",
+      "title": "General Workplace Safety Guidelines",
+      "data": "General Workplace Safety"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Reporting Safety Incidents or Hazards",
+      "data": "Report Incident"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Safety Advisor",
+      "data": "Safety Advisor"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Return to Main Menu",
+      "data": "Return to Main Menu"
+    }
   ]
 }
-```
 
+```

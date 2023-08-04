@@ -21,7 +21,8 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mdajKfDd5IdOpDCNcUdiHY8xPdZn4KECBzh4Zo9ErNPQeUygJ99l6VepnvVvE6gmSGIUOsK3r2/Wewvj1BXEbw==",
+  "dgSpecHash": "Z0Eknyq6wXfPiLtqiGClNN5EnBcfFDPN3TcU+NNm2p2gAsg2Zb1hSP/Q7gsHFrwYwmN2K65sps2y73fdu8JXYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
   "expectedPackageFiles": [
@@ -212,10 +212,10 @@
     "C:\\Users\\Fades\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Fades\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Fades\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Fades\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Fades\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
     "C:\\Users\\Fades\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Fades\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Fades\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Fades\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Fades\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
   ],
   "logs": [
     {
