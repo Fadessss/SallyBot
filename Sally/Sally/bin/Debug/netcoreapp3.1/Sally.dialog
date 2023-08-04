@@ -625,6 +625,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "iCrO2E",
+        "name": "MapLocation"
+      },
+      "intent": "MapLocation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "qeQPko"
+          },
+          "activityProcessed": true,
+          "dialog": "MapLocationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "HYiXQ3"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -715,6 +739,10 @@
       {
         "intent": "ReportingIncident",
         "pattern": "(?i)(Report|report).(Incident|incident).*"
+      },
+      {
+        "intent": "MapLocation",
+        "pattern": "(?i)(Middlemore|middlemore).*(Maps|maps).*"
       }
     ]
   }

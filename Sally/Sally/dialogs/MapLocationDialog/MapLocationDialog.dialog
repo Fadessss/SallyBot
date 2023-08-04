@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "nHXstr",
+    "name": "MapLocationDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "dIgsxZ"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2kalHq"
+          },
+          "activity": "${SendActivity_2kalHq()}"
+        }
+      ]
+    }
+  ],
+  "generator": "MapLocationDialog.lg",
+  "recognizer": "MapLocationDialog.lu.qna",
+  "id": "MapLocationDialog"
+}

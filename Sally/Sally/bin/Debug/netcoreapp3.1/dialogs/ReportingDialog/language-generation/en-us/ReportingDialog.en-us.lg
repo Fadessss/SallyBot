@@ -24,7 +24,7 @@
     {
       "type": "TextBlock",
       "weight": "Bolder",
-      "text": "Health and Safety Bot",
+      "text": "  Sally",  
       "wrap": true,
       "size": "Default",
       "maxLines": 1,

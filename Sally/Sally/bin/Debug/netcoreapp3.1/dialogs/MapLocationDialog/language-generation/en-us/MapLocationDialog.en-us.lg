@@ -1,0 +1,195 @@
+[import](common.lg)
+
+# SendActivity_2kalHq()
+[Activity
+    Attachments = ${json(SendActivity_2kalHq_attachment_AGnI87())}
+]
+
+# SendActivity_2kalHq_attachment_AGnI87()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+    },
+    {
+      "type": "ImageSet",
+      "imageSize": "Medium",
+      "images": [
+        {
+          "type": "Image",
+          "url": "https://www.countiesmanukau.health.nz/assets/For-patients-and-visitors/Middlemore-Hospital-General-Wayfinding-Map.pdf",
+          "altText": "Middlemore Hospital Map"
+          }
+        ]
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "Middlemore Hospital Wards & Buildings",
+      "weight": "bolder",
+      "isSubtle": false
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please refer to the map for the locations of the wards",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "1 - Galbraith",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Radiology, Birthing Maternity, GynaeCare, Early Pregnancy, Wound Care, Manchester Suite",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "2 - Bray",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Bereavement Care, Middlemore Foundation",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "5 - Scott",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Wards 1 - 11, Coronary Care, Cardiac Catheter Laboratory, Cardiac Step-down, Oral Health",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "11 - McIndoe",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: National Burn Centre, Middlemore Central Staff Centre",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "55 - Harley Gray",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Critical Care, Neonatal Care, Operating Theatres, Medical Assessment, MRI*",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "51 - Edmund Hillary",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Wards 31 - 35, Koropiko, Haematology, Gastroenterology, Cardiac Investigation, Discharge Lounge",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "7 - Poutasi Link",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Eligibility, Car parking & Security Office",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "54 - Ko Awatea",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Ko Awatea Centre",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "30 - Esme Green",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Middlemore Clinical Trials, University of Auckland, M.I.T., A.U.T.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "31 - Colvin Complex",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Wards 23 and 24, Rehabilitation",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "63 - Tiaho Mai",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: Huia Kuaka - Ward 22, Tui",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "38 - Building 38",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: WhiƟora Home Health Care, Renal Self Care",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "58 - Building 58",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Services: MRI + CT scans*",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Find Location"
+    }
+  ]
+  
+}```
+
+
+
