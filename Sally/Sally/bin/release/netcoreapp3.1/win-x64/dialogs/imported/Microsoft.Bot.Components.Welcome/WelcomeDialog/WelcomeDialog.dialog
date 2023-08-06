@@ -19,11 +19,18 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "PmcZYm"
+            "id": "IjpMQp"
           },
-          "activity": "${SendActivity_PmcZYm()}"
+          "activityProcessed": true,
+          "dialog": "MainMenuDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "u0Mjib"
+          }
         }
       ]
     }

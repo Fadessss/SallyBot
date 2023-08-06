@@ -29,8 +29,7 @@
         },
     {
       "type": "TextBlock",
-      "text": "For information about what to do in the event of a fire, please refer to this link: 
-      [INSERT LINK HERE]",
+      "text": "For information about what to do in the event of a fire, please refer to this link: [INSERT LINK HERE]",
       "isSubtle": false,
       "wrap": true
     },
@@ -50,6 +49,7 @@
         "type": "imBack",
         "value": "Health and Safety"
         }
+      }
       }
   ]
 }```

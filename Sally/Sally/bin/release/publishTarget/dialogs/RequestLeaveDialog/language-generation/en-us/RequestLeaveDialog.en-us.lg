@@ -29,8 +29,7 @@
         },
     {
       "type": "TextBlock",
-      "text": "If you wish to apply for leave from your home internet or smartphone use the following link to do so:
-https://onestaffcmh.hanz.health.nz/signin.do",
+      "text": "If you wish to apply for leave from your home internet or smartphone use the following link to do so: https://onestaffcmh.hanz.health.nz/signin.do",
       "isSubtle": false,
       "wrap": true
     },
@@ -50,6 +49,7 @@ https://onestaffcmh.hanz.health.nz/signin.do",
         "type": "imBack",
         "value": "Human Resources"
         }
+      }
       }
   ]
 }```

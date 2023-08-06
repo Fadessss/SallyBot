@@ -6,7 +6,7 @@
 ]
 
 # SendActivity_529T79_attachment_yiuIEH()
-- ```{
+- ``` {
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.2",
   "type": "AdaptiveCard",
@@ -50,5 +50,7 @@
         "value": "Human Resources"
         }
       }
+      }
   ]
-}```
+}
+```

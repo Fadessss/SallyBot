@@ -1,0 +1,17 @@
+{
+  "profileName": "Fixbot7",
+  "jobId": "17fdb093-004e-4ae4-8276-06ead3bf236f",
+  "projectId": "7352.92827101397",
+  "time": "2023-08-06T21:40:18.178Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: Chatbot_Platform at australiaeast",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 56caeea1-6d42-466d-bdfb-926f7eb72f28",
+    "> Create App Registration Success! ID: 56caeea1-6d42-466d-bdfb-926f7eb72f28",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

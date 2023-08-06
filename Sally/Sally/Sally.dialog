@@ -40,7 +40,7 @@
                     "comment": "Launches the WelcomeDialog containing logic for greeting users."
                   },
                   "activityProcessed": true,
-                  "dialog": "WelcomeDialog"
+                  "dialog": "MainMenuDialog"
                 }
               ]
             }
@@ -664,91 +664,91 @@
     "intents": [
       {
         "intent": "Capabilities",
-        "pattern": "(?i)(Who|who).*(Is|is).*(Sally|sally).*"
+        "pattern": "Who is Sally"
       },
       {
         "intent": "EthicsPolicy",
-        "pattern": "(?i)(Ethics|ethics).*(And|and).*(Conduct|conduct).*"
+        "pattern": "Ethics and Conduct"
       },
       {
         "intent": "ProfessionalDevelopment",
-        "pattern": "(?i)(Professional|professional).*(Development|development).*"
+        "pattern": "Professional Development"
       },
       {
         "intent": "RemoteWork",
-        "pattern": "(?i)(Remote|remote).*(Work|work).*"
+        "pattern": "Remote Work"
       },
       {
         "intent": "PayStubs",
-        "pattern": "(?i)(Pay|pay).*(Stubs|stubs).*"
+        "pattern": "Pay Stubs"
       },
       {
         "intent": "RequestLeave",
-        "pattern": "(?i)(Request|request).*(Leave|leave).*"
+        "pattern": "Request Leave"
       },
       {
         "intent": "HumanResources",
-        "pattern": "(?i)(Human|human).(Resources|resources).*"
+        "pattern": "Human Resources"
       },
       {
         "intent": "FindLocation",
-        "pattern": "(?i)(Find|find).*(Location|location),*"
+        "pattern": "Find Location"
       },
       {
         "intent": "HealthAndSafety",
-        "pattern": "(?i)(Health|health).*(And|and).*(Safety|safety).*"
+        "pattern": "Health and Safety"
       },
       {
         "intent": "MainMenu",
-        "pattern": "(?i)(Return|return).*(To|to).*(Main|main).*(Menu|menu).*"
+        "pattern": "Return to Main Menu"
       },
       {
         "intent": "Benefits",
-        "pattern": "(?i)(Benefits|benefits).*"
+        "pattern": "Benefits"
       },
       {
         "intent": "BullyingAndHarassment",
-        "pattern": "(?i)(Bullying|bullying).*(And|and).*(Harassment|harassment).*"
+        "pattern": "Bullying and Harassment"
       },
       {
         "intent": "FindLocationsClinic",
-        "pattern": "(?i)(Clinics|clinics).*"
+        "pattern": "Clinics"
       },
       {
         "intent": "GeneralSafety",
-        "pattern": "(?i)(General|general).*(Workplace|workplace).*(Safety|safety).*"
+        "pattern": "General Workplace Safety"
       },
       {
         "intent": "FlexibleWork",
-        "pattern": "(?i)(Flexible|flexible).*(Work|work).*(Schedule|schedule).*"
+        "pattern": "Flexible Work Schedule"
       },
       {
         "intent": "UpdatePersonalInformation",
-        "pattern": "(?i)(Update|update).*(Personal|personal).*(Information|information).*"
+        "pattern": "Update Personal information"
       },
       {
         "intent": "MentalHealth",
-        "pattern": "(?i)(Mental|mental).*(Health|health).*(Resources|resources).*"
+        "pattern": "Mental Health Resources"
       },
       {
         "intent": "FireDrillProcedures",
-        "pattern": "(?i)(Fire|fire).*(Drill|drill).*(Procedures|procedures).*"
+        "pattern": "Fire Drill Procedures"
       },
       {
         "intent": "Ergonomics",
-        "pattern": "(?i)(Ergonomics|ergonomics).*(Information|information).*"
+        "pattern": "Ergonomics"
       },
       {
         "intent": "SafetyAdvisor",
-        "pattern": "(?i)(Safety|safety).*(Advisor|advisor).*"
+        "pattern": "Safety Advisor"
       },
       {
         "intent": "ReportIncident",
-        "pattern": "(?i)(Report|report).*(Incident|incident).*"
+        "pattern": "Report Incident"
       },
       {
         "intent": "MapLocation",
-        "pattern": "(?i)(Middlemore|middlemore).*(Maps|maps).*"
+        "pattern": "Middlemore Maps"
       }
     ]
   }

@@ -29,14 +29,19 @@
         },
     {
       "type": "TextBlock",
-      "text": "If you wish to view your payslips from offsite, use the following link:
-https://cmdhb.mykiosk.org.nz/",
+      "text": "Te Whatu Ora offers numerous opportunities for career growth.",
       "isSubtle": false,
       "wrap": true
     },
         {
       "type": "TextBlock",
-      "text": "If you are onsite use the link on Paanui.",
+      "text": "Please refer to [INSERT LINK HERE] for more information.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Otherwise refer to your reporting manager for potential opportunities coming up.",
       "isSubtle": false,
       "wrap": true
     }

@@ -43,6 +43,7 @@
         "type": "imBack",
         "value": "Fire Drill Procedures"
         }
+      }
       }, 
     {
       "type": "Action.Submit",
@@ -52,6 +53,7 @@
         "type": "imBack",
         "value": "General Workplace Safety"
         }
+      }
       },
     {
       "type": "Action.Submit",
@@ -61,6 +63,7 @@
         "type": "imBack",
         "value": "Report Incident"
         }
+      }
       },
     {
       "type": "Action.Submit",
@@ -70,6 +73,7 @@
         "type": "imBack",
         "value": "Safety Advisor"
         }
+      }
       },
     {
       "type": "Action.Submit",
@@ -80,8 +84,9 @@
         "value": "Return to Main Menu"
         }
       }
+      }
   ]
 }
-
 ```
+
 

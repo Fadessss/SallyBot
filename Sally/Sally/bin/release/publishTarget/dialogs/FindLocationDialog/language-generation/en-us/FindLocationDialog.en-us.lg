@@ -11,7 +11,7 @@
   "version": "1.2",
   "type": "AdaptiveCard",
   "body": [
-    {
+  {
      "type": "Image",
             "style": "Person",
             "url": "https://i.imgur.com/JfFL2Cb.png",
@@ -29,38 +29,42 @@
         },
     {
       "type": "TextBlock",
-      "wrap": true,
-      "text": "Which location do you need help finding?",
-      "isSubtle": false
+      "text": "Certainly! Here is a list of Counties Manukau clinics and the locations, click on the name of the clinic to view the services it offers.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "- [**Middlemore Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/middlemore-hospital/) 
+       \n100A Hospital Road\n
+       \r- [**Franklin Memorial Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/franklin-memorial-hospital/)
+       \n72 Kitchener Road, Waiuku\n
+       \r- [**Pukekohe Hospital:**](https://www.countiesmanukau.health.nz/our-services/a-z/pukekohe-hospital/)
+       \n1 Tuakau Road, Pukekohe\n
+       \r- [**Manukau Surgery Centre:**](https://www.countiesmanukau.health.nz/our-services/a-z/manukau-surgery-centre/) 
+       \n901 Great South Road, Manurewa\n
+       \r- [**Botany SuperClinic:**](https://www.countiesmanukau.health.nz/our-services/a-z/botany-superclinic/)
+       \n260 Botany Road, Botany, Howick",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Further information can be found [here.](https://www.countiesmanukau.health.nz/)",
+      "isSubtle": false,
+      "wrap": true
     }
   ],
   "actions": [
     {
       "type": "Action.Submit",
-      "title": "Clinics",
-      "data": {
-      "msteams": {
-        "type": "imBack",
-        "value": "Clinics"
-        }
-      },
-        {
-      "type": "Action.Submit",
-      "title": "Middlemore Maps",
-      "data": {
-      "msteams": {
-        "type": "imBack",
-        "value": "Middlemore Maps"
-        }
-      },
-        {
-      "type": "Action.Submit",
-      "title": "Return to Main Menu",
+      "title": "Return",
       "data": {
       "msteams": {
         "type": "imBack",
         "value": "Return to Main Menu"
         }
+      }
       }
   ]
 }

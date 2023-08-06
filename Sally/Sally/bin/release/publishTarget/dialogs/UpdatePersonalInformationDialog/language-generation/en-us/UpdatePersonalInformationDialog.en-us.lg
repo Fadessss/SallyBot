@@ -6,7 +6,6 @@
 ]
 
 # SendActivity_YV9l1H_attachment_VAQNzI()
-
 - ```{
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.2",
@@ -164,6 +163,8 @@
         "value": "Human Resources"
         }
       }
+      }
   ]
 }```
+
 
