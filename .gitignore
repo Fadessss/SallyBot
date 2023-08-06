@@ -42,3 +42,5 @@ Sally/Sally/obj/project.nuget.cache
 Sally/Sally/obj/Sally.csproj.nuget.dgspec.json
 Sally/Sally/obj/Sally.csproj.nuget.g.props
 Sally/Sally/settings/appsettings.json
+Sally/Sally/bin/release/publishTarget/onnxruntime.pdb
+Sally/Sally/bin/release/netcoreapp3.1/win-x64/onnxruntime.pdb

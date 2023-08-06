@@ -1,0 +1,125 @@
+[import](common.lg)
+
+# SendActivity_FpwYQd()
+[Activity
+    Attachments = ${json(SendActivity_FpwYQd_attachment_xerO7b())}
+]
+
+# SendActivity_FpwYQd_attachment_xerO7b()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Image",
+      "style": "Person",
+      "url": "https://i.imgur.com/JfFL2Cb.png",
+      "width": "58px",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "  Sally",  
+      "wrap": true,
+      "size": "Default",
+      "maxLines": 1,
+      "fontType": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Report Hazard or Incident",
+      "size": "Medium",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "As an employee, your safety is our priority. If you encounter any safety hazard or incident, please report it immediately using one of the following methods:",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "• Incident Reporting System:",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Use our dedicated reporting system for safety concerns to submit your report, providing accurate details about the hazard or incident as instructed.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "• Online Form:",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "If the reporting system is unable to be accessed, use the following [Incident Form](https://www.example.com/incident-form) to fill in the details about the hazard's nature, location, and other relevant information.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "• Designated Personnel:",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Alternatively, report the hazard or incident to designated personnel like your supervisor or the health and safety officer. They will guide you through the process and ensure it reaches the appropriate authorities. You can contact the Safety Advisor [through here](mailto:safety.officer@example.com).",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Remember, Timely Reporting Matters!",
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Swift reporting helps prevent potential harm and ensures a safe working environment. Notify us immediately so we can take necessary actions and implement corrective measures.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Need Immediate Assistance?",
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "For urgent safety concerns or immediate assistance, please contact the following numbers (from highest priority to lowest):",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Emergency Contact Number:** 111",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Company Safety Hotline:** 02X XXX XXXX",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "**Email:** incidentreport@tewhatuora.org",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Your safety is our priority. Please don't hesitate to reach out if you need help.",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Return",
+      "data": "Health and Safety"
+    }
+  ]
+}
+
+```

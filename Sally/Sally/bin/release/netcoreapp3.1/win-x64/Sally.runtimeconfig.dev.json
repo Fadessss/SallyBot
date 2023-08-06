@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Fades\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Fades\\.nuget\\packages"
+    ]
+  }
+}

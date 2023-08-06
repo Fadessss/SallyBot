@@ -43,9 +43,13 @@ https://onestaffcmh.hanz.health.nz/signin.do",
   ],
   "actions": [
     {
-    "type": "Action.Submit",
-    "title": "Return",
-    "data": "Human Resources"
-    }
+      "type": "Action.Submit",
+      "title": "Return",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Human Resources"
+        }
+      }
   ]
 }```
