@@ -42,9 +42,13 @@
   ],
   "actions": [
     {
-    "type": "Action.Submit",
-    "title": "Return",
-    "data": "Health and Safety"
-    }
+      "type": "Action.Submit",
+      "title": "Return",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Health and Safety
+        }
+      }
   ]
 }```

@@ -48,54 +48,105 @@
     {
       "type": "Action.Submit",
       "title": "Bullying and Harassment",
-      "data": "Bullying and Harassment"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Bullying and Harassment"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Ethics and Conduct",
-      "data": "Ethics and Conduct"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Ethics and Conduct"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Mental Health Resources",
-      "data": "Mental Health Resources"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Mental Health Resources"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Pay Stubs",
-      "data": "Pay Stubs"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Pay Stubs"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Professional Development",
-      "data": "Professional Development"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Professional Development"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Remote Work",
-      "data": "Remote Work"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Remote Work"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Request Leave",
-      "data": "Request Leave"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Request Leave"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Update Personal Information",
-      "data": "Update Personal Information"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Update Personal Information"
+        }
+      }
     },
     {
       "type": "Action.Submit",
-      "title": "Requesting Flexible Work",
-      "data": "Flexible Work Schedule"
+      "title": "Flexible Work Schedule",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Flexible Work Schedule"
+        }
+      }
     },
     {
       "type": "Action.Submit",
       "title": "Return to Main Menu",
-      "data": "Return to Main Menu"
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Return to Main Menu"
+        }
+      }
     }
   ]
 }
 ```
+
 

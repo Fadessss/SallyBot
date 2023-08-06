@@ -80,12 +80,17 @@
       "url": "https://example.com/more-information"
     },
         {
-            "type": "Action.Submit",
-            "title": "Return to Main Menu",
-            "data": "Return to Main Menu"
+      "type": "Action.Submit",
+      "title": "Return to Main Menu",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Return to Main Menu"
         }
+      }
   ]
 }```
+
 
 
 

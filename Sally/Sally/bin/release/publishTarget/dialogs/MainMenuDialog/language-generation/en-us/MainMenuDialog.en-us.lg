@@ -36,26 +36,45 @@
   ],
   "actions": [
     {
-            "type": "Action.Submit",
-            "title": "Human Resources",
-            "data": "Human Resources"
-        },
-        {
-            "type": "Action.Submit",
-            "title": "Find Location",
-            "data": "Find Location"
-        },
-        {
-            "type": "Action.Submit",
-            "title": "Health and Safety",
-            "data": "Health and Safety"
-        },
-        {
-            "type": "Action.Submit",
-            "title": "Who is Sally?",
-            "data": "Who is Sally?"
+      "type": "Action.Submit",
+      "title": "Human Resources",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Human Resources"
         }
+      }
+    },
+        {
+      "type": "Action.Submit",
+      "title": "Find Location",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Find Location"
+        }
+      }
+    },
+        {
+      "type": "Action.Submit",
+      "title": "Health and Safety",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Health and Safety"
+        }
+      }
+    },
+        {
+      "type": "Action.Submit",
+      "title": "Who is Sally?",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Who is Sally?"
+        }
+      }
+    }
   ]
 }
 ```
-

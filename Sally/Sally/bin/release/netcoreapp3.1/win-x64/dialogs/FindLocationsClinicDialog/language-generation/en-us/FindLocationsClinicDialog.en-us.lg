@@ -57,9 +57,13 @@
   ],
   "actions": [
     {
-    "type": "Action.Submit",
-    "title": "Return",
-    "data": "Find Location"
-    }
+      "type": "Action.Submit",
+      "title": "Return",
+      "data": {
+      "msteams": {
+        "type": "imBack",
+        "value": "Find Location"
+        }
+      }
   ]
 }```
