@@ -724,7 +724,7 @@
       },
       {
         "intent": "UpdatePersonalInformation",
-        "pattern": "(?i)(how can (I|we) update my personal information)|(what's the process for updating personal information)|((could you|can you) guide me on changing my personal information)|(I need to modify my personal information\\. how do I do that\\?)|(is there a way to edit my personal information in the system\\?)|(how (do|can) I update my personal info)|(how to update my personal info)| (where can I edit my personal data\\?)|(what are the steps for updating my personal info\\?)|(help me with updating my personal particulars\\?)|(I want to update my personal records\\. How can I proceed\\?)|(i want to update my personal info)|(update personal info)|(update personal information)"
+        "pattern": "(?i)(how can (?:I|we) update my personal information|what's the process for updating personal information|(?:(?:could you|can you) guide me on changing my personal information)|I need to modify my personal information\\. how do I do that\\?|is there a way to edit my personal information in the system\\?|how (?:do|can) I update my personal info|how to update my personal info|where can I edit my personal data\\?|what are the steps for updating my personal info\\?|help me with updating my personal particulars\\?|I want to update my personal records\\. How can I proceed\\?|i want to update my personal info|update personal info|update personal information)"
       },
       {
         "intent": "MentalHealth",
@@ -740,11 +740,11 @@
       },
       {
         "intent": "SafetyAdvisor",
-        "pattern": "(?i)(Safety|safety).*(Advisor|advisor)|who is the safety advisor|what is the safety advisor|how can i contact the safety advisor|how do i contact the safety advisor|can you tell me about the safety advisor|tell me more about the safety advisor|give me info on the safety advisor|safety advisor details|safety advisor contact|where to find the safety advisor|need information about the safety advisor|safety advisor's role|safety advisor responsibilities"
+        "pattern": "(?i)(safety.*advisor|who is the safety advisor|what is the safety advisor|how can i contact|how do i contact|can you tell me about|tell me more about|give me info on|where to find|need information about|safety advisor's role|safety advisor responsibilities)"
       },
       {
         "intent": "ReportIncident",
-        "pattern": "(?i)(Report|report).*(Incident|incident).*"
+        "pattern": "(?i)(report.*(incident|safety hazards|safety incidents)|how do i report incidents|how do i report safety hazards|how do i report safety incidents|i want to report safety hazards|tell me how to report incidents|what are the procedures on reporting safety incidents)"
       },
       {
         "intent": "MapLocation",
