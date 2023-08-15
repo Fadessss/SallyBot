@@ -654,7 +654,23 @@
         "id": "ErOp5h",
         "name": "MapLocation"
       },
-      "intent": "MapLocation"
+      "intent": "MapLocation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "EI9UVc"
+          },
+          "activityProcessed": true,
+          "dialog": "MapLocationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "B46QCi"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -664,11 +680,11 @@
     "intents": [
       {
         "intent": "Capabilities",
-        "pattern": "(?i)(Who|who).*(Is|is).*(Sally|sally).*"
+        "pattern": "(?i)(Who|who).*(Is|is).*(Sally|sally)|(?i)Tell\\s*me\\s*about\\s*(Sally|sally)|(?i)I\\s*want\\s*to\\s*know\\s*more\\s*about\\s*(Sally|sally)|(?i)Can\\s*you\\s*tell\\s*me\\s*who\\s*(Sally|sally)\\s*is\\?|(?i)What's\\s*the\\s*information\\s*on\\s*(Sally|sally)\\s*?|(?i)Give\\s*me\\s*details\\s*about\\s*(Sally|sally)|(?i)What\\s*is\\s*(Sally|sally)"
       },
       {
         "intent": "EthicsPolicy",
-        "pattern": "(?i)(Ethics|ethics).*(And|and).*(Conduct|conduct).*"
+        "pattern": "(?i)(Ethics\\s*Policy|Code\\s*of\\s*Conduct)|((?i)(Ethics|Code\\s*of\\s*Conduct).*\\s*(And|and)\\s*.*(Conduct|Policy))|((?i)What\\s*is\\s*(the\\s*)?(Ethics\\s*Policy|Code\\s*of\\s*Conduct))|((?i)I\\s*want\\s*to\\s*know\\s*about\\s*(the\\s*)?(Ethics\\s*Policy|Code\\s*of\\s*Conduct))|((?i)Tell\\s*me\\s*about\\s*(the\\s*)?(Ethics\\s*Policy|Code\\s*of\\s*Conduct))"
       },
       {
         "intent": "ProfessionalDevelopment",
@@ -744,7 +760,7 @@
       },
       {
         "intent": "ReportIncident",
-        "pattern": "(?i)(report.*(incident|safety hazards|safety incidents)|how do i report incidents|how do i report safety hazards|how do i report safety incidents|i want to report safety hazards|tell me how to report incidents|what are the procedures on reporting safety incidents)"
+        "pattern": "(?i)(report.*(incident|safety\\s*hazards|safety\\s*incidents)|how\\s*do\\s*i\\s*report\\s*incidents|how\\s*do\\s*i\\s*report\\s*safety\\s*hazards|how\\s*do\\s*i\\s*report\\s*safety\\s*incidents|i\\s*want\\s*to\\s*report\\s*safety\\s*hazards|tell\\s*me\\s*how\\s*to\\s*report\\s*incidents|what\\s*are\\s*the\\s*procedures\\s*on\\s*reporting\\s*safety\\s*incidents|incident\\s*report)"
       },
       {
         "intent": "MapLocation",
