@@ -744,7 +744,7 @@
       },
       {
         "intent": "MentalHealth",
-        "pattern": "(?i)(Mental|mental).*(Health|health).*(Resources|resources).*"
+        "pattern": "(?i)(mental\\s*health|mental\\s*health\\s*resources|mental\\s*health\\s*(support|information)|find\\s*resources\\s*for\\s*mental\\s*health|where\\s*can\\s*I\\s*find\\s*resources\\s*for\\s*mental\\s*health|tell\\s*me\\s*about\\s*mental\\s*health\\s*(resources|support|information))"
       },
       {
         "intent": "FireDrillProcedures",
