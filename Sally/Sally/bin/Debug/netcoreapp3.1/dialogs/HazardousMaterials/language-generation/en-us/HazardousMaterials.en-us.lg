@@ -1,0 +1,58 @@
+[import](common.lg)
+
+# SendActivity_kGmHBf()
+[Activity
+    Attachments = ${json(SendActivity_kGmHBf_attachment_ARGcl6())}
+]
+
+# SendActivity_kGmHBf_attachment_ARGcl6()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "type": "AdaptiveCard",
+    "body": [
+    {
+       "type": "Image",
+              "style": "Person",
+              "url": "https://i.imgur.com/JfFL2Cb.png",
+              "width": "58px",
+              "size": "Medium"
+      },
+      {
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "text": "     Sally",
+              "wrap": true,
+              "size": "Default",
+              "maxLines": 1,
+              "fontType": "Default"
+          },
+      {
+        "type": "TextBlock",
+        "text": "Depending on your role, Te Whatu Ora may have specific guidelines and procedures for handling hazardous materials. This includes details on proper storage, transportation, usage, and disposal, as well as the importance of using PPE and reporting any incidents.",
+        "isSubtle": false,
+        "wrap": true
+      },
+          {
+        "type": "TextBlock",
+        "text": "Please go to this link to read more about the procedures and guidelines related to hazardous materials at Te Whatu Ora. [INSERT LINK HERE]",
+        "isSubtle": false,
+        "wrap": true
+      },
+          {
+        "type": "TextBlock",
+        "text": "For any further clarification or specific questions regarding hazardous materials handling and disposal, please refer to your manager or the health and safety team.",
+        "isSubtle": false,
+        "wrap": true
+      }
+    ],
+    "actions": [
+      {
+      "type": "Action.Submit",
+      "title": "Return",
+      "data": "Human Resources"
+      }
+    ]
+  }```

@@ -671,6 +671,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "SRQOh7",
+        "name": "HazardousMaterials"
+      },
+      "intent": "HazardousMaterials",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "r4Kk5M"
+          },
+          "activityProcessed": true,
+          "dialog": "HazardousMaterials"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "4J2MVJ"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -765,6 +789,10 @@
       {
         "intent": "MapLocation",
         "pattern": "(?i)(Middlemore|middlemore).*(Maps|maps).*"
+      },
+      {
+        "intent": "HazardousMaterials",
+        "pattern": "(?i)\\b(?:hazardous\\s+materials?|safety\\s+measures?|PPE|proper\\s+storage|transportation|usage|disposing|spills?|leaks?|accidents?|labeling|warning\\s+signs?|symbols?|regulations?|guidelines?|reporting)\\b"
       }
     ]
   }
