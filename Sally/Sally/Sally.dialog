@@ -695,6 +695,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "wvWHVn",
+        "name": "Wellbeing"
+      },
+      "intent": "Wellbeing",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "T1QMsY"
+          },
+          "activityProcessed": true,
+          "dialog": "Wellbeing"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "WMdpqu"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -793,6 +817,10 @@
       {
         "intent": "HazardousMaterials",
         "pattern": "(?i)\\b(?:hazardous\\s+materials?|safety\\s+measures?|PPE|proper\\s+storage|transportation|usage|disposing|spills?|leaks?|accidents?|labeling|warning\\s+signs?|symbols?|regulations?|guidelines?|reporting)\\b"
+      },
+      {
+        "intent": "Wellbeing",
+        "pattern": "(?i)\\b(?:well[-\\s]?being|mental\\s+health|resources?|support|stress\\s+management|mindfulness|workshops?|training\\s+sessions?|webinars?|professional\\s+help|helplines?|mental\\s+health\\s+organizations?)\\b"
       }
     ]
   }

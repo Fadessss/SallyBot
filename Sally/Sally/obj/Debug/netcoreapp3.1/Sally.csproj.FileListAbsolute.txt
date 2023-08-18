@@ -2595,3 +2595,12 @@ C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 
 C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\obj\Debug\netcoreapp3.1\Sally.dll
 C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\obj\Debug\netcoreapp3.1\Sally.pdb
 C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\obj\Debug\netcoreapp3.1\Sally.genruntimeconfig.cache
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\recognizers\Wellbeing.en-us.lu.dialog
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\recognizers\Wellbeing.lu.dialog
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\recognizers\Wellbeing.lu.qna.dialog
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\Wellbeing.dialog
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\language-generation\en-us\Wellbeing.en-us.lg
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\language-understanding\en-us\Wellbeing.en-us.lu
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\Wellbeing.en-us.lu
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\knowledge-base\en-us\Wellbeing.en-us.qna
+C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\Wellbeing.en-us.qna
