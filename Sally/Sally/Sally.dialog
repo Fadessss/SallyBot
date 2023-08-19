@@ -696,30 +696,6 @@
           }
         }
       ]
-    },
-    {
-      "$kind": "Microsoft.OnIntent",
-      "$designer": {
-        "id": "wvWHVn",
-        "name": "Wellbeing"
-      },
-      "intent": "Wellbeing",
-      "actions": [
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "T1QMsY"
-          },
-          "activityProcessed": true,
-          "dialog": "Wellbeing"
-        },
-        {
-          "$kind": "Microsoft.EndDialog",
-          "$designer": {
-            "id": "WMdpqu"
-          }
-        }
-      ]
     }
   ],
   "generator": "Sally.lg",
@@ -729,11 +705,11 @@
     "intents": [
       {
         "intent": "Capabilities",
-        "pattern": "(?i)(Who|who).*(Is|is).*(Sally|sally)|(?i)Tell\\s*me\\s*about\\s*(Sally|sally)|(?i)I\\s*want\\s*to\\s*know\\s*more\\s*about\\s*(Sally|sally)|(?i)Can\\s*you\\s*tell\\s*me\\s*who\\s*(Sally|sally)\\s*is\\?|(?i)What's\\s*the\\s*information\\s*on\\s*(Sally|sally)\\s*?|(?i)Give\\s*me\\s*details\\s*about\\s*(Sally|sally)|(?i)What\\s*is\\s*(Sally|sally)"
+        "pattern": ".*(?i)(who|about|info).*(is|about)?.*(sally).*"
       },
       {
         "intent": "EthicsPolicy",
-        "pattern": "(?i)(Ethics\\s*Policy|Code\\s*of\\s*Conduct)|((?i)(Ethics|Code\\s*of\\s*Conduct).*\\s*(And|and)\\s*.*(Conduct|Policy))|((?i)What\\s*is\\s*(the\\s*)?(Ethics\\s*Policy|Code\\s*of\\s*Conduct))|((?i)I\\s*want\\s*to\\s*know\\s*about\\s*(the\\s*)?(Ethics\\s*Policy|Code\\s*of\\s*Conduct))|((?i)Tell\\s*me\\s*about\\s*(the\\s*)?(Ethics\\s*Policy|Code\\s*of\\s*Conduct))"
+        "pattern": ".*(?i)(((ethic).*(polic)?)|((code|info).*(of)?.*(conduct))).*"
       },
       {
         "intent": "ProfessionalDevelopment",
@@ -785,15 +761,15 @@
       },
       {
         "intent": "FlexibleWork",
-        "pattern": "(?i)(flexi|chang|casual|part).*(work)?.*(schedule|hours|time|shift).*(slot)?.*"
+        "pattern": ".*(?i)(flexi|chang|casual|part).*(work)?.*(schedule|hours|time|shift).*(slot)?.*"
       },
       {
         "intent": "UpdatePersonalInformation",
-        "pattern": "(?i)(how can (?:I|we) update my personal information|what's the process for updating personal information|(?:(?:could you|can you) guide me on changing my personal information)|I need to modify my personal information\\. how do I do that\\?|is there a way to edit my personal information in the system\\?|how (?:do|can) I update my personal info|how to update my personal info|where can I edit my personal data\\?|what are the steps for updating my personal info\\?|help me with updating my personal particulars\\?|I want to update my personal records\\. How can I proceed\\?|i want to update my personal info|update personal info|update personal information)"
+        "pattern": ".*(?i)(updat).*(person|my|employee|staff).*(info).*"
       },
       {
         "intent": "MentalHealth",
-        "pattern": "(?i)(mental\\s*health|mental\\s*health\\s*resources|mental\\s*health\\s*(support|information)|find\\s*resources\\s*for\\s*mental\\s*health|where\\s*can\\s*I\\s*find\\s*resources\\s*for\\s*mental\\s*health|tell\\s*me\\s*about\\s*mental\\s*health\\s*(resources|support|information))"
+        "pattern": ".*(?i)(eap|employee assistance program|mental|mind|well|stress|anxiety|anxious|mindful|therap|counsil).*(heal|well)?.*(info|support|resourc|session|help|assist|manag|workshop)?.*"
       },
       {
         "intent": "FireDrillProcedures",
@@ -805,11 +781,11 @@
       },
       {
         "intent": "SafetyAdvisor",
-        "pattern": "(?i)(safety.*advisor|who is the safety advisor|what is the safety advisor|how can i contact|how do i contact|can you tell me about|tell me more about|give me info on|where to find|need information about|safety advisor's role|safety advisor responsibilities)"
+        "pattern": ".*(?i)(safe|hazard).*(advisor|ordinator|direct|consult|manag|special|technic).*"
       },
       {
         "intent": "ReportIncident",
-        "pattern": "(?i)(report.*(incident|safety\\s*hazards|safety\\s*incidents)|how\\s*do\\s*i\\s*report\\s*incidents|how\\s*do\\s*i\\s*report\\s*safety\\s*hazards|how\\s*do\\s*i\\s*report\\s*safety\\s*incidents|i\\s*want\\s*to\\s*report\\s*safety\\s*hazards|tell\\s*me\\s*how\\s*to\\s*report\\s*incidents|what\\s*are\\s*the\\s*procedures\\s*on\\s*reporting\\s*safety\\s*incidents|incident\\s*report)"
+        "pattern": ".*(?i)(report|tell|contact|talk).*(incident|hazard|).*"
       },
       {
         "intent": "MapLocation",
@@ -817,11 +793,7 @@
       },
       {
         "intent": "HazardousMaterials",
-        "pattern": "(?i)\\b(?:hazardous\\s+materials?|safety\\s+measures?|PPE|proper\\s+storage|transportation|usage|disposing|spills?|leaks?|accidents?|labeling|warning\\s+signs?|symbols?|regulations?|guidelines?|reporting)\\b"
-      },
-      {
-        "intent": "Wellbeing",
-        "pattern": "(?i)\\b(?:well[-\\s]?being|mental\\s+health|resources?|support|stress\\s+management|mindfulness|workshops?|training\\s+sessions?|webinars?|professional\\s+help|helplines?|mental\\s+health\\s+organizations?)\\b"
+        "pattern": ".*(?i)(hazard|danger).*(material|item|equip|solution|fluid|liquid|sample|waste).*(guide)?.*"
       }
     ]
   }
