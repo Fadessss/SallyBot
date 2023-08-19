@@ -2604,3 +2604,22 @@ C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 
 C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\Wellbeing.en-us.lu
 C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\knowledge-base\en-us\Wellbeing.en-us.qna
 C:\Users\wobkobi\OneDrive - AUT University\Desktop\Studies Notes\year 3\COMP703 R&D\dev\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\Wellbeing.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\Sally.StaticWebAssets.xml
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\HazardousMaterials\HazardousMaterials.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\HazardousMaterials\recognizers\HazardousMaterials.en-us.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\HazardousMaterials\recognizers\HazardousMaterials.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\HazardousMaterials\recognizers\HazardousMaterials.lu.qna.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\recognizers\Wellbeing.en-us.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\recognizers\Wellbeing.lu.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\recognizers\Wellbeing.lu.qna.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\Wellbeing.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\HazardousMaterials\language-generation\en-us\HazardousMaterials.en-us.lg
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\language-generation\en-us\Wellbeing.en-us.lg
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\HazardousMaterials\language-understanding\en-us\HazardousMaterials.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\language-understanding\en-us\Wellbeing.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\HazardousMaterials.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\Wellbeing.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\HazardousMaterials\knowledge-base\en-us\HazardousMaterials.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\Wellbeing\knowledge-base\en-us\Wellbeing.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\HazardousMaterials.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\Wellbeing.en-us.qna

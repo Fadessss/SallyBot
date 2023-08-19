@@ -244,7 +244,8 @@
       "$kind": "Microsoft.OnIntent",
       "$designer": {
         "id": "mWIN4n",
-        "name": "PayStubs"
+        "name": "PayStubs",
+        "comment": ""
       },
       "intent": "PayStubs",
       "actions": [
@@ -740,23 +741,23 @@
       },
       {
         "intent": "RemoteWork",
-        "pattern": "(?i)(Remote|remote).*(Work|work).*"
+        "pattern": ".*(?i)(remote|work|working).*(from)?.*(work|remotely|home).*"
       },
       {
         "intent": "PayStubs",
-        "pattern": "(?i)(Pay|pay).*(Stubs|stubs).*"
+        "pattern": ".*(?i)(wage|salary|pay|income).*(stub|stubs|slip|slips|record|records|statement|info).*"
       },
       {
         "intent": "RequestLeave",
-        "pattern": "(?i)(Request|request).*(Leave|leave).*"
+        "pattern": ".*(?i)(request|apply|take|taking|have|book|schedule).*(for)?.*(leave|vacation|holiday|sick|ill|time|day).*(off)?.*(day|end)?.*"
       },
       {
         "intent": "HumanResources",
-        "pattern": "(?i)(Human|human).(Resources|resources).*"
+        "pattern": ".*(?i)(Human|human|HR).(Resources|resources)?.*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "FindLocation",
-        "pattern": "(?i)(Find|find).*(Location|location),*"
+        "pattern": "(?i)(find|locate|location)?.*(location|place|map|find|locate).*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "HealthAndSafety",

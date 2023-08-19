@@ -244,7 +244,8 @@
       "$kind": "Microsoft.OnIntent",
       "$designer": {
         "id": "mWIN4n",
-        "name": "PayStubs"
+        "name": "PayStubs",
+        "comment": ""
       },
       "intent": "PayStubs",
       "actions": [
@@ -740,51 +741,51 @@
       },
       {
         "intent": "RemoteWork",
-        "pattern": "(?i)(Remote|remote).*(Work|work).*"
+        "pattern": ".*(?i)(remote|work|working|home|hybrid|virtual).*(from)?.*(work|remotely|home|flexib).*"
       },
       {
         "intent": "PayStubs",
-        "pattern": "(?i)(Pay|pay).*(Stubs|stubs).*"
+        "pattern": ".*(?i)(wage|salary|pay|income).*(stub|stubs|slip|slips|record|records|statement|info).*"
       },
       {
         "intent": "RequestLeave",
-        "pattern": "(?i)(Request|request).*(Leave|leave).*"
+        "pattern": ".*(?i)(request|apply|take|taking|have|book|schedule).*(for)?.*(leave|vacation|holiday|sick|ill|time|day).*(off)?.*(day|end)?.*"
       },
       {
         "intent": "HumanResources",
-        "pattern": "(?i)(Human|human).(Resources|resources).*"
+        "pattern": ".*(?i)(Human|human|HR).(Resources|resources)?.*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "FindLocation",
-        "pattern": "(?i)(Find|find).*(Location|location),*"
+        "pattern": ".*(?i)(find|locat)?.*(locat|place|find).*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "HealthAndSafety",
-        "pattern": "(?i)(Health|health).*(And|and).*(Safety|safety).*"
+        "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "MainMenu",
-        "pattern": "(?i)(Return|return).*(To|to).*(Main|main).*(Menu|menu).*"
+        "pattern": ".*(?i)(main).*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "Benefits",
-        "pattern": "(?i)(Benefits|benefits).*"
+        "pattern": ".*(?i)(benefit|perk).*"
       },
       {
         "intent": "BullyingAndHarassment",
-        "pattern": "(?i)(Bullying|bullying).*(And|and).*(Harassment|harassment).*"
+        "pattern": ".*(?i)(bully|harass|discriminat|violen|intimidat|bullied).*(and)?.*(bully|harass|discriminat)?.*(policy|policies|standard|help|guide|info).*"
       },
       {
         "intent": "FindLocationsClinic",
-        "pattern": "(?i)(Clinics|clinics).*"
+        "pattern": ".*(?i)(find|locat).*(clinic).*"
       },
       {
         "intent": "GeneralSafety",
-        "pattern": "(?i)(General|general).*(Workplace|workplace).*(Safety|safety).*"
+        "pattern": ".*(?i)(general|work).*(work)?.*(safe).*"
       },
       {
         "intent": "FlexibleWork",
-        "pattern": "(?i)(Flexible|flexible).*(Work|work).*(Schedule|schedule).*"
+        "pattern": "(?i)(flexi|chang|casual|part).*(work)?.*(schedule|hours|time|shift).*(slot)?.*"
       },
       {
         "intent": "UpdatePersonalInformation",
@@ -796,11 +797,11 @@
       },
       {
         "intent": "FireDrillProcedures",
-        "pattern": "(?i)(Fire|fire).*(Drill|drill).*(Procedures|procedures).*"
+        "pattern": ".*(?i)(fire).*(drill|exercis|practic|rehears).*(procedur)?.*"
       },
       {
         "intent": "Ergonomics",
-        "pattern": "(?i)(Ergonomics|ergonomics).*(Information|information).*"
+        "pattern": ".*(?i)(ergonomic|posture|comfort|sitting|RSI).*(info|guide|help)?.*"
       },
       {
         "intent": "SafetyAdvisor",
@@ -812,7 +813,7 @@
       },
       {
         "intent": "MapLocation",
-        "pattern": "(?i)(Middlemore|middlemore).*(Maps|maps).*"
+        "pattern": ".*(?i)(map).*"
       },
       {
         "intent": "HazardousMaterials",
