@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "0SHimP",
+    "name": "HumanResourcesRegexDialog",
+    "comment": "A dialog for the regex hr intent"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "PzL15n"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Zvev0Z"
+          },
+          "activity": "${SendActivity_Zvev0Z()}"
+        }
+      ]
+    }
+  ],
+  "generator": "HumanResourcesRegexDialog.lg",
+  "recognizer": "HumanResourcesRegexDialog.lu.qna",
+  "id": "HumanResourcesRegexDialog"
+}

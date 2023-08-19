@@ -696,6 +696,78 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "bGktcY",
+        "name": "HumanResourcesRegex"
+      },
+      "intent": "HumanResourcesRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "igYoYV"
+          },
+          "activityProcessed": true,
+          "dialog": "HumanResourcesRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "f2MZ5j"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "yEFM3L",
+        "name": "FindLocationRegex"
+      },
+      "intent": "FindLocationRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "NuYdRT"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationRegex"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "MoCVJg"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "gPy3yz",
+        "name": "HealthAndSafetyRegex"
+      },
+      "intent": "HealthAndSafetyRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "VZp0Av"
+          },
+          "activityProcessed": true,
+          "dialog": "HealthAndSafetyRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "RWu6Rv"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -717,7 +789,7 @@
       },
       {
         "intent": "RemoteWork",
-        "pattern": ".*(?i)(remote|work|working|home|hybrid|virtual).*(from)?.*(work|remotely|home|flexib).*"
+        "pattern": ".*(?i)(remote|work|working|home|hybrid|virtual).*(from)?.*(work|remotely|home|flexib|collab).*"
       },
       {
         "intent": "PayStubs",
@@ -794,6 +866,18 @@
       {
         "intent": "HazardousMaterials",
         "pattern": ".*(?i)(hazard|danger).*(material|item|equip|solution|fluid|liquid|sample|waste).*(guide)?.*"
+      },
+      {
+        "intent": "HumanResourcesRegex",
+        "pattern": ".*(?i)(human resources|hr).*"
+      },
+      {
+        "intent": "FindLocationRegex",
+        "pattern": ".*(?i)(find|locat)?.*(locat|place|find).*"
+      },
+      {
+        "intent": "HealthAndSafetyRegex",
+        "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*"
       }
     ]
   }

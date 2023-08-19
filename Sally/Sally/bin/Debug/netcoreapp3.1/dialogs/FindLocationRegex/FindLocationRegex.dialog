@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "NwnsAn",
+    "name": "FindLocationRegex",
+    "comment": "Regex for location intent\n"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "3YKfv8"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "9gqDfe"
+          },
+          "activity": "${SendActivity_9gqDfe()}"
+        }
+      ]
+    }
+  ],
+  "generator": "FindLocationRegex.lg",
+  "recognizer": "FindLocationRegex.lu.qna",
+  "id": "FindLocationRegex"
+}

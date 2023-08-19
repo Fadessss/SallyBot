@@ -1,0 +1,50 @@
+[import](common.lg)
+
+# SendActivity_9gqDfe()
+[Activity
+    Attachments = ${json(SendActivity_9gqDfe_attachment_Coilvd())}
+]
+
+# SendActivity_9gqDfe_attachment_Coilvd()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "Which Location would you like help finding?",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Some topics I can help you with include:\n\nClinics\n\nHospitals\n\nMaps",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Find Location"
+    }
+  ]
+}```
