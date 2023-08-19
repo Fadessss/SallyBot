@@ -737,7 +737,7 @@
       },
       {
         "intent": "ProfessionalDevelopment",
-        "pattern": "(?i)(.*(professional|career|skill).*(development|opportunities|skills|growth|options).*)|(.*(myself).*(professionally).*)|(.*(self).*(improvement).*)"
+        "pattern": "(?i)(.*(professional|career|skill|develop|grow).*(development|opportunit|skill|growth|option|career).*)|(.*(myself).*(professionally).*)|(.*(self).*(improvement).*)"
       },
       {
         "intent": "RemoteWork",
