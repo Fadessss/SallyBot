@@ -654,7 +654,95 @@
         "id": "ErOp5h",
         "name": "MapLocation"
       },
-      "intent": "MapLocation"
+      "intent": "MapLocation",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "saGUQd"
+          },
+          "activityProcessed": true,
+          "dialog": "MapLocationDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "TzgqzU"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "9ysFO9",
+        "name": "HumanResourcesRegex"
+      },
+      "intent": "HumanResourcesRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "P13Jvu"
+          },
+          "activityProcessed": true,
+          "dialog": "HumanResourcesRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "jCDEdZ"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "gxZdVv",
+        "name": "FindLocationRegex"
+      },
+      "intent": "FindLocationRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "RW4XHX"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "feSP9A"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "DgFHX2",
+        "name": "HealthAndSafetyRegex"
+      },
+      "intent": "HealthAndSafetyRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "U13wTY"
+          },
+          "activityProcessed": true,
+          "dialog": "HealthAndSafetyRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "W1YN3j"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -664,91 +752,103 @@
     "intents": [
       {
         "intent": "Capabilities",
-        "pattern": "Who is Sally"
+        "pattern": ".*(?i)(who|about|info).*(is|about)?.*(sally).*"
       },
       {
         "intent": "EthicsPolicy",
-        "pattern": "Ethics and Conduct"
+        "pattern": ".*(?i)(((ethic).*(polic)?)|((code|info).*(of)?.*(conduct))).*"
       },
       {
         "intent": "ProfessionalDevelopment",
-        "pattern": "Professional Development"
+        "pattern": "(?i)(.*(professional|career|skill|develop|grow).*(development|opportunit|skill|growth|option|career).*)|(.*(myself).*(professionally).*)|(.*(self).*(improvement).*)"
       },
       {
         "intent": "RemoteWork",
-        "pattern": "Remote Work"
+        "pattern": ".*(?i)(remote|work|working|home|hybrid|virtual).*(from)?.*(work|remotely|home|flexib|collab).*"
       },
       {
         "intent": "PayStubs",
-        "pattern": "Pay Stubs"
+        "pattern": ".*(?i)(wage|salary|pay|income).*(stub|stubs|slip|slips|record|records|statement|info).*"
       },
       {
         "intent": "RequestLeave",
-        "pattern": "Request Leave"
+        "pattern": ".*(?i)(request|apply|take|taking|have|book|schedule).*(for)?.*(leave|vacation|holiday|sick|ill|time|day).*(off)?.*(day|end)?.*"
       },
       {
         "intent": "HumanResources",
-        "pattern": "Human Resources"
+        "pattern": ".*(?i)(Human|human|HR).(Resources|resources)?.*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "FindLocation",
-        "pattern": "Find Location"
+        "pattern": ".*(?i)(find|locat)?.*(locat|place|find).*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "HealthAndSafety",
-        "pattern": "Health and Safety"
+        "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "MainMenu",
-        "pattern": "Return to Main Menu"
+        "pattern": ".*(?i)(main).*(menu|button|list|option|choice|select).*"
       },
       {
         "intent": "Benefits",
-        "pattern": "Benefits"
+        "pattern": ".*(?i)(benefit|perk).*"
       },
       {
         "intent": "BullyingAndHarassment",
-        "pattern": "Bullying and Harassment"
+        "pattern": ".*(?i)(bully|harass|discriminat|violen|intimidat|bullied).*(and)?.*(bully|harass|discriminat)?.*(policy|policies|standard|help|guide|info).*"
       },
       {
         "intent": "FindLocationsClinic",
-        "pattern": "Clinics"
+        "pattern": ".*(?i)(find|locat).*(clinic).*"
       },
       {
         "intent": "GeneralSafety",
-        "pattern": "General Workplace Safety"
+        "pattern": ".*(?i)(general|work).*(work)?.*(safe).*"
       },
       {
         "intent": "FlexibleWork",
-        "pattern": "Flexible Work Schedule"
+        "pattern": ".*(?i)(flexi|chang|casual|part).*(work)?.*(schedule|hours|time|shift).*(slot)?.*"
       },
       {
         "intent": "UpdatePersonalInformation",
-        "pattern": "Update Personal information"
+        "pattern": ".*(?i)(updat).*(person|my|employee|staff).*(info).*"
       },
       {
         "intent": "MentalHealth",
-        "pattern": "Mental Health Resources"
+        "pattern": ".*(?i)(eap|employee assistance program|mental|mind|well|stress|anxiety|anxious|mindful|therap|counsil).*(heal|well)?.*(info|support|resourc|session|help|assist|manag|workshop)?.*"
       },
       {
         "intent": "FireDrillProcedures",
-        "pattern": "Fire Drill Procedures"
+        "pattern": ".*(?i)(fire).*(drill|exercis|practic|rehears).*(procedur)?.*"
       },
       {
         "intent": "Ergonomics",
-        "pattern": "Ergonomics"
+        "pattern": ".*(?i)(ergonomic|posture|comfort|sitting|RSI).*(info|guide|help)?.*"
       },
       {
         "intent": "SafetyAdvisor",
-        "pattern": "Safety Advisor"
+        "pattern": ".*(?i)(safe|hazard).*(advisor|ordinator|direct|consult|manag|special|technic).*"
       },
       {
         "intent": "ReportIncident",
-        "pattern": "Report Incident"
+        "pattern": ".*(?i)(report|tell|contact|talk).*(incident|hazard|).*"
       },
       {
         "intent": "MapLocation",
-        "pattern": "Middlemore Maps"
+        "pattern": ".*(?i)(map).*"
+      },
+      {
+        "intent": "HumanResourcesRegex",
+        "pattern": ".*(?i)(human resources|hr).*"
+      },
+      {
+        "intent": "FindLocationRegex",
+        "pattern": ".*(?i)(find|locat)?.*(locat|place|find).*"
+      },
+      {
+        "intent": "HealthAndSafetyRegex",
+        "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*"
       }
     ]
   }

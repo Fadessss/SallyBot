@@ -574,3 +574,15 @@ C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\obj\release\netcoreapp3.1\w
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\obj\release\netcoreapp3.1\win-x64\Sally.dll
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\obj\release\netcoreapp3.1\win-x64\Sally.pdb
 C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\obj\release\netcoreapp3.1\win-x64\Sally.genruntimeconfig.cache
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\FindLocationRegexDialog\FindLocationRegexDialog.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HealthAndSafetyRegexDialog\HealthAndSafetyRegexDialog.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HumanResourcesRegexDialog\HumanResourcesRegexDialog.dialog
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\FindLocationRegexDialog\language-generation\en-us\FindLocationRegexDialog.en-us.lg
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HealthAndSafetyRegexDialog\language-generation\en-us\HealthAndSafetyRegexDialog.en-us.lg
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HumanResourcesRegexDialog\language-generation\en-us\HumanResourcesRegexDialog.en-us.lg
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\FindLocationRegexDialog\language-understanding\en-us\FindLocationRegexDialog.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HealthAndSafetyRegexDialog\language-understanding\en-us\HealthAndSafetyRegexDialog.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HumanResourcesRegexDialog\language-understanding\en-us\HumanResourcesRegexDialog.en-us.lu
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\FindLocationRegexDialog\knowledge-base\en-us\FindLocationRegexDialog.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HealthAndSafetyRegexDialog\knowledge-base\en-us\HealthAndSafetyRegexDialog.en-us.qna
+C:\Users\Fades\Documents\GitHub\SallyBot\Sally\Sally\bin\release\netcoreapp3.1\win-x64\dialogs\HumanResourcesRegexDialog\knowledge-base\en-us\HumanResourcesRegexDialog.en-us.qna

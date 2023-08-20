@@ -112,18 +112,6 @@
       "text": "Your safety is our priority. Please don't hesitate to reach out if you need help.",
       "wrap": true
     }
-  ],
-  "actions": [
-    {
-      "type": "Action.Submit",
-      "title": "Return",
-      "data": {
-      "msteams": {
-        "type": "imBack",
-        "value": "Health and Safety"
-        }
-      }
-      }
   ]
 }
 

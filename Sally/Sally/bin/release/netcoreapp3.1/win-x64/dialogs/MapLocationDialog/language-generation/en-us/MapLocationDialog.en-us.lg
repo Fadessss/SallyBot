@@ -198,18 +198,6 @@
       "text": "If you are lost and confused please do not hesitate to ask the staff or phone the reception number #0X XXX XXXX",
       "wrap": true
     }
-  ],
-  "actions": [
-    {
-      "type": "Action.Submit",
-      "title": "Return",
-      "data": {
-      "msteams": {
-        "type": "imBack",
-        "value": "Find Location"
-        }
-      }
-      }
   ]
 }
 ```

@@ -832,7 +832,7 @@
       },
       {
         "intent": "ReportIncident",
-        "pattern": ".*(?i)(report|tell|contact|talk).*(incident|hazard|).*"
+        "pattern": ".*(?i)(report|tell|contact|talk).*(incident|hazard).*"
       },
       {
         "intent": "MapLocation",

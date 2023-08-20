@@ -59,19 +59,6 @@
       "text": "If you are unable to contact the Safety Advisor, please contact HR or your supervisor:",
       "wrap": true
     }
-  ],
-  "actions": [
-    {
-      "type": "Action.Submit",
-      "title": "Return",
-      "data": {
-      "msteams": {
-        "type": "imBack",
-        "value": "Health and Safety"
-        }
-      }
-      }
   ]
 }
-
 ```
