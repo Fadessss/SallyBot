@@ -752,7 +752,7 @@
     "intents": [
       {
         "intent": "Capabilities",
-        "pattern": ".*(?i)(who|about|info).*(is|about)?.*(sally).*"
+        "pattern": ".*(?i)(who|about|info|what).*(you)?.*(is|about|can|do)?.*(you)?.*(sally|do).*"
       },
       {
         "intent": "EthicsPolicy",
@@ -760,7 +760,7 @@
       },
       {
         "intent": "ProfessionalDevelopment",
-        "pattern": "(?i)(.*(professional|career|skill|develop|grow).*(development|opportunit|skill|growth|option|career).*)|(.*(myself).*(professionally).*)|(.*(self).*(improvement).*)"
+        "pattern": ".*(?i)(professional|career|skill|develop|grow).*(my)?.*(development|opportunit|skill|growth|option|career).*"
       },
       {
         "intent": "RemoteWork",
@@ -832,7 +832,7 @@
       },
       {
         "intent": "ReportIncident",
-        "pattern": ".*(?i)(report|tell|contact|talk).*(incident|hazard|).*"
+        "pattern": ".*(?i)(report|tell|contact|talk).*(incident|hazard).*"
       },
       {
         "intent": "MapLocation",
