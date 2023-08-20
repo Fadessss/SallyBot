@@ -54,17 +54,5 @@
       "isSubtle": false,
       "wrap": true
     }
-  ],
-  "actions": [
-    {
-      "type": "Action.Submit",
-      "title": "Return",
-      "data": {
-      "msteams": {
-        "type": "imBack",
-        "value": "Find Location"
-        }
-      }
-      }
   ]
 }```

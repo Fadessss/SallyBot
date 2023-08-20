@@ -6,18 +6,39 @@
 ]
 
 # SendActivity_eKN1ph_attachment_5P79cc()
-> To learn more Adaptive Cards format, read the documentation at
-> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
 - ```{
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.2",
   "type": "AdaptiveCard",
   "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
     {
       "type": "TextBlock",
-      "text": "default text",
-      "weight": "bolder",
-      "isSubtle": false
+      "text": "Which Human Resources topic would you like to ask about?",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Some topics I can help you with include:\n\nBenefits\n\n Pay Slips\n\n Applying for leave\n\n Mental Health and Wellbeing\n\n Ethics and conduct",
+      "isSubtle": false,
+      "wrap": true
     }
   ]
-}```
+}
+```
