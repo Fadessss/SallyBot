@@ -796,7 +796,7 @@
       },
       {
         "intent": "BullyingAndHarassment",
-        "pattern": ".*(?i)(bully|harass|discriminat|violen|intimidat|bullied).*(and)?.*(bully|harass|discriminat)?.*(policy|policies|standard|help|guide|info).*"
+        "pattern": ".*(?i)(bully|harass|discriminat|violen|intimidat|bullied).*(and)?.*(bully|harass|discriminat)?.*(policy|policies|standard|help|guide|info)?.*"
       },
       {
         "intent": "FindLocationsClinic",
