@@ -752,7 +752,7 @@
     "intents": [
       {
         "intent": "Capabilities",
-        "pattern": ".*(?i)(who|about|info).*(is|about)?.*(sally).*"
+        "pattern": ".*(?i)(who|about|info|what).*(you)?.*(is|about|can|do)?.*(you)?.*(sally|do).*"
       },
       {
         "intent": "EthicsPolicy",
