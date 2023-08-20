@@ -1,0 +1,23 @@
+[import](common.lg)
+
+# SendActivity_eKN1ph()
+[Activity
+    Attachments = ${json(SendActivity_eKN1ph_attachment_5P79cc())}
+]
+
+# SendActivity_eKN1ph_attachment_5P79cc()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "default text",
+      "weight": "bolder",
+      "isSubtle": false
+    }
+  ]
+}```

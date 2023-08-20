@@ -671,6 +671,78 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "9ysFO9",
+        "name": "HumanResourcesRegex"
+      },
+      "intent": "HumanResourcesRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "P13Jvu"
+          },
+          "activityProcessed": true,
+          "dialog": "HumanResourcesRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "jCDEdZ"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "gxZdVv",
+        "name": "FindLocationRegex"
+      },
+      "intent": "FindLocationRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "RW4XHX"
+          },
+          "activityProcessed": true,
+          "dialog": "FindLocationRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "feSP9A"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "DgFHX2",
+        "name": "HealthAndSafetyRegex"
+      },
+      "intent": "HealthAndSafetyRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "U13wTY"
+          },
+          "activityProcessed": true,
+          "dialog": "HealthAndSafetyRegexDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "W1YN3j"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -765,6 +837,18 @@
       {
         "intent": "MapLocation",
         "pattern": ".*(?i)(map).*"
+      },
+      {
+        "intent": "HumanResourcesRegex",
+        "pattern": ".*(?i)(human resources|hr).*"
+      },
+      {
+        "intent": "FindLocationRegex",
+        "pattern": ".*(?i)(find|locat)?.*(locat|place|find).*"
+      },
+      {
+        "intent": "HealthAndSafetyRegex",
+        "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*"
       }
     ]
   }
