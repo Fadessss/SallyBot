@@ -781,7 +781,7 @@
       },
       {
         "intent": "EthicsPolicy",
-        "pattern": ".*(?i)(((ethic).*(polic)?)|((code|info).*(of)?.*(conduct))).*"
+        "pattern": "(?i)(((ethic).*(polic)?)|((code|info).*(of)?.*(conduct))).*"
       },
       {
         "intent": "ProfessionalDevelopment",
