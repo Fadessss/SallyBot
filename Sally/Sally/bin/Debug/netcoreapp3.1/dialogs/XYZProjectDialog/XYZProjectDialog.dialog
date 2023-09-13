@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "Rm6SNV",
+    "name": "XYZProjectRegexDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "s1kVm4"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "wauYNM"
+          },
+          "activity": "${SendActivity_wauYNM()}"
+        }
+      ]
+    }
+  ],
+  "generator": "XYZProjectDialog.lg",
+  "recognizer": "XYZProjectDialog.lu.qna",
+  "id": "XYZProjectDialog"
+}

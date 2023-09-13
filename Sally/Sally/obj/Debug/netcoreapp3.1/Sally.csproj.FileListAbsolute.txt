@@ -2679,3 +2679,12 @@ D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\in
 D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\HazardousMaterials.en-us.qna
 D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\HealthAndSafetyRegexDialog.en-us.qna
 D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\HumanResourcesRegexDialog.en-us.qna
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\XYZProjectDialog\recognizers\XYZProjectDialog.en-us.lu.dialog
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\XYZProjectDialog\recognizers\XYZProjectDialog.lu.dialog
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\XYZProjectDialog\recognizers\XYZProjectDialog.lu.qna.dialog
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\XYZProjectDialog\XYZProjectDialog.dialog
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\XYZProjectDialog\language-generation\en-us\XYZProjectDialog.en-us.lg
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\XYZProjectDialog\language-understanding\en-us\XYZProjectDialog.en-us.lu
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\XYZProjectDialog.en-us.lu
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\dialogs\XYZProjectDialog\knowledge-base\en-us\XYZProjectDialog.en-us.qna
+D:\Documents\git\repos\SallyBot\Sally\Sally\bin\Debug\netcoreapp3.1\generated\interruption\XYZProjectDialog.en-us.qna

@@ -1,0 +1,197 @@
+[import](common.lg)
+
+# SendActivity_wauYNM()
+[Activity
+    Attachments = ${json(SendActivity_wauYNM_attachment_bgMZJM())}
+]
+
+# SendActivity_wauYNM_attachment_bgMZJM()
+-```{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.6",
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "What would you like to know about the XYZ project?",
+            "isSubtle": false
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ShowCard",
+            "title": "What is the XYZ project?",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "Image",
+                        "style": "Person",
+                        "url": "https://i.imgur.com/JfFL2Cb.png",
+                        "width": "58px",
+                        "size": "Medium"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "weight": "Bolder",
+                        "text": "     Sally",
+                        "wrap": true,
+                        "size": "Default",
+                        "maxLines": 1,
+                        "fontType": "Default"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "wrap": true,
+                        "text": "XYZ project",
+                        "size": "Medium",
+                        "weight": "Bolder"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "The XYZ project is implementing a new software solution to provide enhancements to clinical workflow by replacing ABC. It will run until December 2023.",
+                        "wrap": true
+                    }
+                ],
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+        },
+        {
+            "type": "Action.ShowCard",
+            "title": "Where can I find out more information about XYZ project?",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "Image",
+                        "style": "Person",
+                        "url": "https://i.imgur.com/JfFL2Cb.png",
+                        "width": "58px",
+                        "size": "Medium"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "weight": "Bolder",
+                        "text": "     Sally",
+                        "wrap": true,
+                        "size": "Default",
+                        "maxLines": 1,
+                        "fontType": "Default"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "wrap": true,
+                        "text": "More Information",
+                        "size": "Medium",
+                        "weight": "Bolder"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "More information about XYZ can be found on the project Paanui page located here: https://www.google.com.",
+                        "wrap": true
+                    }
+                ],
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+        },
+        {
+            "type": "Action.ShowCard",
+            "title": "How does project XYZ affect me?",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "Image",
+                        "style": "Person",
+                        "url": "https://i.imgur.com/JfFL2Cb.png",
+                        "width": "58px",
+                        "size": "Medium"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "weight": "Bolder",
+                        "text": "     Sally",
+                        "wrap": true,
+                        "size": "Default",
+                        "maxLines": 1,
+                        "fontType": "Default"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "wrap": true,
+                        "text": "Project Impact",
+                        "size": "Medium",
+                        "weight": "Bolder"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "The XYZ project has impacts to a number of different user groups. You can find specific information about how you are impacted by visiting this page {internal URL here}.",
+                        "wrap": true
+                    }
+                ],
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+        },
+        {
+            "type": "Action.ShowCard",
+            "title": "Who is in the XYZ project?",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "Image",
+                        "style": "Person",
+                        "url": "https://i.imgur.com/JfFL2Cb.png",
+                        "width": "58px",
+                        "size": "Medium"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "weight": "Bolder",
+                        "text": "     Sally",
+                        "wrap": true,
+                        "size": "Default",
+                        "maxLines": 1,
+                        "fontType": "Default"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "wrap": true,
+                        "text": "XYZ project members",
+                        "size": "Medium",
+                        "weight": "Bolder"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "XYZ project members include Bob (Project Manager), Jill (Change Manager) and Jim (Business Analyst).",
+                        "wrap": true
+                    }
+                ],
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Return",
+            "data": "XYZ Project"
+        }
+    ]
+}
+```

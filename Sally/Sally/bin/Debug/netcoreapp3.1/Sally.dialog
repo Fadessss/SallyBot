@@ -768,6 +768,30 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "hajXdK",
+        "name": "XYZProject"
+      },
+      "intent": "XYZProjectRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "XfXYoJ"
+          },
+          "activityProcessed": true,
+          "dialog": "XYZProjectDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "ucvjtM"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -878,6 +902,10 @@
       {
         "intent": "HealthAndSafetyRegex",
         "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*"
+      },
+      {
+        "intent": "XYZProjectRegex",
+        "pattern": ".*(?i)(xyz project|project).*"
       }
     ]
   }
