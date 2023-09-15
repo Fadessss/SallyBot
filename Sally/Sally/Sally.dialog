@@ -905,7 +905,7 @@
       },
       {
         "intent": "XYZProjectRegex",
-        "pattern": ".*(?i)(xyz project|project).*"
+        "pattern": ".*(?i)(xyz).*(project).*"
       }
     ]
   }
