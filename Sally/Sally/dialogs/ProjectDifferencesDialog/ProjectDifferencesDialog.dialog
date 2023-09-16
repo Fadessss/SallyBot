@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "u4SlAU",
+    "name": "ProjectDifferencesDialog",
+    "comment": "A dialog describing the various differences and impacts made by projects, apps, systems etc."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "9bQPSo"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "o4Ek9H"
+          },
+          "activity": "${SendActivity_o4Ek9H()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectDifferencesDialog.lg",
+  "recognizer": "ProjectDifferencesDialog.lu.qna",
+  "id": "ProjectDifferencesDialog"
+}

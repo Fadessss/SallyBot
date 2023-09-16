@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "YeN05r",
+    "name": "ProjectBenefitsRegex",
+    "comment": "A response describing the various advantages of a certain project, app, service, system etc."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "CNY8i7"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "cjYUVa"
+          },
+          "activity": "${SendActivity_cjYUVa()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectBenefitsRegex.lg",
+  "recognizer": "ProjectBenefitsRegex.lu.qna",
+  "id": "ProjectBenefitsRegex"
+}

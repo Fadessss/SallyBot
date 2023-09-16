@@ -888,6 +888,54 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "RFt7Ei",
+        "name": "ProjectBenefitsRegex"
+      },
+      "intent": "ProjectBenefitsRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Mf98et"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectBenefitsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "C4nVCK"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "radwyC",
+        "name": "ProjectDifferencesRegex"
+      },
+      "intent": "ProjectDifferencesRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "fbZ4UJ"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectDifferencesDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "c4JmxC"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -937,7 +985,7 @@
       },
       {
         "intent": "Benefits",
-        "pattern": ".*(?i)(benefit|perk).*"
+        "pattern": ".*(?i)((my|our|staff|work|org).*(benefit|perk)|(benefit|perk).*(am|would|could|should|do|will)?.*(I|my|our|staff|work|org).*(am|would|could|should|do|will)?).*"
       },
       {
         "intent": "BullyingAndHarassment",
@@ -1018,6 +1066,14 @@
       {
         "intent": "ProjectSponsorRegex",
         "pattern": ".*(?i)((who|identity|name|info).*(sponsor|patron|benefactor|supporter).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(who|identity|name|info).*(sponsor|patron|benefactor|supporter).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)|(sponsor|patron|benefactor|supporter).*(identity|name|info).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(sponsor|patron|benefactor|supporter).*(identity|name|info).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)).*"
+      },
+      {
+        "intent": "ProjectBenefitsRegex",
+        "pattern": ".*(?i)((benefit|perk|advantag).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(benefit|perk|advantag)).*"
+      },
+      {
+        "intent": "ProjectDifferencesRegex",
+        "pattern": ".*(?i)((differenc|chang|updat|impact).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(differenc|chang|updat|impact)).*"
       }
     ]
   }

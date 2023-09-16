@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "SKXo52",
+    "name": "ProjectTrainingDialog",
+    "comment": "A dialog which details training users can get for certain apps, systems, services etc."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "dfdC4d"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "laQlqy"
+          },
+          "activity": "${SendActivity_laQlqy()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectTrainingDialog.lg",
+  "recognizer": "ProjectTrainingDialog.lu.qna",
+  "id": "ProjectTrainingDialog"
+}

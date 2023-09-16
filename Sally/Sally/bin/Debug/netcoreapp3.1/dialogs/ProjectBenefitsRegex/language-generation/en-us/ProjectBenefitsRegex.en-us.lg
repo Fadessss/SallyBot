@@ -1,0 +1,49 @@
+[import](common.lg)
+
+# SendActivity_cjYUVa()
+[Activity
+    Attachments = ${json(SendActivity_cjYUVa_attachment_wnlwiW())}
+]
+
+# SendActivity_cjYUVa_attachment_wnlwiW()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "    12. What are the benefits of project xyz?
+        a. The benefits that XYZ will deliver include: {bullet list}
+            i. Improved clinical workflow
+            ii. Faster
+            iii. Modern
+            iv. Better",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "XYZ Project"
+    }
+  ]
+}```
