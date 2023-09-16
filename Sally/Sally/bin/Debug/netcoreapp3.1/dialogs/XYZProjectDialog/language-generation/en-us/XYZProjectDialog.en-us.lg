@@ -190,7 +190,7 @@
         {
             "type": "Action.Submit",
             "title": "Return",
-            "data": "XYZ Project"
+            "data": "Return to Main Menu"
         }
     ]
 }

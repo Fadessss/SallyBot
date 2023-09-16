@@ -44,7 +44,7 @@
     {
     "type": "Action.Submit",
     "title": "Return",
-    "data": "Health and Safety"
+    "data": "Return to Main Menu"
     }
   ]
 }```

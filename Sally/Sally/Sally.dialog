@@ -1049,7 +1049,7 @@
       },
       {
         "intent": "XYZProjectRegex",
-        "pattern": ".*(?i)(xyz).*(project).*"
+        "pattern": ".*(?i)(1project|xyz).*(1xyz|project).*"
       },
       {
         "intent": "ProjectNewRegex",
@@ -1057,15 +1057,15 @@
       },
       {
         "intent": "ProjectPurposeRegex",
-        "pattern": ".*(?i)((explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(explain|tell|what)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan)).*"
+        "pattern": ".*(?i)((explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan|about).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(explain|tell|what)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan|about)).*"
       },
       {
         "intent": "ProjectTrainingRegex",
-        "pattern": ".*(?i)((train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study).*(application|app|software|tool|system|project|solution|product|{name here})|(application|app|software|tool|system|project|solution|product|{name here}).*(train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study)).*"
+        "pattern": ".*(?i)(((train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study).*(application|app|software|tool|system|project|solution|product|xyz|{name here}))|((application|app|software|tool|system|project|solution|product|xyz|{name here}).*(train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study))).*"
       },
       {
         "intent": "ProjectSponsorRegex",
-        "pattern": ".*(?i)((who|identity|name|info).*(sponsor|patron|benefactor|supporter).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(who|identity|name|info).*(sponsor|patron|benefactor|supporter).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)|(sponsor|patron|benefactor|supporter).*(identity|name|info).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(sponsor|patron|benefactor|supporter).*(identity|name|info).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)).*"
+        "pattern": ".*(?i)((who|ident|name|info).*(sponsor|patron|benefactor|supporter).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(who|ident|name|info).*(sponsor|patron|benefactor|supporter).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)|(sponsor|patron|benefactor|supporter).*(who|ident|name|info).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(sponsor|patron|benefactor|supporter).*(who|ident|name|info).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)|(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this).*(sponsor|patron|benefactor|supporter).*(who|ident|name|info)|(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?.*(sponsor|patron|benefactor|supporter).*(who|ident|name|info)|(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this).*(who|ident|name|info).*(sponsor|patron|benefactor|supporter)|(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?.*(who|ident|name|info).*(sponsor|patron|benefactor|supporter)).*"
       },
       {
         "intent": "ProjectBenefitsRegex",
