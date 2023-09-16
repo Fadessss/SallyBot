@@ -1,27 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj": {}
+    "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\Sally.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj": {
+    "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\Sally.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
+        "projectUniqueName": "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\Sally.csproj",
         "projectName": "Sally",
-        "projectPath": "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
-        "packagesPath": "C:\\Users\\Fades\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\obj\\",
+        "projectPath": "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\Sally.csproj",
+        "packagesPath": "C:\\Users\\Ji Qun\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fades\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\NuGet.Config",
-          "C:\\Users\\Fades\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\NuGet.Config",
+          "C:\\Users\\Ji Qun\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -79,24 +81,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.29, 3.1.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -105,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

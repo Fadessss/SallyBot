@@ -1,10 +1,5 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/main/Composer/packages/server/schemas/botproject.schema",
   "name": "Sally",
-  "skills": {
-    "projectBot": {
-      "workspace": "../../../SallyBot - Copy/Sally/Project_bot/Project_bot",
-      "remote": false
-    }
-  }
+  "skills": {}
 }
