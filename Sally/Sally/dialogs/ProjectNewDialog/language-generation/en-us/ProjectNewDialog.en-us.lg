@@ -1,0 +1,50 @@
+[import](common.lg)
+
+# SendActivity_rJ2Mhx()
+[Activity
+    Attachments = ${json(SendActivity_rJ2Mhx_attachment_uQFEEN())}
+]
+
+# SendActivity_rJ2Mhx_attachment_uQFEEN()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "Sorry, I can’t help you with specific instructions for an application; however, How To Guides can be found on our Paanui page here {internal URL}.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "If any of these guides don’t help, you can also contact the project team on xtn 12345 or project@email.com",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "XYZ Project"
+    }
+  ]
+}```

@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "WkwP6k",
+    "name": "ProjectNewDialog",
+    "comment": "A dialog describing how a user can get assistance in using things which require specific guides."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "K76JoS"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "rJ2Mhx"
+          },
+          "activity": "${SendActivity_rJ2Mhx()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectNewDialog.lg",
+  "recognizer": "ProjectNewDialog.lu.qna",
+  "id": "ProjectNewDialog"
+}

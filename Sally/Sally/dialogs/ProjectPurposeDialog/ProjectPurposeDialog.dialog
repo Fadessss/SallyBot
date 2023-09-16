@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "hHoiX8",
+    "name": "ProjectPurposeDialog",
+    "comment": "A dialog explaining why a certain project, strategy or initiative exists."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "7FavoQ"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "XmvGhp"
+          },
+          "activity": "${SendActivity_XmvGhp()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectPurposeDialog.lg",
+  "recognizer": "ProjectPurposeDialog.lu.qna",
+  "id": "ProjectPurposeDialog"
+}

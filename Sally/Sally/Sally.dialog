@@ -792,6 +792,102 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "mzHEyB",
+        "name": "ProjectNewRegex"
+      },
+      "intent": "ProjectNewRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "7UuSza"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectNewDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "udkk6r"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "YE60lM",
+        "name": "ProjectPurposeRegex"
+      },
+      "intent": "ProjectPurposeRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Bbk6Gd"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectPurposeDialog"
+        },
+        {
+          "$kind": "Microsoft.EndTurn",
+          "$designer": {
+            "id": "ZjPFJF"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "xd43Uv",
+        "name": "ProjectTrainingRegex"
+      },
+      "intent": "ProjectTrainingRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "8GRyCO"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectTrainingDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "heumks"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "BMJgUu",
+        "name": "ProjectSponsorRegex"
+      },
+      "intent": "ProjectSponsorRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "l68Qhp"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectSponsorDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "vxQrtK"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -906,6 +1002,22 @@
       {
         "intent": "XYZProjectRegex",
         "pattern": ".*(?i)(xyz).*(project).*"
+      },
+      {
+        "intent": "ProjectNewRegex",
+        "pattern": ".*((?i)((how|help|assist).*(me|us)?.*(do|to|can|with).*(i|we)?.*(new|recent|fresh|latest|current|{name here}).*(application|app|software|tool|system|project|solution|product|{name here})|(new|recent|fresh|latest|current|{name here}).*(application|app|software|tool|system|project|solution|product|{name here}).*(how|help|assist).*(me|us)?.*(do|to|can|with).*(i|we)?)).*"
+      },
+      {
+        "intent": "ProjectPurposeRegex",
+        "pattern": ".*(?i)(explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom)?.*(project|initiative|strategy|product).*(xyz).(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan).*"
+      },
+      {
+        "intent": "ProjectTrainingRegex",
+        "pattern": ".*(?i)((train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study).*(application|app|software|tool|system|project|solution|product|{name here})|(application|app|software|tool|system|project|solution|product|{name here}).*(train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study)).*"
+      },
+      {
+        "intent": "ProjectSponsorRegex",
+        "pattern": ".*(?i)((who|identity|name|info).*(sponsor|patron|benefactor|supporter).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(who|identity|name|info).*(sponsor|patron|benefactor|supporter).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)|(sponsor|patron|benefactor|supporter).*(identity|name|info).*(xyz|{name here}|current|this).*(application|app|software|tool|system|project|solution|product)?|(sponsor|patron|benefactor|supporter).*(identity|name|info).*(application|app|software|tool|system|project|solution|product)?.*(xyz|{name here}|current|this)).*"
       }
     ]
   }
