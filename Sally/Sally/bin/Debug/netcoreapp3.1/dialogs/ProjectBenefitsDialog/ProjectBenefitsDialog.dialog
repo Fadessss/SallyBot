@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "zpOGds",
+    "name": "ProjectBenefitsDialog",
+    "comment": "A dialog describing the various advantages for a certain project, system, app, service etc."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "nHl39s"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "UlgD8s"
+          },
+          "activity": "${SendActivity_UlgD8s()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectBenefitsDialog.lg",
+  "recognizer": "ProjectBenefitsDialog.lu.qna",
+  "id": "ProjectBenefitsDialog"
+}

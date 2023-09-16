@@ -1057,7 +1057,7 @@
       },
       {
         "intent": "ProjectPurposeRegex",
-        "pattern": ".*(?i)(explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom)?.*(project|initiative|strategy|product).*(xyz).(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan).*"
+        "pattern": ".*(?i)((explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(explain|tell|what)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan)).*"
       },
       {
         "intent": "ProjectTrainingRegex",

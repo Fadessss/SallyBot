@@ -900,9 +900,40 @@
         {
           "$kind": "Microsoft.BeginDialog",
           "$designer": {
-            "id": "9lVGqY"
+            "id": "Mf98et"
           },
-          "activityProcessed": true
+          "activityProcessed": true,
+          "dialog": "ProjectBenefitsDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "C4nVCK"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "radwyC",
+        "name": "ProjectDifferencesRegex"
+      },
+      "intent": "ProjectDifferencesRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "fbZ4UJ"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectDifferencesDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "c4JmxC"
+          }
         }
       ]
     }
@@ -1026,7 +1057,7 @@
       },
       {
         "intent": "ProjectPurposeRegex",
-        "pattern": ".*(?i)(explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom)?.*(project|initiative|strategy|product).*(xyz).(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan).*"
+        "pattern": ".*(?i)((explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(explain|tell|what)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan)).*"
       },
       {
         "intent": "ProjectTrainingRegex",
@@ -1039,6 +1070,10 @@
       {
         "intent": "ProjectBenefitsRegex",
         "pattern": ".*(?i)((benefit|perk|advantag).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(benefit|perk|advantag)).*"
+      },
+      {
+        "intent": "ProjectDifferencesRegex",
+        "pattern": ".*(?i)((differenc|chang|updat|impact).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(differenc|chang|updat|impact)).*"
       }
     ]
   }

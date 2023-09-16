@@ -1,11 +1,11 @@
 [import](common.lg)
 
-# SendActivity_cjYUVa()
+# SendActivity_UlgD8s()
 [Activity
-    Attachments = ${json(SendActivity_cjYUVa_attachment_wnlwiW())}
+    Attachments = ${json(SendActivity_UlgD8s_attachment_05LSL9())}
 ]
 
-# SendActivity_cjYUVa_attachment_wnlwiW()
+# SendActivity_UlgD8s_attachment_05LSL9()
 - ```{
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.2",
@@ -29,12 +29,31 @@
         },
     {
       "type": "TextBlock",
-      "text": "    12. What are the benefits of project xyz?
-        a. The benefits that XYZ will deliver include: {bullet list}
-            i. Improved clinical workflow
-            ii. Faster
-            iii. Modern
-            iv. Better",
+      "text": "The benefits that XYZ will deliver include:",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "      • Improved clinical workflow",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "      • Faster",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "      • Modern",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "      • Better",
       "isSubtle": false,
       "wrap": true
     }

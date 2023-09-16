@@ -1,9 +1,9 @@
 {
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
-    "id": "YeN05r",
-    "name": "ProjectBenefitsRegex",
-    "comment": "A response describing the various advantages of a certain project, app, service, system etc."
+    "id": "u4SlAU",
+    "name": "ProjectDifferencesDialog",
+    "comment": "A dialog describing the various differences and impacts made by projects, apps, systems etc."
   },
   "autoEndDialog": true,
   "defaultResultProperty": "dialog.result",
@@ -13,20 +13,20 @@
       "$designer": {
         "name": "BeginDialog",
         "description": "",
-        "id": "CNY8i7"
+        "id": "9bQPSo"
       },
       "actions": [
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "cjYUVa"
+            "id": "o4Ek9H"
           },
-          "activity": "${SendActivity_cjYUVa()}"
+          "activity": "${SendActivity_o4Ek9H()}"
         }
       ]
     }
   ],
-  "generator": "ProjectBenefitsRegex.lg",
-  "recognizer": "ProjectBenefitsRegex.lu.qna",
-  "id": "ProjectBenefitsRegex"
+  "generator": "ProjectDifferencesDialog.lg",
+  "recognizer": "ProjectDifferencesDialog.lu.qna",
+  "id": "ProjectDifferencesDialog"
 }
