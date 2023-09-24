@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "WPnI8u",
+    "name": "ProjectSponsorDialog",
+    "comment": "A dialog describing who the sponsor of a project is."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "sI5NYE"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "aIcCki"
+          },
+          "activity": "${SendActivity_aIcCki()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectSponsorDialog.lg",
+  "recognizer": "ProjectSponsorDialog.lu.qna",
+  "id": "ProjectSponsorDialog"
+}

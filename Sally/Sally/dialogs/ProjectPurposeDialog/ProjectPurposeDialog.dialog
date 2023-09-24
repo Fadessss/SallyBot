@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "Dc1HT7",
+    "name": "ProjectPurposeDialog",
+    "comment": "A dialog describing the purpose of a certain project."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "3j3teC"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Z1A4hK"
+          },
+          "activity": "${SendActivity_Z1A4hK()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectPurposeDialog.lg",
+  "recognizer": "ProjectPurposeDialog.lu.qna",
+  "id": "ProjectPurposeDialog"
+}
