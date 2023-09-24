@@ -1040,6 +1040,26 @@
     "$kind": "Microsoft.RegexRecognizer",
     "intents": [
       {
+        "intent": "ProjectWhatRegex",
+        "pattern": ".*(?i)((explain|tell|what|info|details).*(is|are|about).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(explain|tell|what|info|details).*(is|are|about)).*"
+      },
+      {
+        "intent": "ProjectWhereRegex",
+        "pattern": ".*(?i)((where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding)).*"
+      },
+      {
+        "intent": "ProjectHowRegex",
+        "pattern": ".*(?i)((how|what|why).*(does|do|would|will).*(xyz|{name here}|this).*(affect|impact|influence|change|alter).*(me|I|myself|personally)|(me|I|myself|personally).*(how|what|why).*(does|do|would|will).*(xyz|{name here}|this).*(affect|impact|influence|change|alter)).*"
+      },
+      {
+        "intent": "ProjectWhoRegex",
+        "pattern": ".*(?i)((who|whom|which).* (is|are|be).* (in|within|inside|part|member).* (xyz|{name here}|this).* (project|program|scheme|initiative|plan)|(xyz|{name here}|this).* (project|program|scheme|initiative|plan).* (who|whom|which).* (is|are|be) .* (in|within|inside|part|member)).*"
+      },
+      {
+        "intent": "ProjectContactTeamRegex",
+        "pattern": ".*(?i)((how|where).*(can|could|may|might).*(I|we|you|one).*(contact|reach|call|email|message|connect|communicate).*(xyz|{name here}|this).*(project|program|scheme|initiative|plan).*(team|group|member|staff|person)|(xyz|{name here}|this).*(project|program|scheme|initiative|plan).*(team|group|member|staff|person).*(how|where).*(can|could|may|might).*(I|we|you|one).*(contact|reach|call|email|message|connect|communicate)).*"
+      },
+      {
         "intent": "ProjectNewRegex",
         "pattern": ".*((?i)((how|help|assist).*(me|us)?.*(do|to|can|with).*(i|we)?.*(new|recent|fresh|latest|current|{name here}).*(application|app|software|tool|system|project|solution|product|{name here})|(new|recent|fresh|latest|current|{name here}).*(application|app|software|tool|system|project|solution|product|{name here}).*(how|help|assist).*(me|us)?.*(do|to|can|with).*(i|we)?)).*"
       },
@@ -1166,26 +1186,6 @@
       {
         "intent": "HealthAndSafetyRegex",
         "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*"
-      },
-      {
-        "intent": "ProjectWhatRegex",
-        "pattern": ".*(?i)((explain|tell|what|info|details).*(is|are|about).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(explain|tell|what|info|details).*(is|are|about)).*"
-      },
-      {
-        "intent": "ProjectWhereRegex",
-        "pattern": ".*(?i)((where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding)).*"
-      },
-      {
-        "intent": "ProjectHowRegex",
-        "pattern": ".*(?i)((how|what|why).*(does|do|would|will).*(xyz|{name here}|this).*(affect|impact|influence|change|alter).*(me|I|myself|personally)|(me|I|myself|personally).*(how|what|why).*(does|do|would|will).*(xyz|{name here}|this).*(affect|impact|influence|change|alter)).*"
-      },
-      {
-        "intent": "ProjectWhoRegex",
-        "pattern": ".*(?i)((who|whom|which).* (is|are|be).* (in|within|inside|part|member).* (xyz|{name here}|this).* (project|program|scheme|initiative|plan)|(xyz|{name here}|this).* (project|program|scheme|initiative|plan).* (who|whom|which).* (is|are|be) .* (in|within|inside|part|member)).*"
-      },
-      {
-        "intent": "ProjectContactTeamRegex",
-        "pattern": ".*(?i)((how|where).*(can|could|may|might).*(I|we|you|one).*(contact|reach|call|email|message|connect|communicate).*(xyz|{name here}|this).*(project|program|scheme|initiative|plan).*(team|group|member|staff|person)|(xyz|{name here}|this).*(project|program|scheme|initiative|plan).*(team|group|member|staff|person).*(how|where).*(can|could|may|might).*(I|we|you|one).*(contact|reach|call|email|message|connect|communicate)).*"
       }
     ]
   }
