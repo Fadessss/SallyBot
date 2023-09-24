@@ -1,0 +1,44 @@
+[import](common.lg)
+
+# SendActivity_MF4TeB()
+[Activity
+    Attachments = ${json(SendActivity_MF4TeB_attachment_l0A0R7())}
+]
+
+# SendActivity_MF4TeB_attachment_l0A0R7()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "The XYZ project is implementing a new software solution to provide enhancements to clinical workflow by replacing ABC. It will run until December 2023.",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "XYZ Project"
+    }
+  ]
+}```

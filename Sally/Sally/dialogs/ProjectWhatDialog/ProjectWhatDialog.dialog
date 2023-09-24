@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "567RAI",
+    "name": "ProjectWhatDialog",
+    "comment": "A dialog describing what is xyz project"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "IWV0WD"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "MF4TeB"
+          },
+          "activity": "${SendActivity_MF4TeB()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectWhatDialog.lg",
+  "recognizer": "ProjectWhatDialog.lu.qna",
+  "id": "ProjectWhatDialog"
+}

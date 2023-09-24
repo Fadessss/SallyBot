@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "3a7Jqp",
+    "name": "ProjectWhoDialog",
+    "comment": "A dialog describing who is involved with the project."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "khXOnq"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "DLlmZJ"
+          },
+          "activity": "${SendActivity_DLlmZJ()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectWhoDialog.lg",
+  "recognizer": "ProjectWhoDialog.lu.qna",
+  "id": "ProjectWhoDialog"
+}

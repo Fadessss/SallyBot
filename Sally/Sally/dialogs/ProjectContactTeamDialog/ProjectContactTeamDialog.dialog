@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "Awflso",
+    "name": "ProjectContactTeamDialog",
+    "comment": "A dialog describing how someone might get in contact with a team member."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "eyXCAy"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "XqIVdO"
+          },
+          "activity": "${SendActivity_XqIVdO()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectContactTeamDialog.lg",
+  "recognizer": "ProjectContactTeamDialog.lu.qna",
+  "id": "ProjectContactTeamDialog"
+}

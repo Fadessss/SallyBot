@@ -772,30 +772,6 @@
     {
       "$kind": "Microsoft.OnIntent",
       "$designer": {
-        "id": "hajXdK",
-        "name": "XYZProject"
-      },
-      "intent": "XYZProjectRegex",
-      "actions": [
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "XfXYoJ"
-          },
-          "activityProcessed": true,
-          "dialog": "XYZProjectDialog"
-        },
-        {
-          "$kind": "Microsoft.EndDialog",
-          "$designer": {
-            "id": "ucvjtM"
-          }
-        }
-      ]
-    },
-    {
-      "$kind": "Microsoft.OnIntent",
-      "$designer": {
         "id": "mzHEyB",
         "name": "ProjectNewRegex"
       },
@@ -936,6 +912,126 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "KU9Cdo",
+        "name": "ProjectWhatRegex"
+      },
+      "intent": "ProjectWhatRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "a5TEzV"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectWhatDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "2hi4aW"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "vRqYQR",
+        "name": "ProjectWhereRegex"
+      },
+      "intent": "ProjectWhereRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "1IzwN9"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectWhereDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "EmsVpg"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "bLhyYo",
+        "name": "ProjectHowRegex"
+      },
+      "intent": "ProjectHowRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "TouenZ"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectHowDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "rBI7kM"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "njn47b",
+        "name": "ProjectWhoRegex"
+      },
+      "intent": "ProjectWhoRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "X28vU0"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectWhoDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "PWYfxb"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "8sSegf",
+        "name": "ProjectContactTeamRegex"
+      },
+      "intent": "ProjectContactTeamRegex",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "YLHAWv"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectContactTeamDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "SrF7oI"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -966,10 +1062,6 @@
       {
         "intent": "ProjectDifferencesRegex",
         "pattern": ".*(?i)((differenc|chang|updat|impact).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(differenc|chang|updat|impact)).*"
-      },
-      {
-        "intent": "XYZProjectRegex",
-        "pattern": ".*(?i)(project|xyz).*(xyz|project).*"
       },
       {
         "intent": "Capabilities",
@@ -1069,11 +1161,31 @@
       },
       {
         "intent": "FindLocationRegex",
-        "pattern": ".*(?i)(find|locat)?.*(locat|place|find).*"
+        "pattern": ".*(?i)(find|locat|direct).*(locat|place|find).*"
       },
       {
         "intent": "HealthAndSafetyRegex",
         "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*"
+      },
+      {
+        "intent": "ProjectWhatRegex",
+        "pattern": ".*(?i)((explain|tell|what|info|details).*(is|are|about).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(explain|tell|what|info|details).*(is|are|about)).*"
+      },
+      {
+        "intent": "ProjectWhereRegex",
+        "pattern": ".*(?i)((where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding)).*"
+      },
+      {
+        "intent": "ProjectHowRegex",
+        "pattern": ".*(?i)((how|what|why).*(does|do|would|will).*(xyz|{name here}|this).*(affect|impact|influence|change|alter).*(me|I|myself|personally)|(me|I|myself|personally).*(how|what|why).*(does|do|would|will).*(xyz|{name here}|this).*(affect|impact|influence|change|alter)).*"
+      },
+      {
+        "intent": "ProjectWhoRegex",
+        "pattern": ".*(?i)((who|whom|which).* (is|are|be).* (in|within|inside|part|member).* (xyz|{name here}|this).* (project|program|scheme|initiative|plan)|(xyz|{name here}|this).* (project|program|scheme|initiative|plan).* (who|whom|which).* (is|are|be) .* (in|within|inside|part|member)).*"
+      },
+      {
+        "intent": "ProjectContactTeamRegex",
+        "pattern": ".*(?i)((how|where).*(can|could|may|might).*(I|we|you|one).*(contact|reach|call|email|message|connect|communicate).*(xyz|{name here}|this).*(project|program|scheme|initiative|plan).*(team|group|member|staff|person)|(xyz|{name here}|this).*(project|program|scheme|initiative|plan).*(team|group|member|staff|person).*(how|where).*(can|could|may|might).*(I|we|you|one).*(contact|reach|call|email|message|connect|communicate)).*"
       }
     ]
   }

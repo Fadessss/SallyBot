@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "2Kfmef",
+    "name": "ProjectHowDialog",
+    "comment": "A dialog describing how the project will affect a user."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "RxsLJY"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "UshRJ6"
+          },
+          "activity": "${SendActivity_UshRJ6()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectHowDialog.lg",
+  "recognizer": "ProjectHowDialog.lu.qna",
+  "id": "ProjectHowDialog"
+}
