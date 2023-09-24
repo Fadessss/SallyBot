@@ -1,0 +1,67 @@
+[import](common.lg)
+
+# SendActivity_tUGqFn()
+[Activity
+    Attachments = ${json(SendActivity_tUGqFn_attachment_X6sa8l())}
+]
+
+# SendActivity_tUGqFn_attachment_X6sa8l()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "The key differences include:",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "      • Impact 1",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "      • Impact 2",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "      • Impact 3",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "For more information about how this impacts you, please tell me your role and ask me how you are impacted.",
+      "isSubtle": false,
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "For more information about the differences, please visit our Paanui page here {internal URL}",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ]
+}```

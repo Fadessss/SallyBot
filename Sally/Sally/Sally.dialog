@@ -1045,7 +1045,7 @@
       },
       {
         "intent": "ProjectWhoRegex",
-        "pattern": ".*(?i)((who|whom|which).* (is|are|be).* (in|within|inside|part|member).* (xyz|{name here}|this).* (project|program|scheme|initiative|plan)|(xyz|{name here}|this).* (project|program|scheme|initiative|plan).* (who|whom|which).* (is|are|be) .* (in|within|inside|part|member)).*"
+        "pattern": ".*(?i)((who|whom|which).*(is|are|be).*(in|within|inside|part|member).*(xyz|{name here}|this|project|program|scheme|initiative|plan)?.*(xyz|{name here}|this|project|program|scheme|initiative|plan)|(xyz|{name here}|this|project|program|scheme|initiative|plan)?.*(xyz|{name here}|this|project|program|scheme|initiative|plan).*(who|whom|which).*(is|are|be).*(in|within|inside|part|member)).*"
       },
       {
         "intent": "ProjectContactTeamRegex",
@@ -1169,7 +1169,7 @@
       },
       {
         "intent": "FindLocationRegex",
-        "pattern": ".*(?i)(find|locat|where).*(locat|place|find|building|clinic|lab|office).*"
+        "pattern": ".*(?i)(find|locat|where|help).*(locat|find|direct).*(|placebuilding|clinic|lab|office|hospital|middlemore|where).*"
       },
       {
         "intent": "HealthAndSafetyRegex",
