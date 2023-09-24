@@ -1045,7 +1045,7 @@
       },
       {
         "intent": "ProjectWhereRegex",
-        "pattern": ".*(?i)((where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding)).*"
+        "pattern": ".*(?i)((where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding).*(xyz|{name here}|this)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding)).*"
       },
       {
         "intent": "ProjectHowRegex",
