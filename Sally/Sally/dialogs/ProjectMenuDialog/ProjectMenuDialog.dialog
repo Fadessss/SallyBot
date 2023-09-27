@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "otjhsQ",
+    "name": "ProjectMenuDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "XsrKsa"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "iRZcAR"
+          },
+          "activity": "${SendActivity_iRZcAR()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectMenuDialog.lg",
+  "recognizer": "ProjectMenuDialog.lu.qna",
+  "id": "ProjectMenuDialog"
+}

@@ -1,0 +1,50 @@
+[import](common.lg)
+
+# SendActivity_yjmqHU()
+[Activity
+    Attachments = ${json(SendActivity_yjmqHU_attachment_1D5dWN())}
+]
+
+# SendActivity_yjmqHU_attachment_1D5dWN()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "What would you like to know about the XYZ project?",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Some topics I can help you with include:\n\nWho is the project sponsor?\n\nWhat is the xyz project?\n\nWho do I contact about the xyz project?",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Return to Main Menu"
+    }
+  ]
+}```

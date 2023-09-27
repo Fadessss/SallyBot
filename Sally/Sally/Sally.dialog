@@ -1032,6 +1032,54 @@
           }
         }
       ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "6eZ8up",
+        "name": "Project"
+      },
+      "intent": "Project",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "87g3lv"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "G7cb7U"
+          }
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "NdEZzC",
+        "name": "ProjectMenu"
+      },
+      "intent": "ProjectMenu",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Dhj7Dy"
+          },
+          "activityProcessed": true,
+          "dialog": "ProjectMenuDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "ft0Q4o"
+          }
+        }
+      ]
     }
   ],
   "generator": "Sally.lg",
@@ -1082,6 +1130,10 @@
       {
         "intent": "ProjectDifferencesRegex",
         "pattern": ".*(?i)((differenc|chang|updat|impact).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(differenc|chang|updat|impact)).*"
+      },
+      {
+        "intent": "Project",
+        "pattern": ".*(?i)(xyz project|xyz).*"
       },
       {
         "intent": "Capabilities",
@@ -1186,6 +1238,10 @@
       {
         "intent": "HealthAndSafetyRegex",
         "pattern": ".*(?i)(health|work|clinic|office|lab).*(and)?.*(safe|well|health).*"
+      },
+      {
+        "intent": "ProjectMenu",
+        "pattern": ".*(?i)(project).*(menu|button|list|option|choice|select).*"
       }
     ]
   }

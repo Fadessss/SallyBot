@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "b5w975",
+    "name": "ProjectDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "Cq79Ov"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "yjmqHU"
+          },
+          "activity": "${SendActivity_yjmqHU()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectDialog.lg",
+  "recognizer": "ProjectDialog.lu.qna",
+  "id": "ProjectDialog"
+}

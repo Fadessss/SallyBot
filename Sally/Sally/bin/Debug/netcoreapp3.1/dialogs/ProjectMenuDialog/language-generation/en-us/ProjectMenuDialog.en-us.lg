@@ -1,0 +1,100 @@
+[import](common.lg)
+
+# SendActivity_iRZcAR()
+[Activity
+    Attachments = ${json(SendActivity_iRZcAR_attachment_GM1IAt())}
+]
+
+# SendActivity_iRZcAR_attachment_GM1IAt()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "style": "Person",
+      "url": "https://i.imgur.com/JfFL2Cb.png",
+      "width": "58px",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "Sally",
+      "wrap": true,
+      "size": "Default",
+      "maxLines": 1,
+      "fontType": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "What would you like to know about the XYZ project?",
+      "isSubtle": false
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "What is the XYZ project?",
+      "data": "What is the XYZ project?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Where can I find more information about XYZ?",
+      "data": "Where can I find more information about XYZ?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "How does XYZ affect me?",
+      "data": "How does XYZ affect me?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Who is in the XYZ project?",
+      "data": "Who is in the XYZ project?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "How can I contact the XYZ project team?",
+      "data": "How can I contact the XYZ project team?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Why was project XYZ selected to be implemented?",
+      "data": "Why was project XYZ selected to be implemented?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "How do I use X?",
+      "data": "Can you help me with the new product?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Will training be available for XYZ?",
+      "data": "Will training be available for XYZ?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Who is the sponsor for the XYZ Project?",
+      "data": "Who is the sponsor for the XYZ Project?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "What are the benefits of project xyz?",
+      "data": "What are the benefits of project xyz?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "What are the key differences with Project XYZ?",
+      "data": "What are the key differences with Project XYZ?"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Return to Main Menu",
+      "data": "Return to Main Menu"
+    }
+  ]
+}
+```
