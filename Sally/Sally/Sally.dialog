@@ -1185,7 +1185,7 @@
       },
       {
         "intent": "FindLocationsClinic",
-        "pattern": ".*(?i)(find|locat).*(clinic).*"
+        "pattern": ".*(?i)(clinics).*"
       },
       {
         "intent": "GeneralSafety",

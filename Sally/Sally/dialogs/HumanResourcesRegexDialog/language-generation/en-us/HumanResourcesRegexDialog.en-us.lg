@@ -33,11 +33,20 @@
       "isSubtle": false,
       "wrap": true
     },
-        {
+    {
       "type": "TextBlock",
-      "text": "Some topics I can help you with include:\n\nBenefits\n\n Pay Slips\n\n Applying for leave\n\n Mental Health and Wellbeing\n\n Ethics and conduct",
+      "text": "Some topics I can help you answer include:",
+      "isSubtle": true,
+      "wrap": true,
+ 
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "• \nBenefits\n\n• Mental health resources\n\n• Pay stubs\n\n• Remote work\n\n•Update personal information",
       "isSubtle": false,
-      "wrap": true
+      "wrap": true,
+      "spacing": "None"
     }
   ],
   "actions": [

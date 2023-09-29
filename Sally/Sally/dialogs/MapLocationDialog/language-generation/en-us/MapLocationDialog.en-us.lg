@@ -29,22 +29,17 @@
       "fontType": "Default"
     },
     {
-      "type": "ImageSet",
-      "imageSize": "Large",
-      "images": [
-        {
-          "type": "Image",
-          "url": "https://imgur.com/4aekjpp",
-          "altText": "Middlemore Hospital Map"
-        }
-      ]
-    },
-    {
       "type": "TextBlock",
       "text": "Middlemore Hospital Wards & Buildings",
       "weight": "Bolder",
       "size": "Medium",
       "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "[Hospital Maps](https://www.countiesmanukau.health.nz/for-patients-and-visitors/)",
+      "wrap": true,
+      "color": "Accent"
     },
     {
       "type": "TextBlock",

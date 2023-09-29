@@ -31,13 +31,23 @@
       "type": "TextBlock",
       "text": "Which Location would you like help finding?",
       "isSubtle": false,
-      "wrap": true
+      "wrap": true,
+      "spacing": "Medium"
     },
-        {
+    {
       "type": "TextBlock",
-      "text": "Some topics I can help you with include:\n\nClinics\n\nHospitals\n\nMaps",
+      "text": "Some things I can help you find include:",
+      "isSubtle": true,
+      "wrap": true,
+ 
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "• \nCounties Manukau Clinics\n\n• Counties Manukau Hospitals\n\n• Clinic or Hospital Maps",
       "isSubtle": false,
-      "wrap": true
+      "wrap": true,
+      "spacing": "None"
     }
   ],
   "actions": [

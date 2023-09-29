@@ -38,12 +38,12 @@
     {
       "type": "Action.Submit",
       "title": "Benefits",
-      "data": "Benefits"
+      "data": "Staff Benefits"
     },
     {
       "type": "Action.Submit",
       "title": "Bullying and Harassment",
-      "data": "Bullying and Harassment"
+      "data": "Bullying and Harassment Policy"
     },
     {
       "type": "Action.Submit",
@@ -93,3 +93,4 @@
   ]
 }
 ```
+

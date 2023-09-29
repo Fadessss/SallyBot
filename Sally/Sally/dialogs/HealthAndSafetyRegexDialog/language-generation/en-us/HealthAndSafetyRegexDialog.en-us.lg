@@ -29,15 +29,18 @@
         },
     {
       "type": "TextBlock",
-      "text": "Which Health and Safety topic would you like to ask about?",
+      "text": "Which health and safety topic can I assist you with?",
       "isSubtle": false,
-      "wrap": true
+      "wrap": true,
+      "spacing": "Medium"
     },
-        {
+    {
       "type": "TextBlock",
-      "text": "Some topics I can help you with include:\n\nGeneral Safety\n\nHazardous material handling\n\nErgonomics\n\nSafety Advisor",
+      "text": "\n• \nFire Drill Procedures\n\n• General Workplace Safety Guidelines\n\n• Reporting Safety Incidents or Hazards\n\n• Safety Advisor",
       "isSubtle": false,
-      "wrap": true
+      "wrap": true,
+
+      "spacing": "None"
     }
   ],
   "actions": [

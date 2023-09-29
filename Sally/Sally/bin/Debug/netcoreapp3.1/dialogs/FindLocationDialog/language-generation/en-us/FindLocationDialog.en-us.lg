@@ -30,31 +30,27 @@
     {
       "type": "TextBlock",
       "wrap": true,
-      "text": "Which location do you need help finding?",
+      "text": "Which location would you like help finding?",
       "isSubtle": false
     }
   ],
   "actions": [
     {
             "type": "Action.Submit",
-            "title": "Clinics",
+            "title": "Counties Manukau Clinics & Hospitals",
             "data": "Clinics"
         },
         {
             "type": "Action.Submit",
-            "title": "Middlemore Map Location",
+            "title": "Middlemore Hospital Map",
             "data": "Middlemore Maps"
         },
         {
             "type": "Action.Submit",
-            "title": "Location Placeholder 3",
-            "data": "Location Placeholder 3"
-        },
-        {
-            "type": "Action.Submit",
-            "title": "Return to Main Menu",
+            "title": "Return",
             "data": "Return to Main Menu"
         }
   ]
 }
 ```
+

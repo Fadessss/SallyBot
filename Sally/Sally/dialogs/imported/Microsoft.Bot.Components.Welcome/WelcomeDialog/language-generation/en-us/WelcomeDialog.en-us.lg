@@ -53,7 +53,7 @@
     {
       "type": "TextBlock",
       "wrap": true,
-      "text": "How can I help you today?",
+      "text": "Hi I'm Sally, how can I help you today?",
       "isSubtle": false
     }
   ],

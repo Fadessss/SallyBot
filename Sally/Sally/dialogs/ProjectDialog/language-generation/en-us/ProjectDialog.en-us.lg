@@ -31,13 +31,24 @@
       "type": "TextBlock",
       "text": "What would you like to know about the XYZ project?",
       "isSubtle": false,
-      "wrap": true
+      "wrap": true,
+      "spacing": "Medium"
     },
-        {
+    {
       "type": "TextBlock",
-      "text": "Some topics I can help you with include:\n\nWho is the project sponsor?\n\nWhat is the xyz project?\n\nWho do I contact about the xyz project?",
+      "text": "Some queries I can help answer include:",
+      "isSubtle": true,
+      "wrap": true,
+ 
+      "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "text": "• \nWhat is the XYZ project?\n\n• How do I contact the project team?\n\n• What are the benefits of XYZ project?",
       "isSubtle": false,
-      "wrap": true
+      "wrap": true,
+
+      "spacing": "None"
     }
   ],
   "actions": [
