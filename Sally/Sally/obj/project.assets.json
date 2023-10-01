@@ -10634,26 +10634,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ji Qun\\.nuget\\packages\\": {}
+    "C:\\Users\\wobkobi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\Sally.csproj",
+      "projectUniqueName": "C:\\Users\\wobkobi\\OneDrive - AUT University\\Desktop\\Studies Notes\\year 3\\COMP703 R&D\\dev\\SallyBot\\Sally\\Sally\\Sally.csproj",
       "projectName": "Sally",
-      "projectPath": "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\Sally.csproj",
-      "packagesPath": "C:\\Users\\Ji Qun\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\obj\\",
+      "projectPath": "C:\\Users\\wobkobi\\OneDrive - AUT University\\Desktop\\Studies Notes\\year 3\\COMP703 R&D\\dev\\SallyBot\\Sally\\Sally\\Sally.csproj",
+      "packagesPath": "C:\\Users\\wobkobi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wobkobi\\OneDrive - AUT University\\Desktop\\Studies Notes\\year 3\\COMP703 R&D\\dev\\SallyBot\\Sally\\Sally\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Documents\\git\\repos\\SallyBot\\Sally\\Sally\\NuGet.Config",
-        "C:\\Users\\Ji Qun\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\wobkobi\\OneDrive - AUT University\\Desktop\\Studies Notes\\year 3\\COMP703 R&D\\dev\\SallyBot\\Sally\\Sally\\NuGet.Config",
+        "C:\\Users\\wobkobi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.308\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "c:\\program files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
       },
@@ -10721,7 +10721,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   },
