@@ -1088,10 +1088,6 @@
     "$kind": "Microsoft.RegexRecognizer",
     "intents": [
       {
-        "intent": "ProjectWhatRegex",
-        "pattern": ".*(?i)((explain|tell|what|info|details).*(is|are|about).*(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this).*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(explain|tell|what|info|details).*(is|are|about)).*"
-      },
-      {
         "intent": "ProjectWhereRegex",
         "pattern": ".*(?i)((where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding).*(xyz|{name here}|this)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program)|(xyz|{name here}|this)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}|initiative|scheme|plan|program).*(where|location|place).*(can|could|may|might).*(I|we|you|one).*(find|search|get|locate|see).*(more|additional).* (information|details|info|data|knowledge|insight).*(about|on|regarding)).*"
       },
@@ -1112,12 +1108,8 @@
         "pattern": ".*((?i)((how|help|assist).*(me|us)?.*(do|to|can|with).*(i|we)?.*(new|recent|fresh|latest|current|{name here}).*(application|app|software|tool|system|project|solution|product|{name here})|(new|recent|fresh|latest|current|{name here}).*(application|app|software|tool|system|project|solution|product|{name here}).*(how|help|assist).*(me|us)?.*(do|to|can|with).*(i|we)?)).*"
       },
       {
-        "intent": "ProjectPurposeRegex",
-        "pattern": ".*(?i)((explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan|about).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(explain|tell|what)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan|about)).*"
-      },
-      {
         "intent": "ProjectTrainingRegex",
-        "pattern": ".*(?i)(((train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study).*(application|app|software|tool|system|project|solution|product|xyz|{name here}))|((application|app|software|tool|system|project|solution|product|xyz|{name here}).*(train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study))).*"
+        "pattern": ".*(?i)(((train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz))|((xyz).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(train|teach|learn|coach|guid|prepar|practic|instruct|workshop|tutor|study))).*"
       },
       {
         "intent": "ProjectSponsorRegex",
@@ -1132,8 +1124,12 @@
         "pattern": ".*(?i)((differenc|chang|updat|impact).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(differenc|chang|updat|impact)).*"
       },
       {
-        "intent": "Project",
-        "pattern": ".*(?i)(xyz project|xyz).*"
+        "intent": "ProjectPurposeRegex",
+        "pattern": ".*(?i)((explain|tell|what)?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan|about).*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?|(explain|tell|what)?.*(application|app|software|tool|system|project|solution|product|xyz|{name here}).*(xyz|{name here})?.*(reason|why|ration|purpose|goal|outcom|done|doing|undertak|start|initiat|beg|launch|plan|about)).*"
+      },
+      {
+        "intent": "ProjectWhatRegex",
+        "pattern": ".*(?i)((explain|tell|what|info|details).*(is|are|about)?.*(xyz|{name here}|this|application|app|software|tool|system|project|solution|product|initiative|scheme|plan|program).*(xyz|{name here}|this|application|app|software|tool|system|project|solution|product|initiative|scheme|plan|program))|(.*(xyz|{name here}|this|application|app|software|tool|system|project|solution|product|initiative|scheme|plan|program).*(xyz|{name here}|this|application|app|software|tool|system|project|solution|product|initiative|scheme|plan|program).*(explain|tell|what|info|details).*(is|are|about)?).*"
       },
       {
         "intent": "Capabilities",
@@ -1242,6 +1238,10 @@
       {
         "intent": "ProjectMenu",
         "pattern": ".*(?i)(project).*(menu|button|list|option|choice|select).*"
+      },
+      {
+        "intent": "Project",
+        "pattern": ".*(?i)(xyz|project).?(project|xyz).*"
       }
     ]
   }

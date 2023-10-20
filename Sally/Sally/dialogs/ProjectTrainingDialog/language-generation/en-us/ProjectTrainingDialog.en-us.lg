@@ -29,7 +29,7 @@
         },
     {
       "type": "TextBlock",
-      "text": "Yes, training will be available. The training schedule and locations is listed here {internal URL}.",
+      "text": "Training will be available. The training schedule and locations is listed here {internal URL}.",
       "isSubtle": false,
       "wrap": true
     },
