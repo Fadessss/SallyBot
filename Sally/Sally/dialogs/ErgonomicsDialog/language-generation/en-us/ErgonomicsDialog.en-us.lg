@@ -29,13 +29,13 @@
         },
     {
       "type": "TextBlock",
-      "text": "It is important to maintain good ergonomics, especially when working at a desk. I reccomend",
+      "text": "It is important to maintain good ergonomics, especially when working at a desk. I reccomend ensuring you sit up straight in your chair, and ensure you take regular breaks from sitting.",
       "isSubtle": false,
       "wrap": true
     },
         {
       "type": "TextBlock",
-      "text": "Otherwise, posters with details can be found in the common areas. [Need to amend]",
+      "text": "Otherwise, posters with details can be found in the common areas, and more information can be found at www.google.co.nz",
       "isSubtle": false,
       "wrap": true
     }

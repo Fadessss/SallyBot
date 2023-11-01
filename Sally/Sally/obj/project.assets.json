@@ -10634,20 +10634,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\callu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
+      "projectUniqueName": "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\Sally.csproj",
       "projectName": "Sally",
-      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\obj\\",
+      "projectPath": "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\Sally.csproj",
+      "packagesPath": "C:\\Users\\callu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\NuGet.Config",
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\callu\\Desktop\\SallyBot\\SallyBot\\Sally\\Sally\\NuGet.Config",
+        "C:\\Users\\callu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -10712,12 +10712,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.30, 3.1.30]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -10726,7 +10720,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
       }
     }
   },
