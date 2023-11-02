@@ -19,12 +19,13 @@ Features
 3. Open the bot (it will have a robot icon).
 4. Click Publish in the left sidebar
 5. Create a publishing profile. 
-
+6. Select your Azure Bot resource, select channels from the side menu, and select Microsoft Teams from the list of available channels. You can now open the bot in teams to test.
+7. 
 **IMPORTANT NOTE:** If you create new resources, your app service plan will default to "Standard" which charges roughly $5.00 NZD per day. Please immediately change your App Service Plan in the Azure console to the free plan by clicking "scale-up (App service plan)" in the side menu, selecting free, and confirming that you wish to downgrade.
-6. Select your Azure Bot resource, select channels from the side menu, and select Microsoft Teams from the list of available channels. You can now open the bot in teams to test. 
-
+ 
 **IMPORTANT NOTE:** This bot cannot be tested easily via web app, it is designed to be functional within teams.
-7. If you would like to deploy this as a teams app please refer to these resources:
+
+If you would like to deploy this as a teams app please refer to these resources:
    
 https://microsoft.github.io/botframework-solutions/clients-and-channels/tutorials/enable-teams/4-create-app-manifest/ 
 
