@@ -1,0 +1,44 @@
+[import](common.lg)
+
+# SendActivity_xJ7QaS()
+[Activity
+    Attachments = ${json(SendActivity_xJ7QaS_attachment_XPCaBv())}
+]
+
+# SendActivity_xJ7QaS_attachment_XPCaBv()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "Which Health and Safety topic would you like to ask about?",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Some topics I can help you with include:\n\nGeneral Safety\n\nHazardous material handling\n\nErgonomics\n\nSafety Advisor",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ]
+}
+```

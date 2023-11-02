@@ -1,0 +1,57 @@
+[import](common.lg)
+
+# SendActivity_J21E6Q()
+[Activity
+    Attachments = ${json(SendActivity_J21E6Q_attachment_czKkvQ())}
+]
+
+# SendActivity_J21E6Q_attachment_czKkvQ()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "Te Whatu Ora offers numerous opportunities for career growth.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Please refer to [INSERT LINK HERE] for more information.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Otherwise refer to your reporting manager for potential opportunities coming up.",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Human Resources"
+    }
+  ]
+}```
+

@@ -1,0 +1,17 @@
+{
+  "profileName": "Fixbot10",
+  "jobId": "b556d8eb-ef57-473c-bd5a-46b09b20adc9",
+  "projectId": "27287.533342167004",
+  "time": "2023-10-26T00:33:57.418Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Creating Resource Group ...",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 6fdfe669-5ce8-4f37-b72b-2353a6e7d648",
+    "> Create App Registration Success! ID: 6fdfe669-5ce8-4f37-b72b-2353a6e7d648",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

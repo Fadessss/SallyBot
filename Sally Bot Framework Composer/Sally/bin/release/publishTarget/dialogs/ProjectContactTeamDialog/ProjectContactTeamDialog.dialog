@@ -1,0 +1,35 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "Jss7Nd",
+    "name": "ProjectContactTeamDialog",
+    "comment": "A dialog describing contact details for team members."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "BkB1q5"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "mPhr5w"
+          },
+          "activity": "${SendActivity_mPhr5w()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectContactTeamDialog.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "ProjectContactTeamDialog"
+}

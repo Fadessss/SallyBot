@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "O73C7F",
+    "name": "GeneralSafetyDialog",
+    "comment": "A dialog detailing general safety guidelines."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "HTOcaP"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "0Y90bB"
+          },
+          "activity": "${SendActivity_0Y90bB()}"
+        }
+      ]
+    }
+  ],
+  "generator": "GeneralSafetyDialog.lg",
+  "recognizer": "GeneralSafetyDialog.lu.qna",
+  "id": "GeneralSafetyDialog"
+}

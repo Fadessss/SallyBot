@@ -1,0 +1,70 @@
+[import](common.lg)
+
+# SendActivity_yNYANa()
+[Activity
+    Attachments = ${json(SendActivity_yNYANa_attachment_77jXj3())}
+]
+
+# SendActivity_yNYANa_attachment_77jXj3()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "Te Whatu Ora's Work Environment",
+      "weight": "bolder",
+      "isSubtle": false
+    },
+    {
+      "type": "TextBlock",
+      "text": "Te Whatu Ora is committed to maintaining a respectful and ethical work environment. We value integrity, honesty, and respect for all individuals. We strictly prohibit any forms of harassment, discrimination, and unethical behavior.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "For the full details, please refer to Te Whatu Ora's code of conduct and ethics policy document. You can access it on our organization's intranet under the HR section.",
+      "wrap": true,
+      "spacing": "medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "We strongly encourage all employees to read the full policy document to fully understand our commitment to maintaining a respectful and ethical work environment.",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Code of Conduct Policy",
+      "url": "https://placeholder-url.com/code-of-conduct"
+    },
+     {
+    "type": "Action.Submit",
+    "title": "Return",
+    "data": "Human Resources"
+    }
+  ],
+  
+}```
+
+
+

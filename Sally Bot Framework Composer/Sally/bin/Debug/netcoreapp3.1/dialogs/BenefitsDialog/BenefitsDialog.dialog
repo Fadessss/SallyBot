@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "OkXrOf",
+    "name": "BenefitsDialog",
+    "comment": "A menu of options for HR Benefits."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "4M6YN5"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "pAyOYQ"
+          },
+          "activity": "${SendActivity_pAyOYQ()}"
+        }
+      ]
+    }
+  ],
+  "generator": "BenefitsDialog.lg",
+  "recognizer": "BenefitsDialog.lu.qna",
+  "id": "BenefitsDialog"
+}

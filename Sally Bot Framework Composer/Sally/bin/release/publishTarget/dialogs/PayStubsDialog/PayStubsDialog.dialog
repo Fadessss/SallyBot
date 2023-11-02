@@ -1,0 +1,36 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "1PrMeH",
+    "name": "PayStubsDialog",
+    "comment": "A dialog pointing staff to the location of the pay information."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "l9rcCK"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "wGhfVv",
+            "comment": "Information taken from: \nhttps://www.countiesmanukau.health.nz/webmail-and-staff-resources/"
+          },
+          "activity": "${SendActivity_wGhfVv()}"
+        }
+      ]
+    }
+  ],
+  "generator": "PayStubsDialog.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "PayStubsDialog"
+}
