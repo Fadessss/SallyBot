@@ -14,6 +14,7 @@ Features
     Project X Information: SallyBot provides updates and relevant information about Project X, ensuring employees are well-informed.
 
 **CONTENT**
+
 There are two important directories in this project containing two different bot options:
 Sally Language Studio
 Sally Bot Framework Composer 
