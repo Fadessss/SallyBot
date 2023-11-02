@@ -16,7 +16,9 @@ Features
 **CONTENT**
 
 There are two important directories in this project containing two different bot options:
+
 Sally Language Studio
+
 Sally Bot Framework Composer 
 
 These are two different implementations of the same bot using Language Studio and Bot Framework Composer. 
