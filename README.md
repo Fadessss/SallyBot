@@ -22,7 +22,7 @@ There are two important directories in this project containing two different bot
     - Sally Bot Framework Composer 
 
 These are two different implementations of the same bot using Language Studio and Bot Framework Composer. 
-We recommend using the Language studio bot as opposed to the Bot Framework Composer bot. Its advantages are listed in the included User Guide.
+We recommend using the Language studio bot as opposed to the Bot Framework Composer bot. Its advantages are listed in the User Guide which can be found in this repository.
 
 Detailed installation instructions can be found in the User Guide, but an abbreviated guide for each is also provided below.
 
