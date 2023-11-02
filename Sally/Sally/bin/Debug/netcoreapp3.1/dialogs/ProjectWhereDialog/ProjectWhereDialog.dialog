@@ -1,0 +1,35 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "XA7LEJ",
+    "name": "ProjectWhereDialog",
+    "comment": "A dialog describing where to find additional information about a project."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "C0QjSX"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "z37wGk"
+          },
+          "activity": "${SendActivity_z37wGk()}"
+        }
+      ]
+    }
+  ],
+  "generator": "ProjectWhereDialog.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "ProjectWhereDialog"
+}

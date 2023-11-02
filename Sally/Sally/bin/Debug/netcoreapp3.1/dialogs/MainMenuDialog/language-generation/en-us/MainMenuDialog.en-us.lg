@@ -1,0 +1,61 @@
+[import](common.lg)
+
+# SendActivity_G7nHDO()
+[Activity
+    Attachments = ${json(SendActivity_G7nHDO_attachment_mD5eUJ())}
+]
+
+# SendActivity_G7nHDO_attachment_mD5eUJ()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "How can I help you today?",
+      "isSubtle": false
+    }
+  ],
+  "actions": [
+    {
+            "type": "Action.Submit",
+            "title": "Human Resources",
+            "data": "Human Resources"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Find Location",
+            "data": "Find Location"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Health and Safety",
+            "data": "Health and Safety"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Who is Sally?",
+            "data": "Who is Sally?"
+        }
+  ]
+}
+```
+

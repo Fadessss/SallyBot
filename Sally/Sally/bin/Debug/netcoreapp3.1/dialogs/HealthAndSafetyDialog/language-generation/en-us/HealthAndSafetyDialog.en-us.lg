@@ -1,0 +1,66 @@
+[import](common.lg)
+
+# SendActivity_ThyRsP()
+[Activity
+    Attachments = ${json(SendActivity_ThyRsP_attachment_82EoBM())}
+]
+
+# SendActivity_ThyRsP_attachment_82EoBM()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "style": "Person",
+      "url": "https://i.imgur.com/JfFL2Cb.png",
+      "width": "58px",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "  Sally",
+      "wrap": true,
+      "size": "Default",
+      "maxLines": 1,
+      "fontType": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "Which Health and Safety topic can I assist you with?",
+      "isSubtle": false
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Fire Drill Procedures",
+      "data": "Fire Drill Procedures"
+    }, 
+    {
+      "type": "Action.Submit",
+      "title": "General Workplace Safety Guidelines",
+      "data": "General Workplace Safety"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Reporting Safety Incidents or Hazards",
+      "data": "Report Incident"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Safety Advisor",
+      "data": "Safety Advisor"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Return to Main Menu",
+      "data": "Return to Main Menu"
+    }
+  ]
+}
+
+```

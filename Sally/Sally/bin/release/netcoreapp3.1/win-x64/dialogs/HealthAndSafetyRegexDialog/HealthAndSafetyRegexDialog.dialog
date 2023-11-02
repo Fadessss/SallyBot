@@ -1,0 +1,35 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "lyCuED",
+    "name": "HealthAndSafetyRegexDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "7WAsAA"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "xJ7QaS"
+          },
+          "activity": "${SendActivity_xJ7QaS()}"
+        }
+      ]
+    }
+  ],
+  "generator": "HealthAndSafetyRegexDialog.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "HealthAndSafetyRegexDialog"
+}

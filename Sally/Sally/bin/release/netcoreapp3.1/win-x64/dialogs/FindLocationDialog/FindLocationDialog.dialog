@@ -1,0 +1,35 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "3SUSOH",
+    "name": "FindLocationDialog",
+    "comment": "A menu of location finder topics."
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "xuIbhZ"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "5kgpix"
+          },
+          "activity": "${SendActivity_5kgpix()}"
+        }
+      ]
+    }
+  ],
+  "generator": "FindLocationDialog.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "FindLocationDialog"
+}

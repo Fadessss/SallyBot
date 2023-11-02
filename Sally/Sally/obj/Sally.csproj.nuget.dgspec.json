@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fades\\Sallybot\\Sally\\Sally\\Sally.csproj": {}
+    "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fades\\Sallybot\\Sally\\Sally\\Sally.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fades\\Sallybot\\Sally\\Sally\\Sally.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
         "projectName": "Sally",
-        "projectPath": "C:\\Users\\Fades\\Sallybot\\Sally\\Sally\\Sally.csproj",
-        "packagesPath": "C:\\Users\\Fades\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fades\\Sallybot\\Sally\\Sally\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\Sally.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fades\\Sallybot\\Sally\\Sally\\NuGet.Config",
-          "C:\\Users\\Fades\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\HP\\Documents\\GitHub\\SallyBot\\Sally\\Sally\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[4.18.1, )"
             },
+            "Microsoft.Bot.Builder.AI.Orchestrator": {
+              "target": "Package",
+              "version": "[4.20.1, )"
+            },
             "Microsoft.Bot.Builder.AI.QnA": {
               "target": "Package",
               "version": "[4.18.1, )"
@@ -78,20 +82,20 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.30, 3.1.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.29, 3.1.29]"
+              "version": "[3.1.30, 3.1.30]"
             },
             {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.30, 3.1.30]"
             },
             {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.30, 3.1.30]"
             }
           ],
           "frameworkReferences": {
@@ -102,7 +106,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

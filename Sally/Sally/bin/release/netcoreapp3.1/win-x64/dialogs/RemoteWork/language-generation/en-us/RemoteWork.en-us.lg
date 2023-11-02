@@ -1,0 +1,49 @@
+[import](common.lg)
+
+# SendActivity_CyDBMf()
+[Activity
+    Attachments = ${json(SendActivity_CyDBMf_attachment_624LLA())}
+]
+
+# SendActivity_CyDBMf_attachment_624LLA()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+  {
+     "type": "Image",
+            "style": "Person",
+            "url": "https://i.imgur.com/JfFL2Cb.png",
+            "width": "58px",
+            "size": "Medium"
+    },
+    {
+            "type": "TextBlock",
+            "weight": "Bolder",
+            "text": "     Sally",
+            "wrap": true,
+            "size": "Default",
+            "maxLines": 1,
+            "fontType": "Default"
+        },
+    {
+      "type": "TextBlock",
+      "text": "Depending on your role, Te Whatu Ora may offer the opportunity for a remote / hybrid working space.",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Please go to this link to read more about what roles are potentially eligible for remote work. [INSERT LINK HERE]",
+      "isSubtle": false,
+      "wrap": true
+    },
+        {
+      "type": "TextBlock",
+      "text": "Please refer to your manager for more details.",
+      "isSubtle": false,
+      "wrap": true
+    }
+  ]
+}```

@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "ylGzi2",
+    "name": "SafetyAdvisorDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "7h0SNv"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "pwxSwv"
+          },
+          "activity": "${SendActivity_pwxSwv()}"
+        }
+      ]
+    }
+  ],
+  "generator": "SafetyAdvisorDialog.lg",
+  "recognizer": "SafetyAdvisorDialog.lu.qna",
+  "id": "SafetyAdvisorDialog"
+}

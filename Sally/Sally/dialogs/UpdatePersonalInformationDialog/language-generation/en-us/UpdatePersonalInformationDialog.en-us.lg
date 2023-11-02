@@ -1,0 +1,161 @@
+[import](common.lg)
+
+# SendActivity_YV9l1H()
+[Activity
+    Attachments = ${json(SendActivity_YV9l1H_attachment_VAQNzI())}
+]
+
+# SendActivity_YV9l1H_attachment_VAQNzI()
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "style": "Person",
+      "url": "https://i.imgur.com/JfFL2Cb.png",
+      "width": "58px",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "text": "Sally",
+      "wrap": true,
+      "size": "Default",
+      "maxLines": 1,
+      "fontType": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "Update Personal Information",
+      "isSubtle": false,
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "As an employee, you can update your personal information using one of the following methods:",
+      "isSubtle": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "• HR Portal:",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Visit the HR portal on the company intranet and log in using your credentials. Look for the 'My Profile' section, where you can update your contact details, address, emergency contacts, and other personal information.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "• Contact HR:",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "If you need assistance or have specific updates that require HR's intervention, feel free to reach out to the HR department directly. They will guide you through the process and help you with any questions you may have.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "wrap": true,
+      "text": "Frequently Asked Questions (FAQs) about Updating Personal Information:",
+      "weight": "bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.ShowCard",
+          "title": "FAQs",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "TextBlock",
+                "text": "**- How can I change my email address?**",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "You can change your email address through the 'My Profile' section in the HR Portal. Simply log in and update your contact information.",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "**- Can I update my home address?**",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "Yes, you can update your home address in the HR Portal's 'My Profile' section. Make sure to save the changes after updating.",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "**- How do I add or remove emergency contacts?**",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "You can manage your emergency contacts in the HR Portal. Navigate to 'My Profile' and look for the 'Emergency Contacts' section.",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "**- What if I forgot my HR Portal password?**",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "If you forgot your HR Portal password, click on the 'Forgot Password' link on the login page. Follow the instructions to reset your password.",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "**- Can I update my phone number?**",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "Yes, you can update your phone number in the 'My Profile' section of the HR Portal. Make sure to save the changes after updating.",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "**- How do I change my preferred name?**",
+                "wrap": true
+              },
+              {
+                "type": "TextBlock",
+                "text": "To change your preferred name, access the 'My Profile' section in the HR Portal and update the 'Preferred Name' field.",
+                "wrap": true
+              }
+            ],
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+          }
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "HR Portal Login",
+      "url": "https://www.example-intranet.com/hr-portal"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Contact HR",
+      "url": "mailto:hr@example.com"
+    }
+  ]
+}```
+
+
+
