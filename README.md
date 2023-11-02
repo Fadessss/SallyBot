@@ -44,9 +44,9 @@ Detailed installation instructions can be found in the User Guide, but an abbrev
 
 **IMPORTANT NOTE:** If you create new Azure resources for either of these bots, your app service plan will default to "Standard" which charges roughly $5.00 NZD per day. Please immediately change your App Service Plan in the Azure console to the free plan by clicking "scale-up (App service plan)" in the side menu, selecting free, and confirming that you wish to downgrade. Also make sure that the Azure Bot service is on the "F0" (free) service plan.
  
-**IMPORTANT NOTE:** Sally Bot Framework Composer cannot be tested via web app, it can only be tested through teams. Sally Language Studio on the other hand can be tested in both web app and teams.
+**IMPORTANT NOTE:** Sally Bot Framework Composer cannot be tested via web app, it can only be tested through teams. Sally Language Studio can be tested in both web app and teams.
 
-If you would like to deploy this as a teams app please refer to these resources:
+If you would like to deploy this as a Teams app (as opposed to a Teams channel) please refer to these resources:
    
 https://microsoft.github.io/botframework-solutions/clients-and-channels/tutorials/enable-teams/4-create-app-manifest/ 
 
