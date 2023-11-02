@@ -1077,7 +1077,7 @@
       },
       {
         "intent": "Capabilities",
-        "pattern": ".*(?i)(who|about|info).*(is|about)?.*(sally).*"
+        "pattern": ".*(?i)(who|about|info).*(is|about|are)?.*(sally|yourself|you).*"
       },
       {
         "intent": "EthicsPolicy",
