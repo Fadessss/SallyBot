@@ -13,19 +13,40 @@ Features
 
     Project X Information: SallyBot provides updates and relevant information about Project X, ensuring employees are well-informed.
 
-**Installation**
+**CONTENT**
+
+There are two important directories in this project containing two different bot options:
+
+    - Sally Language Studio
+
+    - Sally Bot Framework Composer 
+
+These are two different implementations of the same bot using Language Studio and Bot Framework Composer. 
+We recommend using the Language studio bot as opposed to the Bot Framework Composer bot. Its advantages are listed in the User Guide which can be found in this repository.
+
+Detailed installation instructions can be found in the User Guide, but an abbreviated guide for each is also provided below.
+
+**Installation for Sally Language Studio**
+1. Open Language Studio and create a Custom Question Answering project.
+2. Inside your project click "Add source". Select the .xls file inside the Sally Language Studio folder.
+3. Click the publish button on the left sidebar and publish your knowledge base.
+4. Create a bot using this knowledge base from the publish screen. You can get your Language Resource Key from the Azure console by going to {Your Language resource} -> {Keys and Endpoints} -> Copy "Key 1".
+5. Go to the App Service resource, click "Configuration" and change the value of "EnablePreciseAnswer" to 'false'.
+6. Select your Azure Bot resource, select channels from the left sidebar, and select Microsoft Teams from the list of available channels. You can now open the bot in teams to test it.
+
+**Installation for Sally Bot Framework Composer**
 1. Open Bot Framework Composer
-2. Click "Open" and navigate to ./SallyBot/Sally
+2. Click "Open" and navigate to ./Sally Bot Framework Composer/Sally
 3. Open the bot (it will have a robot icon).
 4. Click Publish in the left sidebar
-5. Create a publishing profile. 
-6. Select your Azure Bot resource, select channels from the side menu, and select Microsoft Teams from the list of available channels. You can now open the bot in teams to test.
+5. Create a publishing profile and publish your bot.
+6. Select your Azure Bot resource, select channels from the left sidebar, and select Microsoft Teams from the list of available channels. You can now open the bot in teams to test it.
 
-**IMPORTANT NOTE:** If you create new resources, your app service plan will default to "Standard" which charges roughly $5.00 NZD per day. Please immediately change your App Service Plan in the Azure console to the free plan by clicking "scale-up (App service plan)" in the side menu, selecting free, and confirming that you wish to downgrade.
+**IMPORTANT NOTE:** If you create new Azure resources for either of these bots, your app service plan will default to "Standard" which charges roughly $5.00 NZD per day. Please immediately change your App Service Plan in the Azure console to the free plan by clicking "scale-up (App service plan)" in the side menu, selecting free, and confirming that you wish to downgrade. Also make sure that the Azure Bot service is on the "F0" (free) service plan.
  
-**IMPORTANT NOTE:** This bot cannot be tested easily via web app, it is designed to be functional within teams.
+**IMPORTANT NOTE:** Sally Bot Framework Composer cannot be tested via web app, it can only be tested through teams. Sally Language Studio can be tested in both web app and teams.
 
-If you would like to deploy this as a teams app please refer to these resources:
+If you would like to deploy this as a Teams app (as opposed to a Teams channel) please refer to these resources:
    
 https://microsoft.github.io/botframework-solutions/clients-and-channels/tutorials/enable-teams/4-create-app-manifest/ 
 
