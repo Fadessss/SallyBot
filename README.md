@@ -46,7 +46,7 @@ Detailed installation instructions can be found in the User Guide, but an abbrev
  
 **IMPORTANT NOTE:** Sally Bot Framework Composer cannot be tested via web app, it can only be tested through teams. Sally Language Studio on the other hand can be tested in both web app and teams.
 
-If you would like to deploy this as a teams app please refer to these resources:
+If you would like to deploy this as a Teams app (as opposed to using a Teams channel) please refer to these resources:
    
 https://microsoft.github.io/botframework-solutions/clients-and-channels/tutorials/enable-teams/4-create-app-manifest/ 
 
